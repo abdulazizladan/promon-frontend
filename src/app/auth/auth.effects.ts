@@ -6,8 +6,8 @@ import { Actions, createEffect } from '@ngrx/effects';
 @Injectable()
 export class AuthEffects {
 
+  constructor(private actions$: Actions) {
 
-
-  constructor(private actions$: Actions) {}
+  }
 
 }

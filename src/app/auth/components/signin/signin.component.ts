@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { AuthService } from '../../services/auth.service';
 
 @Component({
   selector: 'app-signin',
@@ -7,9 +9,32 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SigninComponent implements OnInit {
 
-  constructor() { }
+  public signinForm!: FormGroup;
+
+  constructor( private authService: AuthService, private fb: FormBuilder ) { }
 
   ngOnInit(): void {
+    this.initializeForm();
+  }
+
+  initializeForm() {
+    this.signinForm = this.fb.group({
+      email: ['', Validators.required],
+      password: ['', Validators.required]
+    })
+  }
+
+  signin(): void {
+    const user = this.signinForm.value
+    this.authService.signin(user).subscribe(
+      res => {
+        console.log(this.signinForm.value)
+      },
+      err => {
+        console.log("Unable to complete action")
+      }
+    )
+
   }
 
 }
