@@ -6,12 +6,12 @@
       </button>
     </mat-toolbar-row>
   </mat-toolbar>
-  <mat-sidenav-container fxFlex="1 1 auto">
-    <mat-sidenav #sidenav fxLayout="column" color="primary">
-      <button mat-button>Dashboard</button>
-      <button mat-button>Projects</button>
-      <button mat-button>Contractors</button>
-      <button mat-button>Users</button>
+  <mat-sidenav-container fxFlex="1 1 auto" class="sidenav-container">
+    <mat-sidenav #sidenav fxLayout="column" color="primary" class="sidenav">
+      <button mat-button routerLink="./">Dashboard</button>
+      <button mat-button routerLink="./projects">Projects</button>
+      <button mat-button routerLink="./contractors">Contractors</button>
+      <button mat-button routerLink="./users">Users</button>
     </mat-sidenav>
     <router-outlet></router-outlet>
   </mat-sidenav-container>
