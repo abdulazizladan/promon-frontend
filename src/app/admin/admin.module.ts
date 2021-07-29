@@ -13,6 +13,7 @@ import { ContractorsListComponent } from './components/contractors-list/contract
 import { AddProjectComponent } from './components/add-project/add-project.component';
 import { AddContractorComponent } from './components/add-contractor/add-contractor.component';
 import { AddUserComponent } from './components/add-user/add-user.component';
+import { AdminLayoutComponent } from './components/admin-layout/admin-layout.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { AddUserComponent } from './components/add-user/add-user.component';
     ContractorsListComponent,
     AddProjectComponent,
     AddContractorComponent,
-    AddUserComponent
+    AddUserComponent,
+    AdminLayoutComponent
   ],
   imports: [
     CommonModule,
