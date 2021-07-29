@@ -1,1 +1,18 @@
-<p>admin-layout works!</p>
+<div class="main" fxLayout="column">
+  <mat-toolbar color="primary" style="min-height: 40px !important; height: 30px !important;">
+    <mat-toolbar-row>
+      <button mat-icon-button (click)="sidenav.toggle()">
+        <mat-icon>menu</mat-icon>
+      </button>
+    </mat-toolbar-row>
+  </mat-toolbar>
+  <mat-sidenav-container fxFlex="1 1 auto">
+    <mat-sidenav #sidenav fxLayout="column" color="primary">
+      <button mat-button>Dashboard</button>
+      <button mat-button>Projects</button>
+      <button mat-button>Contractors</button>
+      <button mat-button>Users</button>
+    </mat-sidenav>
+    <router-outlet></router-outlet>
+  </mat-sidenav-container>
+</div>
