@@ -4,6 +4,7 @@
       <button mat-icon-button (click)="sidenav.toggle()">
         <mat-icon>menu</mat-icon>
       </button>
+      <span class="mat-caption">ProMon V1.0</span>
       <span fxFlex="1 1"></span>
       <button mat-icon-button [matMenuTriggerFor]="menu">
         <mat-icon>more_vert</mat-icon>
@@ -18,10 +19,22 @@
   </mat-toolbar>
   <mat-sidenav-container fxFlex="1 1 auto" class="sidenav-container">
     <mat-sidenav #sidenav fxLayout="column" color="primary" class="sidenav">
-      <button mat-button routerLink="./">Dashboard</button>
-      <button mat-button routerLink="./projects">Projects</button>
-      <button mat-button routerLink="./contractors">Contractors</button>
-      <button mat-button routerLink="./users">Users</button>
+      <button mat-button routerLink="./" (click)="sidenav.toggle()">
+        <mat-icon>table_chart</mat-icon>
+        Dashboard
+      </button>
+      <button mat-button routerLink="./projects" (click)="sidenav.toggle()">
+        <mat-icon>business_center</mat-icon>
+        Projects
+      </button>
+      <button mat-button routerLink="./contractors" (click)="sidenav.toggle()">
+        <mat-icon>business</mat-icon>
+        Contractors
+      </button>
+      <button mat-button routerLink="./users" (click)="sidenav.toggle()">
+        <mat-icon>supervised_user_circle</mat-icon>
+        Users
+      </button>
     </mat-sidenav>
     <router-outlet></router-outlet>
   </mat-sidenav-container>
