@@ -29,6 +29,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatTableModule } from '@angular/material/table';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatDatepickerModule } from '@angular/material/datepicker';
+import { ProjectDetailsComponent } from './components/project-details/project-details.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
     AddProjectComponent,
     AddContractorComponent,
     AddUserComponent,
-    AdminLayoutComponent
+    AdminLayoutComponent,
+    ProjectDetailsComponent
   ],
   imports: [
     CommonModule,
