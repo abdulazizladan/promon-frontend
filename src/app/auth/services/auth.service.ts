@@ -10,12 +10,30 @@ export class AuthService {
 
   constructor( private http: HttpClient ) { }
 
+  /**
+   * Signin
+   * @param user
+   * @returns
+   */
   signin( user: User ) : Observable<User>{
     return this.http.post<User> ('', user)
   }
 
+  /**
+   * Signup
+   * @param user
+   * @returns user
+   */
   signup( user: User ) : Observable<User>{
     return this.http.post<User> ('', user)
+  }
+
+
+  /**
+   *
+   */
+  signout() : void{
+
   }
 
 }

@@ -9,14 +9,27 @@ import { AddProjectComponent } from '../add-project/add-project.component';
 })
 export class ProjectsListComponent implements OnInit {
 
-  constructor( public dialog: MatDialog ) {
+  /**
+   * Class Constructor
+   * @param dialog
+   */
+  constructor(
+    public dialog: MatDialog ) {
 
   }
 
+  /**
+   * Open Dialog
+   */
   openDialog() {
-    const dialogRef = this.dialog.open(AddProjectComponent)
+    const dialogRef = this.dialog.open(AddProjectComponent);
+
+
   }
 
+  /**
+   * First lifecycle hook
+   */
   ngOnInit(): void {
   }
 

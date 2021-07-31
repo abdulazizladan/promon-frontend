@@ -9,12 +9,24 @@ import { AddUserComponent } from '../add-user/add-user.component';
 })
 export class UsersListComponent implements OnInit {
 
-  constructor( public dialog: MatDialog ) { }
+  /**
+   * Class constructor
+   * @param dialog
+   */
+  constructor(
+    public dialog: MatDialog
+    ) { }
 
+  /**
+   * First lifecycle hook
+   */
   ngOnInit(): void {
   }
 
-  openDialog() {
+  /**
+   * Open dialog
+   */
+  openDialog(): void {
     this.dialog.open(AddUserComponent)
   }
 

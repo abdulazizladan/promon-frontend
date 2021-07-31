@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AdminRoutingModule } from './admin-routing.module';
 import { StoreModule } from '@ngrx/store';
@@ -45,6 +46,7 @@ import { ProjectDetailsComponent } from './components/project-details/project-de
   ],
   imports: [
     CommonModule,
+    HttpClientModule,
     AdminRoutingModule,
     StoreModule.forFeature(fromAdmin.adminFeatureKey, fromAdmin.reducers, { metaReducers: fromAdmin.metaReducers }),
     EffectsModule.forFeature([AdminEffects]),
