@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-//import { Project } from '../../models/project.model';
+import { Project } from '../../models/project.model';
 import { ProjectService } from '../../services/project.service';
 import { FormBuilder, FormGroup, FormArray, Validators } from '@angular/forms';
 
@@ -25,6 +25,10 @@ export class AddProjectComponent implements OnInit {
     this.addProjectForm = this.fb.group({
       title: (['', [Validators.required]])
     })
+  }
+
+  submit(): void{
+    console.log(this.addProjectForm.value)
   }
 
 }
