@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { Project } from '../../models/project.model';
+//import { Project } from '../../models/project.model';
 import { ProjectService } from '../../services/project.service';
+import { FormBuilder, FormGroup, FormArray, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-add-project',
@@ -9,16 +10,21 @@ import { ProjectService } from '../../services/project.service';
 })
 export class AddProjectComponent implements OnInit {
 
-  public projects: Array<Project> = [];
+  public addProjectForm!: FormGroup;
 
-  constructor( private projectService: ProjectService) { }
+  constructor(
+    private projectService: ProjectService,
+    private fb: FormBuilder
+    ) { }
 
   ngOnInit(): void {
-
+    this.initializeForm()
   }
 
-  private getProjects() {
-
+  initializeForm(): void{
+    this.addProjectForm = this.fb.group({
+      title: (['', [Validators.required]])
+    })
   }
 
 }

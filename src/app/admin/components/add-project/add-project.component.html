@@ -1,6 +1,13 @@
-<h1 mat-dialog-title>Dialog with elements</h1>
+<h1 mat-dialog-title>Add new project</h1>
 
-<div mat-dialog-content>This dialog showcases the title, close, content and actions elements.</div>
+<div [formGroup]="addProjectForm" mat-dialog-content fxLayoutALign.gt-xs="space-between" fxLayout.xs="column" fxLayout.gt-xs="row wrap" fxLayoutGap="20px">
+
+  <mat-form-field fxFlex.gt-xs="240px" appearance="outline">
+    <mat-label>Project title</mat-label>
+    <input type="text" matInput>
+  </mat-form-field>
+
+</div>
 
 <div mat-dialog-actions>
   <button mat-button mat-dialog-close>Close</button>

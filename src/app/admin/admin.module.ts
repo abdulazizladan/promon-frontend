@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
+import { ReactiveFormsModule } from '@angular/forms';
 
 import { AdminRoutingModule } from './admin-routing.module';
 import { StoreModule } from '@ngrx/store';
@@ -22,6 +23,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 
 //Material modules
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatInput, MatInputModule } from '@angular/material/input';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
@@ -47,11 +49,13 @@ import { ProjectDetailsComponent } from './components/project-details/project-de
   imports: [
     CommonModule,
     HttpClientModule,
+    ReactiveFormsModule,
     AdminRoutingModule,
     StoreModule.forFeature(fromAdmin.adminFeatureKey, fromAdmin.reducers, { metaReducers: fromAdmin.metaReducers }),
     EffectsModule.forFeature([AdminEffects]),
     FlexLayoutModule,
     MatToolbarModule,
+    MatInputModule,
     MatSidenavModule,
     MatIconModule,
     MatButtonModule,
