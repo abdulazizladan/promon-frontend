@@ -22,9 +22,9 @@ export class ProjectsListComponent implements OnInit {
    * Open Dialog
    */
   openDialog() {
-    const dialogRef = this.dialog.open(AddProjectComponent);
-
-
+    const dialogRef = this.dialog.open(AddProjectComponent, {
+      width: '800px'
+    });
   }
 
   /**
