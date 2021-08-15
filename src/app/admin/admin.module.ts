@@ -35,6 +35,7 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
 import { ProjectDetailsComponent } from './components/project-details/project-details.component';
 import { StateMapComponent } from './components/state-map/state-map.component';
 import { CountryMapComponent } from './components/country-map/country-map.component';
+import { LgaMapComponent } from './components/lga-map/lga-map.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +49,8 @@ import { CountryMapComponent } from './components/country-map/country-map.compon
     AdminLayoutComponent,
     ProjectDetailsComponent,
     StateMapComponent,
-    CountryMapComponent
+    CountryMapComponent,
+    LgaMapComponent
   ],
   imports: [
     CommonModule,
