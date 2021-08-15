@@ -23,7 +23,9 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 
 //Material modules
 import { MatToolbarModule } from '@angular/material/toolbar';
-import { MatInput, MatInputModule } from '@angular/material/input';
+import { MatInputModule } from '@angular/material/input';
+import { MatSelectModule } from '@angular/material/select';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
@@ -62,6 +64,8 @@ import { LgaMapComponent } from './components/lga-map/lga-map.component';
     FlexLayoutModule,
     MatToolbarModule,
     MatInputModule,
+    MatSelectModule,
+    MatSlideToggleModule,
     MatSidenavModule,
     MatIconModule,
     MatButtonModule,

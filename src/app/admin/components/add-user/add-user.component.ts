@@ -21,8 +21,10 @@ export class AddUserComponent implements OnInit {
   initializeForm(): void {
     this.newUserForm = this.fb.group({
       email: (['', [Validators.email, Validators.required]]),
-      first_name: (['', [Validators.required]]),
-      last_name: (['', [Validators.required]])
+      firstName: (['', [Validators.required]]),
+      lastName: (['', [Validators.required]]),
+      password: (['', [Validators.required, Validators.minLength(8)]]),
+      role: (['', [Validators.required]])
     })
   }
 
