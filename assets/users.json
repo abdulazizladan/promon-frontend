@@ -1,0 +1,16 @@
+[
+    {
+        "email": "abdulazizladan@gmail.com",
+        "firstName": "Abdulaziz",
+        "lastName": "Ladan",
+        "role": "supervisor",
+        "active": true
+    },
+    {
+        "email": "phantommaria@claymore.com",
+        "firstName": "Mariah",
+        "lastName": "Abubakar",
+        "role": "contractor",
+        "active": false
+    }
+]
