@@ -5,5 +5,19 @@
         "description": "renovation of 1 classromm",
         "location": "GDSS Tandama, Katsina",
         "dateAwarded": "2021-05-22"
+    },
+    {
+        "_id": "kd/igb/rgc/2021",
+        "title": "Supply of fertilizer",
+        "description": "Deliver 5000 bags of fertilizers to Igabi LG Farmers association",
+        "location": "Igabi LGA office",
+        "dateAwarded": "2021-05-22"
+    },
+    {
+        "_id": "kt/dnj/tdm/2021",
+        "title": "classroom renovation",
+        "description": "renovation of 1 classromm",
+        "location": "GDSS Tandama, Katsina",
+        "dateAwarded": "2021-06-15"
     }
 ]
