@@ -12,4 +12,8 @@ export class ContractorsListComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  openDialog(): void{
+    
+  }
+
 }

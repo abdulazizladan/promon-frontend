@@ -17,7 +17,7 @@ import { AddProjectComponent } from './components/add-project/add-project.compon
 import { AddContractorComponent } from './components/add-contractor/add-contractor.component';
 import { AddUserComponent } from './components/add-user/add-user.component';
 import { AdminLayoutComponent } from './components/admin-layout/admin-layout.component';
-
+import { ChartsModule } from 'ng2-charts';
 //FlexLayout module
 import { FlexLayoutModule } from '@angular/flex-layout';
 
@@ -61,6 +61,7 @@ import { LgaMapComponent } from './components/lga-map/lga-map.component';
     AdminRoutingModule,
     StoreModule.forFeature(fromAdmin.adminFeatureKey, fromAdmin.reducers, { metaReducers: fromAdmin.metaReducers }),
     EffectsModule.forFeature([AdminEffects]),
+    ChartsModule,
     FlexLayoutModule,
     MatToolbarModule,
     MatInputModule,

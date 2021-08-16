@@ -33,7 +33,9 @@
 
   <div fxLayout.xs="column" fxLayout.gt-xs="row" fxLayoutAlign="space-between">
 
-    <mat-card fxFlex.gt-sm="1 1 auto">
+    <span fxFlex.gt-xs="100%"></span>
+
+    <mat-card fxFlex.gt-sm="800px">
       <mat-card-header>
         <mat-card-title>Kaduna State</mat-card-title>
       </mat-card-header>
@@ -43,21 +45,66 @@
       </mat-card-content>
     </mat-card>
 
-    <div fxFlex.gt-xs="240px" fxLayout.xs="row" fxLayout.gt-xs="column" fxLayoutAlign="space-between">
+    <div fxFlex.gt-xs="480px" fxLayout.xs="row" fxLayout.gt-xs="column" fxLayoutAlign="space-between">
 
       <mat-card class="stat">
         <mat-toolbar color="primary">
           On-going
         </mat-toolbar>
         <mat-card-content>
-          <span class="mat-display-1">0</span>
+          <div style="display: block;">
+            <canvas baseChart 
+              [data]="pieChartData" 
+              [labels]="pieChartLabels" 
+              [chartType]="pieChartType"
+              [options]="pieChartOptions"
+              [plugins]="pieChartPlugins"
+              [legend]="pieChartLegend">
+            </canvas>
+          </div>        
+        </mat-card-content>
+      </mat-card>
+
+      <mat-card class="stat">
+        <mat-toolbar color="primary">
+          On-going
+        </mat-toolbar>
+        <mat-card-content>
+          <div style="display: block;">
+            <canvas baseChart 
+              [data]="pieChartData" 
+              [labels]="pieChartLabels" 
+              [chartType]="pieChartType"
+              [options]="pieChartOptions"
+              [plugins]="pieChartPlugins"
+              [legend]="pieChartLegend">
+            </canvas>
+          </div>      
+        </mat-card-content>
+      </mat-card>
+
+      <mat-card class="stat">
+        <mat-toolbar color="primary">
+          On-going
+        </mat-toolbar>
+        <mat-card-content>
+          <div style="display: block;">
+            <canvas baseChart 
+              [data]="pieChartData" 
+              [labels]="pieChartLabels" 
+              [chartType]="pieChartType"
+              [options]="pieChartOptions"
+              [plugins]="pieChartPlugins"
+              [legend]="pieChartLegend">
+            </canvas>
+          </div>        
         </mat-card-content>
       </mat-card>
 
       
 
     </div>
-
+    <span fxFlex.gt-xs="100%"></span>
   </div>
 
 </div>
