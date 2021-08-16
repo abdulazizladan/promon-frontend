@@ -1,9 +1,3 @@
-export interface Contractor{
-  _id: string,
-  name: string,
-  personnel: Array<Staff>
-}
-
 interface Staff{
   _id: string,
   first_name: string,
@@ -25,4 +19,11 @@ interface Address{
   lga: string,
   state: string,
   country: string
+}
+
+export interface Contractor{
+  _id: string,
+  name: string,
+  personnel: Array<Staff>,
+  headOffice: Branch
 }

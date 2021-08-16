@@ -3,5 +3,6 @@ export interface Project{
   title: string,
   description: string,
   location: string,
-  dateAwarded: Date
+  dateAwarded: Date,
+  status: number
 }

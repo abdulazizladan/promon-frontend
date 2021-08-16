@@ -8,5 +8,9 @@ import { Observable } from 'rxjs';
 export class ContractorService {
 
   constructor( private http: HttpClient ) { }
+  
+  findAll() {
+  	return this.http.get<any>('./assets/contractors.json');
+  }
 
 }
