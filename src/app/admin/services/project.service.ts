@@ -17,7 +17,7 @@ export class ProjectService {
 
   findAll(): Observable<Project[]> {
     const url: string = `environment.apiUrl+'/projects`;
-    return this.http.get<Project[]>(url)
+    return this.http.get<Project[]>('./assets/projects.json')
   }
 
   findOne( id: string ): Observable<Project> {
