@@ -30,7 +30,7 @@ export class UsersListComponent implements OnInit {
     this.getUsers()
   }
 
-  getUsers(): void {
+  private getUsers(): void {
     this.userService.findAll().subscribe(
       res => {
         this.users = res;
