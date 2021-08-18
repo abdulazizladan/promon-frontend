@@ -28,7 +28,13 @@ export class ContractorsListComponent implements OnInit {
   }
 
   private getContracts(): void{
-    this.contractorService.findAll();
+    this.contractorService.findAll().subscribe(
+      res => {
+        console.log(res)
+      }, err => {
+        console.log(err)
+      }
+    )
   }
 
 }

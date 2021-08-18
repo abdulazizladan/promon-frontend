@@ -1,9 +1,14 @@
 [
 	{
 		"_id": "djfui972",
-		"name": "Rhino contractors,
-		"headOffice": {
-			
-		}
+		"name": "Rhino contractors",
+		"website": "www.abcd.xyz",
+		"branches": [{
+			"designation": "main",
+			"state": "kaduna",
+			"lga": "igabi",
+			"address": "1, Talatu Avenue, birnin yero",
+			"phoneNumber": "08012345678"
+		}]
 	}
 ]
