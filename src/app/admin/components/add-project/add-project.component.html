@@ -1,6 +1,6 @@
 <h1 mat-dialog-title>Add new project</h1>
 
-<div [formGroup]="addProjectForm" mat-dialog-content fxLayoutALign.gt-xs="space-between" fxLayout="column" fxLayoutGap="20px">
+<div [formGroup]="addProjectForm" mat-dialog-content fxLayout="column" fxLayoutGap="20px">
 
   <mat-form-field fxFlex.gt-xs="240px">
     <mat-label>Project title</mat-label>
@@ -11,6 +11,23 @@
     <mat-label>Project description</mat-label>
     <textarea style="resize: none;" rows="3" matInput formControlName="description"></textarea>
   </mat-form-field>
+
+  <div fxLayout="row" fxLayoutAlign="space-between">
+
+    <mat-form-field>
+      <mat-label>State</mat-label>
+      <mat-select>
+        <mat-option value="kaduna">Kaduna</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>LGA</mat-label>
+      <mat-select>
+
+      </mat-select>
+    </mat-form-field>
+  </div>
 
 </div>
 
