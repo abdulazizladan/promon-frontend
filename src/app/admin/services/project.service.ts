@@ -28,4 +28,8 @@ export class ProjectService {
   create( project: Project): void{
 
   }
+
+  getStates(): Observable<any> {
+    return this.http.get('./assets/nigeria.json')
+  }
 }

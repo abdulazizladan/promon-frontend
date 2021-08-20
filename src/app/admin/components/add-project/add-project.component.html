@@ -17,7 +17,7 @@
     <mat-form-field>
       <mat-label>State</mat-label>
       <mat-select>
-        <mat-option value="kaduna">Kaduna</mat-option>
+        <mat-option *ngFor="let state of country.states" value="{{state.name}}">{{state.name | titlecase}}</mat-option>
       </mat-select>
     </mat-form-field>
 
