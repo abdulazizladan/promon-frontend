@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { AddProjectComponent } from '../add-project/add-project.component';
 import { ProjectService } from '../../services/project.service';
-import { Project } from '../../models/project.model';
+//import { Project } from '../../models/project.model';
 
 @Component({
   selector: 'app-projects-list',
