@@ -12,15 +12,26 @@ export class AddProjectComponent implements OnInit {
 
   public addProjectForm!: FormGroup;
 
+  /**
+   * 
+   * @param projectService 
+   * @param fb 
+   */
   constructor(
     private projectService: ProjectService,
     private fb: FormBuilder
     ) { }
 
+  /**
+   * 
+   */
   ngOnInit(): void {
     this.initializeForm()
   }
 
+  /**
+   * 
+   */
   initializeForm(): void{
     this.addProjectForm = this.fb.group({
       title: (['', [Validators.required]]),
@@ -29,7 +40,7 @@ export class AddProjectComponent implements OnInit {
   }
 
   submit(): void{
-    console.log(this.addProjectForm.value)
+    this.projectService.create(this.addProjectForm.value)
   }
 
 }

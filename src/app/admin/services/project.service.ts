@@ -21,7 +21,11 @@ export class ProjectService {
   }
 
   findOne( id: string ): Observable<Project> {
-    const url: string = environment.apiUrl+'/projects/'+id;
+    const url: string = `environment.apiUrl+'/projects/'+id`;
     return this.http.get<Project>(url)
+  }
+
+  create( project: Project): void{
+
   }
 }

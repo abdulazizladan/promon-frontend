@@ -14,19 +14,33 @@ export class ContractorsListComponent implements OnInit {
   public contractors: any
   displayedColumns: string[] = ['name', 'lastName', 'email', 'role', 'active']
 
+  /**
+   * 
+   * @param dialog 
+   * @param contractorService 
+   */
   constructor(
     public dialog: MatDialog,
     private contractorService: ContractorService
   ) { }
 
+  /**
+   * 
+   */
   ngOnInit(): void {
     this.getContracts();
   }
 
+  /**
+   * 
+   */
   openDialog(): void{
     this.dialog.open(AddContractorComponent)
   }
 
+  /**
+   * 
+   */
   private getContracts(): void{
     this.contractorService.findAll().subscribe(
       res => {

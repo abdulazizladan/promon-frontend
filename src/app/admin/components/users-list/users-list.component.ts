@@ -30,6 +30,9 @@ export class UsersListComponent implements OnInit {
     this.getUsers()
   }
 
+  /**
+   * get users from database
+   */
   private getUsers(): void {
     this.userService.findAll().subscribe(
       res => {

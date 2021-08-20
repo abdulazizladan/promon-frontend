@@ -19,8 +19,14 @@ export class DashboardComponent implements OnInit {
   public pieChartLegend = true;
   public pieChartPlugins = [];
 
+  /**
+   * 
+   */
   constructor() { }
 
+  /**
+   * 
+   */
   ngOnInit(): void {
   }
 
