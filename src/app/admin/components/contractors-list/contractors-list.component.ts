@@ -22,7 +22,7 @@ export class ContractorsListComponent implements OnInit {
   expandedContractor: any | null;
 
   public contractors: any
-  displayedColumns: string[] = ['_id', 'name', 'website']
+  displayedColumns: string[] = ['sno', 'name', 'website', '_id']
 
   /**
    *
