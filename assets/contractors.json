@@ -1,9 +1,26 @@
 [
 	{
 		"_id": "djfui972",
-		"name": "Rhino contractors,
-		"headOffice": {
-			
-		}
+		"name": "Rhino contractors",
+		"website": "www.abcd.xyz",
+		"branches": [{
+			"designation": "main",
+			"state": "kaduna",
+			"lga": "igabi",
+			"address": "1, Talatu Avenue, birnin yero",
+			"phoneNumber": "08012345678"
+		}]
+	},
+  {
+		"_id": "djfuisdf2",
+		"name": "LazyMan corps",
+		"website": "www.sdjhfb.co",
+		"branches": [{
+			"designation": "main",
+			"state": "kaduna",
+			"lga": "Zaria",
+			"address": "45, Ban Zazzau",
+			"phoneNumber": "08065345678"
+		}]
 	}
 ]

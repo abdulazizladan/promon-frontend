@@ -1,0 +1,4882 @@
+{
+    "name": "nigeria",
+    "capital": "abuja",
+    "states": [
+        {
+            "name": "abia",
+            "capital": "umuahia",
+            "lgas": [
+                {
+                    "name": "arochukwu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "inu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obi ngwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ikwuano",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiukwato",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu west",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obingwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umunneochi",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ugwunagbo",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu east",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "adamawa",
+            "capital": "yola",
+            "lgas": [
+                {
+                    "name": "arochukwu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "inu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obi ngwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ikwuano",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiukwato",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu west",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obingwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umunneochi",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ugwunagbo",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu east",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "akwa ibom",
+            "capital": "uyo",
+            "lgas": [
+                {
+                    "name": "arochukwu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "inu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obi ngwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ikwuano",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiukwato",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu west",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obingwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umunneochi",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ugwunagbo",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu east",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "anambra",
+            "capital": "awka",
+            "lgas": [
+                {
+                    "name": "arochukwu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "inu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obi ngwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ikwuano",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiukwato",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu west",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obingwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umunneochi",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ugwunagbo",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu east",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "bauchi",
+            "capital": "bauchi",
+            "lgas": [
+                {
+                    "name": "arochukwu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "inu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obi ngwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ikwuano",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiukwato",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu west",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obingwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umunneochi",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ugwunagbo",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu east",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "bayelsa",
+            "capital": "yenagoa",
+            "lgas": [
+                {
+                    "name": "arochukwu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "inu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obi ngwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ikwuano",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiukwato",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu west",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obingwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umunneochi",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ugwunagbo",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu east",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "benue",
+            "capital": "makurdi",
+            "lgas": [
+                {
+                    "name": "arochukwu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "inu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obi ngwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ikwuano",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiukwato",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu west",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obingwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umunneochi",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ugwunagbo",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu east",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "borno",
+            "capital": "maiduguri",
+            "lgas": [
+                {
+                    "name": "arochukwu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "inu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obi ngwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ikwuano",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiukwato",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu west",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obingwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umunneochi",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ugwunagbo",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu east",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "cross river",
+            "capital": "calabar",
+            "lgas": [
+                {
+                    "name": "arochukwu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "inu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obi ngwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ikwuano",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiukwato",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu west",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obingwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umunneochi",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ugwunagbo",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu east",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "delta",
+            "capital": "asaba",
+            "lgas": [
+                {
+                    "name": "arochukwu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "inu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obi ngwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ikwuano",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiukwato",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu west",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obingwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umunneochi",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ugwunagbo",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu east",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "ebonyi",
+            "capital": "abakaliki",
+            "lgas": [
+                {
+                    "name": "arochukwu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "inu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obi ngwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ikwuano",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiukwato",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu west",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obingwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umunneochi",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ugwunagbo",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu east",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "edo",
+            "capital": "benin city",
+            "lgas": [
+                {
+                    "name": "arochukwu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "inu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obi ngwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ikwuano",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiukwato",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu west",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obingwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umunneochi",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ugwunagbo",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu east",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "enugu",
+            "capital": "enugu",
+            "lgas": [
+                {
+                    "name": "arochukwu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "inu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obi ngwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ikwuano",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiukwato",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu west",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obingwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umunneochi",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ugwunagbo",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu east",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "imo",
+            "capital": "owerri",
+            "lgas": [
+                {
+                    "name": "arochukwu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "inu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obi ngwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ikwuano",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiukwato",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu west",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obingwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umunneochi",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ugwunagbo",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu east",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "jigawa",
+            "capital": "dutse",
+            "lgas": [
+                {
+                    "name": "arochukwu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "inu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obi ngwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ikwuano",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiukwato",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu west",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obingwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umunneochi",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ugwunagbo",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu east",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "kaduna",
+            "capital": "kaduna",
+            "lgas": [
+                {
+                    "name": "birnin gwari",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "chikun",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "giwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "igabi",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ikara",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "jaba",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "jema'a",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "kachia",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "kaduna north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "kaduna south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "kagarko",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "kajuru",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "kaura",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "kauru",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "kubau",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "kudan",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "lere",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "makarfi",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "sabon gari",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "sanga",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "soba",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "zangon kataf",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "zaria",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "kano",
+            "capital": "kano",
+            "lgas": [
+                {
+                    "name": "arochukwu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "inu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obi ngwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ikwuano",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiukwato",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu west",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obingwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umunneochi",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ugwunagbo",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu east",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "katsina",
+            "capital": "katsina",
+            "lgas": [
+                {
+                    "name": "arochukwu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "inu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obi ngwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ikwuano",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiukwato",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu west",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obingwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umunneochi",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ugwunagbo",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu east",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "kebbi",
+            "capital": "birnin kebbi",
+            "lgas": [
+                {
+                    "name": "arochukwu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "inu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obi ngwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ikwuano",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiukwato",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu west",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obingwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umunneochi",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ugwunagbo",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu east",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "kogi",
+            "capital": "lokoja",
+            "lgas": [
+                {
+                    "name": "arochukwu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "inu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obi ngwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ikwuano",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiukwato",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu west",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obingwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umunneochi",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ugwunagbo",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu east",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "kwara",
+            "capital": "ilorin",
+            "lgas": [
+                {
+                    "name": "arochukwu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "inu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obi ngwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ikwuano",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiukwato",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu west",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obingwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umunneochi",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ugwunagbo",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu east",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "lagos",
+            "capital": "ikeja",
+            "lgas": [
+                {
+                    "name": "arochukwu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "inu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obi ngwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ikwuano",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiukwato",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu west",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obingwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umunneochi",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ugwunagbo",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu east",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "nasarawa",
+            "capital": "lafia",
+            "lgas": [
+                {
+                    "name": "arochukwu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "inu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obi ngwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ikwuano",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiukwato",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu west",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obingwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umunneochi",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ugwunagbo",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu east",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "niger",
+            "capital": "minna",
+            "lgas": [
+                {
+                    "name": "arochukwu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "inu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obi ngwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ikwuano",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiukwato",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu west",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obingwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umunneochi",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ugwunagbo",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu east",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "ogun",
+            "capital": "abeokuta",
+            "lgas": [
+                {
+                    "name": "arochukwu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "inu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obi ngwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ikwuano",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiukwato",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu west",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obingwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umunneochi",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ugwunagbo",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu east",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "ondo",
+            "capital": "akure",
+            "lgas": [
+                {
+                    "name": "arochukwu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "inu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obi ngwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ikwuano",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiukwato",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu west",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obingwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umunneochi",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ugwunagbo",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu east",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "osun",
+            "capital": "osogbo",
+            "lgas": [
+                {
+                    "name": "arochukwu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "inu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obi ngwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ikwuano",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiukwato",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu west",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obingwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umunneochi",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ugwunagbo",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu east",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "oyo",
+            "capital": "ibadan",
+            "lgas": [
+                {
+                    "name": "arochukwu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "inu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obi ngwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ikwuano",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiukwato",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu west",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obingwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umunneochi",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ugwunagbo",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu east",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "plateau",
+            "capital": "jos",
+            "lgas": [
+                {
+                    "name": "arochukwu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "inu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obi ngwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ikwuano",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiukwato",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu west",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obingwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umunneochi",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ugwunagbo",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu east",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "rivers",
+            "capital": "port harcourt",
+            "lgas": [
+                {
+                    "name": "arochukwu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "inu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obi ngwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ikwuano",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiukwato",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu west",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obingwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umunneochi",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ugwunagbo",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu east",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "sokoto",
+            "capital": "sokoto",
+            "lgas": [
+                {
+                    "name": "arochukwu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "inu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obi ngwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ikwuano",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiukwato",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu west",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obingwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umunneochi",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ugwunagbo",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu east",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "taraba",
+            "capital": "jalingo",
+            "lgas": [
+                {
+                    "name": "arochukwu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "inu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obi ngwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ikwuano",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiukwato",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu west",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obingwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umunneochi",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ugwunagbo",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu east",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "yobe",
+            "capital": "damaturu",
+            "lgas": [
+                {
+                    "name": "arochukwu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "inu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obi ngwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ikwuano",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiukwato",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu west",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obingwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umunneochi",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ugwunagbo",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu east",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "zamfara",
+            "capital": "gusau",
+            "lgas": [
+                {
+                    "name": "arochukwu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "inu",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obi ngwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umuahia south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ikwuano",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiukwato",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu west",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "aba north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa north",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "isiala ngwa south",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "obingwa",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "umunneochi",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ugwunagbo",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "ukwu east",
+                    "towns": [
+                        {
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

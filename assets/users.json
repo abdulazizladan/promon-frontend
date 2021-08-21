@@ -12,5 +12,26 @@
         "lastName": "Abubakar",
         "role": "contractor",
         "active": false
+    },
+    {
+        "email": "abc@def.com",
+        "firstName": "ali",
+        "lastName": "buhari",
+        "role": "contractor",
+        "active": true
+    },
+    {
+        "email": "yusuf_t@hotmail.com",
+        "firstName": "yusuf",
+        "lastName": "tanimu",
+        "role": "contractor",
+        "active": true
+    },
+    {
+        "email": "ghi@jkl.com",
+        "firstName": "rabiu",
+        "lastName": "sani",
+        "role": "contractor",
+        "active": true
     }
 ]
