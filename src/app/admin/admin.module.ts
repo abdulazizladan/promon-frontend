@@ -34,6 +34,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatTableModule } from '@angular/material/table';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatDatepickerModule } from '@angular/material/datepicker';
+import { MatNativeDateModule } from '@angular/material/core';
 import { ProjectDetailsComponent } from './components/project-details/project-details.component';
 import { StateMapComponent } from './components/state-map/state-map.component';
 import { CountryMapComponent } from './components/country-map/country-map.component';
@@ -74,7 +75,8 @@ import { LgaMapComponent } from './components/lga-map/lga-map.component';
     MatCardModule,
     MatTableModule,
     MatDialogModule,
-    MatDatepickerModule
+    MatDatepickerModule,
+    MatNativeDateModule
   ]
 })
 export class AdminModule { }
