@@ -25,7 +25,7 @@ export class ContractorsListComponent implements OnInit {
   displayedColumns: string[] = ['sno', 'name', 'website', '_id']
 
   /**
-   *
+   * Constructor
    * @param dialog
    * @param contractorService
    */
@@ -35,21 +35,21 @@ export class ContractorsListComponent implements OnInit {
   ) { }
 
   /**
-   *
+   * First lifecycle hook
    */
   ngOnInit(): void {
     this.getContracts();
   }
 
   /**
-   *
+   * open add-contractor dialog
    */
   openDialog(): void{
     this.dialog.open(AddContractorComponent)
   }
 
   /**
-   *
+   * retrieve list of contractors
    */
   private getContracts(): void{
     this.contractorService.findAll().subscribe(

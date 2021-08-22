@@ -39,6 +39,7 @@ import { ProjectDetailsComponent } from './components/project-details/project-de
 import { StateMapComponent } from './components/state-map/state-map.component';
 import { CountryMapComponent } from './components/country-map/country-map.component';
 import { LgaMapComponent } from './components/lga-map/lga-map.component';
+import { ContractorComponent } from './components/contractor/contractor.component';
 
 @NgModule({
   declarations: [
@@ -53,7 +54,8 @@ import { LgaMapComponent } from './components/lga-map/lga-map.component';
     ProjectDetailsComponent,
     StateMapComponent,
     CountryMapComponent,
-    LgaMapComponent
+    LgaMapComponent,
+    ContractorComponent
   ],
   imports: [
     CommonModule,

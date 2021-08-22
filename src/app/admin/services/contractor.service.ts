@@ -7,8 +7,16 @@ import { Observable } from 'rxjs';
 })
 export class ContractorService {
 
+  /**
+   * Constructor
+   * @param http 
+   */
   constructor( private http: HttpClient ) { }
   
+  /**
+   * 
+   * @returns array of contractors
+   */
   findAll() {
   	return this.http.get<any>('./assets/contractors.json');
   }

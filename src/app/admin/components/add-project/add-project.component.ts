@@ -56,6 +56,9 @@ export class AddProjectComponent implements OnInit {
     )
   }
 
+  /**
+   * Add Project
+   */
   submit(): void{
     this.projectService.create(this.addProjectForm.value)
   }

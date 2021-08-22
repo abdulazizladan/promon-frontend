@@ -26,7 +26,7 @@ export class ProjectsListComponent implements OnInit {
   }
 
   /**
-   * Open Dialog
+   * Open add-project Dialog
    */
   openDialog() {
     const dialogRef = this.dialog.open(AddProjectComponent, {

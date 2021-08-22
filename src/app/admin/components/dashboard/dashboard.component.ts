@@ -20,12 +20,12 @@ export class DashboardComponent implements OnInit {
   public pieChartPlugins = [];
 
   /**
-   * 
+   * constructor
    */
   constructor() { }
 
   /**
-   * 
+   * first lifecycle
    */
   ngOnInit(): void {
   }

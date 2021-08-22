@@ -13,22 +13,43 @@ import { Project } from '../models/project.model';
 })
 export class ProjectService {
 
+  /**
+   * 
+   * @param http 
+   */
   constructor( private http: HttpClient ) { }
 
+  /**
+   * 
+   * @returns 
+   */
   findAll(): Observable<Project[]> {
     const url: string = `environment.apiUrl+'/projects`;
     return this.http.get<Project[]>('./assets/projects.json')
   }
 
+  /**
+   * 
+   * @param id 
+   * @returns 
+   */
   findOne( id: string ): Observable<Project> {
     const url: string = `environment.apiUrl+'/projects/'+id`;
     return this.http.get<Project>(url)
   }
 
+  /**
+   * 
+   * @param project 
+   */
   create( project: Project): void{
 
   }
 
+  /**
+   * 
+   * @returns 
+   */
   getStates(): Observable<any> {
     return this.http.get('./assets/nigeria.json')
   }

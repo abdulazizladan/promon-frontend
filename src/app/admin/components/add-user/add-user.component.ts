@@ -10,14 +10,24 @@ export class AddUserComponent implements OnInit {
 
   public newUserForm!: FormGroup;
 
+  /**
+   * 
+   * @param fb 
+   */
   constructor(
     private fb: FormBuilder
   ) { }
 
+  /**
+   * first lifecycle hook
+   */
   ngOnInit(): void {
     this.initializeForm();
   }
 
+  /**
+   * initialize form
+   */
   initializeForm(): void {
     this.newUserForm = this.fb.group({
       email: (['', [Validators.email, Validators.required]]),
@@ -28,6 +38,9 @@ export class AddUserComponent implements OnInit {
     })
   }
 
+  /**
+   * 
+   */
   submit(): void{
 
   }

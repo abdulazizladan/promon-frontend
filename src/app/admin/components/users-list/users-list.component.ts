@@ -46,7 +46,7 @@ export class UsersListComponent implements OnInit {
   }
 
   /**
-   * Open dialog
+   * Open add-user dialog
    */
   openDialog(): void {
     this.dialog.open(AddUserComponent)

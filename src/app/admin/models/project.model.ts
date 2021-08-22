@@ -4,5 +4,13 @@ export interface Project{
   description: string,
   location: string,
   dateAwarded: Date,
-  status: number
+  status: number,
+  milestones: [
+    {
+      title: string,
+      description: string,
+      startDate: Date,
+      endDate: Date
+    }
+  ]
 }
