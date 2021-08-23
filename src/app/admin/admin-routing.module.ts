@@ -3,9 +3,11 @@ import { RouterModule, Routes } from '@angular/router';
 
 //components
 import { AdminLayoutComponent } from './components/admin-layout/admin-layout.component';
+import { ContractorComponent } from './components/contractor/contractor.component';
 import { ContractorsListComponent } from './components/contractors-list/contractors-list.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { ProjectsListComponent } from './components/projects-list/projects-list.component';
+import { UserComponent } from './components/user/user.component';
 import { UsersListComponent } from './components/users-list/users-list.component';
 
 const routes: Routes = [
@@ -30,8 +32,16 @@ const routes: Routes = [
         component: ContractorsListComponent
       },
       {
+        path: 'contractor/:id',
+        component: ContractorComponent
+      },
+      {
         path: 'users',
         component: UsersListComponent
+      },
+      {
+        path: 'user/:id',
+        component: UserComponent
       },
       {
         path: '**',
