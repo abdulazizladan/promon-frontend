@@ -18,6 +18,6 @@ export class UserService {
   }
 
   create( user: User): Observable<User> {
-    return this.http.post<User>('', user);
+    return this.http.post<User>('http://localhost:8080/api/users', user);
   }
 }
