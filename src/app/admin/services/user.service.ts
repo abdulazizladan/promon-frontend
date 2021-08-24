@@ -10,7 +10,14 @@ export class UserService {
 
   constructor( private http: HttpClient) { }
 
+  /**
+   * 
+   */
   findAll(): Observable<User[]> {
     return this.http.get<User[]>('./assets/users.json')
+  }
+
+  create( user: User): Observable<User> {
+    return this.http.post<User>('', user);
   }
 }

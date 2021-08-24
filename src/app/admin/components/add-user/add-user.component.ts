@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { UserService } from '../../services/user.service';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 @Component({
@@ -13,9 +14,11 @@ export class AddUserComponent implements OnInit {
   /**
    * 
    * @param fb 
+   * @param userService
    */
   constructor(
-    private fb: FormBuilder
+    private fb: FormBuilder,
+    private userService: UserService
   ) { }
 
   /**
@@ -42,7 +45,8 @@ export class AddUserComponent implements OnInit {
    * 
    */
   submit(): void{
-
+    const user = this.newUserForm.value;
+    this.userService.create( user );
   }
 
 }
