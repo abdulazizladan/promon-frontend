@@ -20,6 +20,14 @@ export class AuthService {
   }
 
   /**
+   *
+   * @returns login status as boolean
+   */
+  isLoggedIn(): boolean{
+    return true;
+  }
+
+  /**
    * Signup
    * @param user
    * @returns user
@@ -33,7 +41,8 @@ export class AuthService {
    *
    */
   signout() : void{
-
+    //clear login credentials
+    //route to login
   }
 
 }

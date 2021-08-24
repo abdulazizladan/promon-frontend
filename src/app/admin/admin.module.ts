@@ -40,6 +40,8 @@ import { StateMapComponent } from './components/state-map/state-map.component';
 import { CountryMapComponent } from './components/country-map/country-map.component';
 import { LgaMapComponent } from './components/lga-map/lga-map.component';
 import { ContractorComponent } from './components/contractor/contractor.component';
+import { UserComponent } from './components/user/user.component';
+import { ProjectComponent } from './components/project/project.component';
 
 @NgModule({
   declarations: [
@@ -55,7 +57,9 @@ import { ContractorComponent } from './components/contractor/contractor.componen
     StateMapComponent,
     CountryMapComponent,
     LgaMapComponent,
-    ContractorComponent
+    ContractorComponent,
+    UserComponent,
+    ProjectComponent
   ],
   imports: [
     CommonModule,
