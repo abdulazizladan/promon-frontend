@@ -14,24 +14,24 @@ import { Project } from '../models/project.model';
 export class ProjectService {
 
   /**
-   * 
-   * @param http 
+   *
+   * @param http
    */
   constructor( private http: HttpClient ) { }
 
   /**
-   * 
-   * @returns 
+   *
+   * @returns
    */
   findAll(): Observable<Project[]> {
     const url: string = `environment.apiUrl+'/projects`;
-    return this.http.get<Project[]>('./assets/projects.json')
+    return this.http.get<Project[]>('http://localhost:8080/api/projects')
   }
 
   /**
-   * 
-   * @param id 
-   * @returns 
+   *
+   * @param id
+   * @returns
    */
   findOne( id: string ): Observable<Project> {
     const url: string = `environment.apiUrl+'/projects/'+id`;
@@ -39,16 +39,16 @@ export class ProjectService {
   }
 
   /**
-   * 
-   * @param project 
+   *
+   * @param project
    */
   create( project: Project): void{
 
   }
 
   /**
-   * 
-   * @returns 
+   *
+   * @returns
    */
   getStates(): Observable<any> {
     return this.http.get('./assets/nigeria.json')

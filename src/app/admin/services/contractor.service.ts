@@ -9,16 +9,16 @@ export class ContractorService {
 
   /**
    * Constructor
-   * @param http 
+   * @param http
    */
   constructor( private http: HttpClient ) { }
-  
+
   /**
-   * 
+   *
    * @returns array of contractors
    */
   findAll() {
-  	return this.http.get<any>('./assets/contractors.json');
+  	return this.http.get<any>('http://localhost:8080/api/contractors');
   }
 
 }
