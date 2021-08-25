@@ -9,16 +9,27 @@ import {
 } from '@ngrx/store';
 import { loadProjects } from '../actions/project.actions';
 import { environment } from '../../../environments/environment';
+import { Contractor } from '../models/contractor.model';
 import { Project } from '../models/project.model';
 import { User } from 'src/app/auth/models/User.model';
 
 export const adminFeatureKey = 'admin';
 
-export interface State {
-  
+export interface AdminState {
+  projects: Project[],
+  users: User[],
+  contractors: Contractor[]
 }
 
-export const reducers: ActionReducerMap<State> = {};
+export const initialAdminState: AdminState = {
+  projects: [],
+  users: [],
+  contractors: []
+}
 
+//export const reducers:   ActionReducerMap<AdminState> = {};
 
-export const metaReducers: MetaReducer<State>[] = !environment.production ? [] : [];
+export const adminReducer = createReducer(
+  initialAdminState,
+  
+);

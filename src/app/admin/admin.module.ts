@@ -66,7 +66,10 @@ import { ProjectComponent } from './components/project/project.component';
     HttpClientModule,
     ReactiveFormsModule,
     AdminRoutingModule,
-    StoreModule.forFeature(fromAdmin.adminFeatureKey, fromAdmin.reducers, { metaReducers: fromAdmin.metaReducers }),
+    StoreModule.forFeature(
+      'admin', 
+      fromAdmin.adminReducer
+    ),
     EffectsModule.forFeature([AdminEffects]),
     ChartsModule,
     FlexLayoutModule,
