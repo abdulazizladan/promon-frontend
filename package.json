@@ -24,7 +24,7 @@
     "@ngrx/effects": "^12.3.0",
     "@ngrx/entity": "^12.3.0",
     "@ngrx/store": "^12.3.0",
-    "@ngrx/store-devtools": "^12.3.0",
+    "@ngrx/store-devtools": "^12.4.0",
     "angular-in-memory-web-api": "^0.11.0",
     "chart.js": "^2.9.4",
     "ng2-charts": "^2.4.3",

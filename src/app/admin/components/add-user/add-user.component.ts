@@ -37,7 +37,8 @@ export class AddUserComponent implements OnInit {
       firstName: (['', [Validators.required]]),
       lastName: (['', [Validators.required]]),
       password: (['', [Validators.required, Validators.minLength(8)]]),
-      role: (['', [Validators.required]])
+      role: (['', [Validators.required]]),
+      active: ([true])
     })
   }
 
@@ -46,7 +47,14 @@ export class AddUserComponent implements OnInit {
    */
   submit(): void{
     const user = this.newUserForm.value;
-    this.userService.create( user );
+    console.log(user)
+    this.userService.create(user).subscribe(
+      res => {
+        console.log(res)
+      }, err => {
+        console.log(err)
+      }
+    );
   }
 
 }
