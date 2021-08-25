@@ -77,6 +77,7 @@ export class InMemoryDataService implements InMemoryDbService{
         "email": "abdulazizladan@gmail.com",
         "firstName": "Abdulaziz",
         "lastName": "Ladan",
+        "password": "sdbnosud",
         "role": "supervisor",
         "active": true
     },
@@ -84,6 +85,7 @@ export class InMemoryDataService implements InMemoryDbService{
         "email": "phantommaria@claymore.com",
         "firstName": "Mariah",
         "lastName": "Abubakar",
+        "password": "sdbnosud",
         "role": "contractor",
         "active": false
     },
@@ -91,6 +93,7 @@ export class InMemoryDataService implements InMemoryDbService{
         "email": "abc@def.com",
         "firstName": "ali",
         "lastName": "buhari",
+        "password": "sdbnosud",
         "role": "contractor",
         "active": true
     },
@@ -98,6 +101,7 @@ export class InMemoryDataService implements InMemoryDbService{
         "email": "yusuf_t@hotmail.com",
         "firstName": "yusuf",
         "lastName": "tanimu",
+        "password": "sdbnosud",
         "role": "contractor",
         "active": true
     },
@@ -105,6 +109,7 @@ export class InMemoryDataService implements InMemoryDbService{
         "email": "ghi@jkl.com",
         "firstName": "rabiu",
         "lastName": "sani",
+        "password": "sdbnosud",
         "role": "contractor",
         "active": true
     }
