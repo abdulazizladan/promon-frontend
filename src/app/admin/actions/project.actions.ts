@@ -9,7 +9,7 @@ export const AddProjects = createAction(
     '[Project] Add Project',
     props<{project: Project}>()
 );
-export const removeProjects = createAction(
-    '[Project] Remove Projects',
+export const removeProject = createAction(
+    '[Project] Remove Project',
     props<{id: string}>()
 );
