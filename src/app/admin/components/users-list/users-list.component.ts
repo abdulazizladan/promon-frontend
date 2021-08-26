@@ -2,7 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { AddUserComponent } from '../add-user/add-user.component';
 import { UserService } from '../../services/user.service';
+import { tap } from 'rxjs/operators';
+import { AdminState } from 'src/app/store';
+import { Store } from '@ngrx/store';
 import { User } from '../../models/user.model';
+import { loadUsers } from '../../actions/user.actions';
 
 @Component({
   selector: 'app-users-list',
@@ -20,7 +24,8 @@ export class UsersListComponent implements OnInit {
    */
   constructor(
     public dialog: MatDialog,
-    private userService: UserService
+    private userService: UserService,
+    private store: Store<AdminState>
     ) { }
 
   /**
@@ -34,15 +39,25 @@ export class UsersListComponent implements OnInit {
    * get users from database
    */
   private getUsers(): void {
-    this.userService.findAll().subscribe(
-      res => {
-        this.users = res;
-        console.log()
-      },
-      err => {
-        console.log(err)
-      }
+    this.userService.findAll()
+    .pipe(
+      tap( users => {
+        console.log(users)
+        this.users = users;
+        this.store.dispatch(loadUsers())
+      })
+      ).subscribe(
+        () => console.log('b')
     )
+    //this.userService.findAll().subscribe(
+     // res => {
+     //   this.users = res;
+     //   console.log()
+     // },
+     // err => {
+     //   console.log(err)
+     // }
+    //)
   }
 
   /**

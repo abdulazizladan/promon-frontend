@@ -56,7 +56,7 @@ export class ProjectsListComponent implements OnInit {
         this.store.dispatch(loadProjects())
       })
       ).subscribe(
-        () => console.log('bjhb')
+        () => console.log('b')
     )
     //this.projectService.findAll().subscribe(
     //  res => {
