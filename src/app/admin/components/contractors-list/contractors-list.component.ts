@@ -2,8 +2,12 @@ import { Component, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { AddContractorComponent } from '../add-contractor/add-contractor.component';
 import { ContractorService } from '../../services/contractor.service';
+import { tap } from 'rxjs/operators';
 import {animate, state, style, transition, trigger} from '@angular/animations';
 import { Contractor } from '../../models/contractor.model';
+import { Store } from '@ngrx/store';
+import { AdminState } from 'src/app/store';
+import { loadContractors } from '../../actions/contractor.actions';
 
 @Component({
   selector: 'app-contractors-list',
@@ -21,7 +25,7 @@ export class ContractorsListComponent implements OnInit {
 
   expandedContractor: any | null;
 
-  public contractors: any
+  public contractors!: Contractor[];
   displayedColumns: string[] = ['sno', 'name', 'website', '_id']
 
   /**
@@ -31,7 +35,8 @@ export class ContractorsListComponent implements OnInit {
    */
   constructor(
     public dialog: MatDialog,
-    private contractorService: ContractorService
+    private contractorService: ContractorService,
+    private store: Store<AdminState>
   ) { }
 
   /**
@@ -52,13 +57,23 @@ export class ContractorsListComponent implements OnInit {
    * retrieve list of contractors
    */
   private getContracts(): void{
-    this.contractorService.findAll().subscribe(
-      res => {
-        this.contractors = res;
-      }, err => {
-        console.log(err)
-      }
-    )
+    this.contractorService.findAll()
+    .pipe(
+      tap( contractors => {
+        console.log(contractors)
+        this.contractors = contractors;
+        this.store.dispatch(loadContractors())
+      })
+      ).subscribe(
+        () => console.log('b')
+      )
+    //this.contractorService.findAll().subscribe(
+    //  res => {
+    //    this.contractors = res;
+    //  }, err => {
+    //    console.log(err)
+    // }
+    //)
   }
 
 }

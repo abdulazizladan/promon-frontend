@@ -6,7 +6,7 @@ import { tap } from 'rxjs/operators';
 import { AdminState } from 'src/app/store';
 import { Store } from '@ngrx/store';
 import { loadProjects } from '../../actions/project.actions';
-//import { Project } from '../../models/project.model';
+import { Project } from '../../models/project.model';
 
 @Component({
   selector: 'app-projects-list',
@@ -15,7 +15,7 @@ import { loadProjects } from '../../actions/project.actions';
 })
 export class ProjectsListComponent implements OnInit {
 
-  public projects: any;
+  public projects!: Project[];
   
   displayedColumns: string[] = ['title', 'description', 'location']
 
