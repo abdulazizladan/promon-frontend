@@ -2,7 +2,6 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { User } from '../models/User.model';
 import { Observable } from 'rxjs';
-
 @Injectable({
   providedIn: 'root'
 })
@@ -43,6 +42,13 @@ export class AuthService {
   signout() : void{
     //clear login credentials
     //route to login
+  }
+
+  /**
+   * 
+   */
+  resetPassword( oldPassword: string, newPassword: string) : Observable<string>{
+    return this.http.put<string>('', oldPassword)
   }
 
 }
