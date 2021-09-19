@@ -11,7 +11,7 @@
 			"phoneNumber": "08012345678"
 		}]
 	},
-  {
+  	{
 		"_id": "djfuisdf2",
 		"name": "LazyMan corps",
 		"website": "www.sdjhfb.co",
@@ -21,6 +21,18 @@
 			"lga": "Zaria",
 			"address": "45, Ban Zazzau",
 			"phoneNumber": "08065345678"
+		}]
+	},
+	{
+		"_id": "djfudsdf2",
+		"name": "Aiki corps",
+		"website": "www.sdjhfb.co",
+		"branches": [{
+			"designation": "main",
+			"state": "kaduna",
+			"lga": "kaduna north",
+			"address": "malali",
+			"phoneNumber": "08065321678"
 		}]
 	}
 ]
