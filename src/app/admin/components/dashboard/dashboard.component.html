@@ -7,7 +7,7 @@
   <div id="banner" fxLayout.xs="column" fxLayout.gt-xs="row" fxLayoutGap="20px">
 
     <mat-card fxFlex="70%" id="map">
-      <mat-toolbar >
+      <mat-toolbar color="accent">
           <span>Kaduna State</span>
       </mat-toolbar>
       <svg width="100%" height="85%" viewBox="0 0 864 796">
@@ -131,20 +131,24 @@
     </mat-card>
 
     <div fxFlex="30%" fxLayout="column" fxLayoutAlign="space-between">
-      <mat-card fxFlex="20%">
-        A
+      <mat-card class="side-card" fxFlex="20%">
+        <span class="mat-display-2">0</span> &nbsp;
+        <span class="subheading-1">Ongoing projects</span>
       </mat-card>
 
-      <mat-card mat-card fxFlex="20%">
-        B
+      <mat-card class="side-card" mat-card fxFlex="20%">
+         <span class="mat-display-2">0</span> &nbsp;
+         <span class="subheading-1">Projects awaiting feedback</span>
       </mat-card >
 
-      <mat-card mat-card fxFlex="20%">
-        C
+      <mat-card class="side-card" mat-card fxFlex="20%">
+         <span class="mat-display-2">0</span> &nbsp;
+         <span class="subheading-1">Abandoned projects</span>
       </mat-card>
 
-      <mat-card mat-card fxFlex="20%">
-        D
+      <mat-card class="side-card" mat-card fxFlex="20%">
+         <span class="mat-display-2">0</span> &nbsp;
+         <span class="subheading-1">Completed projects</span>
       </mat-card>
     </div>
 

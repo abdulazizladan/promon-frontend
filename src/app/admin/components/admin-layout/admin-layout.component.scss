@@ -17,17 +17,18 @@
 
 #profile-window{
   width: 100%;
-  aspect-ratio: 16/11;
+  aspect-ratio: 1/1;
   #profile-pic{
     width: 50%;
     aspect-ratio: 1/1;
     border-radius: 50%;
-    background-color: grey;
+    background-color: white;
   }
 }
 mat-sidenav{
   width: 240px;
   border-right: none;
+  background-color: #004ba0;
   //background: #212121;
   //color: white;
   padding: 0px;

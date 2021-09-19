@@ -9,14 +9,21 @@
   }
   .pill{
     aspect-ratio: 19/9;
-    background-color: #666666;
+    background-color: #004ba0;
+  }
+}
+
+#banner{
+  .side-card{
+    background-color: #004ba0;
+    color: #ffffff;
   }
 }
 
 svg{
   fill:green;
   path{
-    fill: #cccccc;
+    fill: #bbdefb;
     stroke:#ffffff;
     stroke-width:1.0;
     stroke-linecap:butt;
@@ -27,6 +34,6 @@ svg{
     transition: 1.25s;;
   }
   path:hover{
-    fill: #424242;
+    fill: #004ba0;
   }
 }
