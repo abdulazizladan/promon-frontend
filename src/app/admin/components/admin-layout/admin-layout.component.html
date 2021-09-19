@@ -1,45 +1,55 @@
 <div class="main" fxLayout="column">
   <mat-toolbar color="primary" style="min-height: 40px !important; height: 30px !important;">
     <mat-toolbar-row>
-      <button color="accent" mat-icon-button (click)="sidenav.toggle()">
+      <button mat-icon-button (click)="sidenav.toggle()">
         <mat-icon>menu</mat-icon>
       </button>
-      <span color="accent" class="mat-caption">ProMon V1.0</span>
+      <span  class="mat-caption">ProMon V1.0</span>
       <span fxFlex="1 1"></span>
+      <span class="mat-caption">Abdulaziz Ladan</span>
       <button mat-icon-button>
-        <mat-icon color="accent">notifications</mat-icon>
+        <mat-icon>notifications</mat-icon>
       </button>
-      <span fxFlex="20px"></span>
       <button mat-icon-button [matMenuTriggerFor]="menu">
-        <mat-icon color="accent">more_vert</mat-icon>
+        <mat-icon>more_vert</mat-icon>
       </button>
       <mat-menu #menu="matMenu" color="primary">
-        <button mat-menu-item color="accent">
-            <mat-icon color="accent">exit_to_app</mat-icon>
+        <button mat-menu-item>
+            <mat-icon>exit_to_app</mat-icon>
             Logout
         </button>
       </mat-menu>
     </mat-toolbar-row>
   </mat-toolbar>
   <mat-sidenav-container fxFlex="1 1 auto" class="sidenav-container">
-    <mat-sidenav #sidenav fxLayout="column" color="primary" class="sidenav">
-      <button color="accent" mat-button routerLink="./" (click)="sidenav.toggle()">
-        <mat-icon>table_chart</mat-icon>
-        Dashboard
+    <mat-sidenav opened #sidenav fxLayout="column" color="primary" class="sidenav">
+      <div id="profile-window" fxLayout="column" fxLayoutGap="10px" fxLayoutAlign="center center">
+        <div id="profile-pic">
+
+        </div>
+        <span class="mat-caption">Abdulaziz Ladan</span>
+      </div>
+      <button color="primary" mat-button routerLink="./" (click)="sidenav.toggle()">
+        <mat-icon>dashboard</mat-icon>
+        &nbsp; Dashboard
       </button>
-      <button color="accent" mat-button routerLink="./projects" (click)="sidenav.toggle()">
+      <button color="primary" mat-button routerLink="./projects" (click)="sidenav.toggle()">
         <mat-icon>business_center</mat-icon>
-        Projects
+        &nbsp; Projects
       </button>
-      <button color="accent" mat-button routerLink="./contractors" (click)="sidenav.toggle()">
+      <button color="primary" mat-button routerLink="./contractors" (click)="sidenav.toggle()">
         <mat-icon>business</mat-icon>
-        Contractors
+        &nbsp; Contractors
       </button>
-      <button color="accent" mat-button routerLink="./users" (click)="sidenav.toggle()">
+      <button color="primary" mat-button routerLink="./users" (click)="sidenav.toggle()">
         <mat-icon>people</mat-icon>
-        Users
+        &nbsp; Users
       </button>
     </mat-sidenav>
-    <router-outlet></router-outlet>
+    <mat-sidenav-content fxLayout="row" fxLayoutAlign="center">
+      <div fxFlex.lt-lg="100%" fxFlex.gt-sm="1024px">
+        <router-outlet></router-outlet>
+      </div>
+    </mat-sidenav-content>
   </mat-sidenav-container>
 </div>
