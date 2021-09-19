@@ -35,6 +35,8 @@ import { MatTableModule } from '@angular/material/table';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
+import { MatTooltipModule } from '@angular/material/tooltip'
+
 import { ProjectDetailsComponent } from './components/project-details/project-details.component';
 import { StateMapComponent } from './components/state-map/state-map.component';
 import { CountryMapComponent } from './components/country-map/country-map.component';
@@ -67,7 +69,7 @@ import { ProjectComponent } from './components/project/project.component';
     ReactiveFormsModule,
     AdminRoutingModule,
     StoreModule.forFeature(
-      'admin', 
+      'admin',
       fromAdmin.adminReducer
     ),
     EffectsModule.forFeature([AdminEffects]),
@@ -85,7 +87,8 @@ import { ProjectComponent } from './components/project/project.component';
     MatTableModule,
     MatDialogModule,
     MatDatepickerModule,
-    MatNativeDateModule
+    MatNativeDateModule,
+    MatTooltipModule
   ]
 })
 export class AdminModule { }
