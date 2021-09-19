@@ -12,3 +12,21 @@
     background-color: #666666;
   }
 }
+
+svg{
+  fill:green;
+  path{
+    fill: #cccccc;
+    stroke:#ffffff;
+    stroke-width:1.0;
+    stroke-linecap:butt;
+    stroke-linejoin:miter;
+    stroke-miterlimit:4;
+    stroke-dasharray:none;
+    stroke-opacity:1;
+    transition: 1.25s;;
+  }
+  path:hover{
+    fill: #424242;
+  }
+}
