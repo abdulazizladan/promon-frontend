@@ -3,6 +3,18 @@
   height: 100%;
 }
 
+#search{
+  background-color: white;
+  border-radius: 3px;
+  padding: 3px;
+  input{
+    border: none;
+  }
+  input:focus{
+    outline:none;
+  }
+}
+
 #profile-window{
   width: 100%;
   aspect-ratio: 16/11;
