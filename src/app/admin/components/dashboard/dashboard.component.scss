@@ -8,14 +8,42 @@
     }
   }
   .pill{
-    aspect-ratio: 19/9;
-    background-color: #004ba0;
+    border-radius: 50px;
+    aspect-ratio: 19/6;
+    .mat-card-subtitle{
+      color: white;
+    }
+  }
+  #card1{
+    background-color: #339b50;
+    //background: linear-gradient(#339b50, rgb(181, 247, 175));
+    color: #ffffff;
+  }
+  #card2{
+    background-color: #3f658f;
+    //background: linear-gradient(#86acd8, #3f658f);
+    color: #ffffff;
+  }
+  #card3{
+    background-color: #143355;
+    color: #ffffff;
+  }
+  #card4{
+    background-color: #eb0707;
+    color: #ffffff;
   }
 }
 
 #banner{
+  #map{
+    #toolbar{
+      background-color: #2f5683;
+      height: 40px !important;
+    }
+  }
+
   .side-card{
-    background-color: #004ba0;
+    background-color: #2f5683;
     color: #ffffff;
   }
 }
@@ -35,5 +63,14 @@ svg{
   }
   path:hover{
     fill: #004ba0;
+  }
+}
+
+.cards{
+  padding: 0px;
+  aspect-ratio: 16/9;
+  .mat-toolbar{
+    background-color: #2f5683;
+    height: 40px !important;
   }
 }
