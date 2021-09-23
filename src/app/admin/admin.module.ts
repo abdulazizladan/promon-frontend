@@ -35,7 +35,8 @@ import { MatTableModule } from '@angular/material/table';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
-import { MatTooltipModule } from '@angular/material/tooltip'
+import { MatTooltipModule } from '@angular/material/tooltip';
+import { MatListModule } from '@angular/material/list';
 
 import { ProjectDetailsComponent } from './components/project-details/project-details.component';
 import { StateMapComponent } from './components/state-map/state-map.component';
@@ -88,7 +89,8 @@ import { ProjectComponent } from './components/project/project.component';
     MatDialogModule,
     MatDatepickerModule,
     MatNativeDateModule,
-    MatTooltipModule
+    MatTooltipModule,
+    MatListModule
   ]
 })
 export class AdminModule { }

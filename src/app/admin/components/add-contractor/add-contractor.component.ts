@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { FormBuilder, FormGroup, Validators} from '@angular/forms';
+import { ContractorService }from '../../services/contractor.service'
 
 @Component({
   selector: 'app-add-contractor',
@@ -7,9 +9,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AddContractorComponent implements OnInit {
 
-  constructor() { }
+  public contractorForm: FormGroup = new FormGroup({});
+  constructor(
+    private fb: FormBuilder,
+    private contractorService: ContractorService
+  ) { }
 
   ngOnInit(): void {
+    this.contractorForm = this.fb.group({
+      name: ['', [Validators.required]],
+      website: ['']
+    })
   }
 
 }

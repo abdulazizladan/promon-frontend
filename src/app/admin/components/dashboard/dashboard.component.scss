@@ -76,3 +76,7 @@ svg{
     height: 40px !important;
   }
 }
+
+.activities:nth-child(even){
+  background-color: cornflowerblue;
+}

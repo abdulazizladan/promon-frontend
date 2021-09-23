@@ -9,6 +9,7 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { ProjectsListComponent } from './components/projects-list/projects-list.component';
 import { UserComponent } from './components/user/user.component';
 import { UsersListComponent } from './components/users-list/users-list.component';
+import { MailComponent } from './components/mail/mail.component';
 
 const routes: Routes = [
   {
@@ -38,6 +39,10 @@ const routes: Routes = [
       {
         path: 'users',
         component: UsersListComponent
+      },
+      {
+        path: 'mail',
+        component: MailComponent
       },
       {
         path: 'user/:id',
