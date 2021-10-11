@@ -3,6 +3,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Store } from '@ngrx/store';
 import { User } from '../../models/User.model';
 import { AuthService } from '../../services/auth.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-signin',
@@ -11,7 +12,8 @@ import { AuthService } from '../../services/auth.service';
 })
 export class SigninComponent implements OnInit {
 
-  public signinForm!: FormGroup;
+  submitted:  boolean = false;
+  public signinForm: FormGroup = new FormGroup({});
 
   /**
    *
@@ -22,6 +24,7 @@ export class SigninComponent implements OnInit {
   constructor(
     private authService: AuthService,
     private fb: FormBuilder,
+    private router: Router,
     private user: Store<User> ) { }
 
   ngOnInit(): void {
@@ -43,14 +46,21 @@ export class SigninComponent implements OnInit {
    */
   signin(): void {
     const user = this.signinForm.value
-    this.authService.signin(user).subscribe(
-      res => {
-        console.log(this.signinForm.value)
-      },
-      err => {
-        console.log("Unable to complete action")
-      }
-    )
+    this.submitted = true;
+
+    setTimeout( () => {
+      this.authService.signin(user).subscribe(
+        res => {
+          console.log(this.signinForm.value)
+        },
+        err => {
+          this.submitted = false;
+          this.router.navigate(['./admin'])
+          //console.log("Unable to complete action")
+        }
+      )
+    }, 5000)
+
 
   }
 

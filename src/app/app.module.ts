@@ -13,6 +13,7 @@ import { StoreModule } from '@ngrx/store';
 import { reducers, metaReducers } from './reducers';
 import { EffectsModule } from '@ngrx/effects';
 import { InMemoryDataService } from './in-memory-data.service';
+import { AppEffects } from './app.effects';
 //import { reducers, metaReducers } from './store';
 
 @NgModule({
@@ -29,7 +30,7 @@ import { InMemoryDataService } from './in-memory-data.service';
     StoreModule.forRoot({}, {}),
     StoreModule.forRoot(reducers, { metaReducers }),
     !environment.production ? StoreDevtoolsModule.instrument() : [],
-    EffectsModule.forRoot([])
+    EffectsModule.forRoot([AppEffects])
   ],
   providers: [],
   bootstrap: [AppComponent]

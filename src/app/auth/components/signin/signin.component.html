@@ -1,8 +1,9 @@
 <div fxLayout="row" fxLayoutAlign="center">
-  <mat-card fxLayout="column" fxFlex.xs="100%" fxFlex.gt-xs="280px" fxFlexAlign="center">
+  <mat-card fxLayout="column" fxFlex.xs="100%" fxFlex.gt-xs="280px" fxFlexAlign="center" class="mat-elevation-z5">
     <mat-toolbar color="primary">
       Signin
     </mat-toolbar>
+    <mat-progress-bar mode="query" color="accent" *ngIf="submitted"></mat-progress-bar>
     <mat-card-content fxLayout="column" [formGroup]="signinForm" fxFlex="1">
 
       <mat-form-field appearance="outline">
@@ -10,7 +11,7 @@
           email
         </mat-label>
         <input matInput type="email" formControlName="email">
-        <mat-icon matSuffix color="primary">mail</mat-icon>
+        <mat-icon matSuffix color="accent">mail</mat-icon>
       </mat-form-field>
 
       <mat-form-field appearance="outline">
@@ -18,13 +19,13 @@
           password
         </mat-label>
         <input matInput type="password" formControlName="password">
-        <mat-icon matSuffix color="primary">lock</mat-icon>
+        <mat-icon matSuffix color="accent">lock</mat-icon>
       </mat-form-field>
 
     </mat-card-content>
 
     <mat-card-actions align="end" fxFlex="1">
-      <button mat-flat-button color="primary" (click)="signin()" [disabled]="signinForm.invalid">Signin</button>
+      <button mat-flat-button color="accent" (click)="signin()" [disabled]="signinForm.invalid || submitted">Signin</button>
     </mat-card-actions>
     <!--<mat-card-footer fxFlex="1">
       Unable to complete action.
