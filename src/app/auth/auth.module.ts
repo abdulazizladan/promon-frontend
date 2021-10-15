@@ -22,10 +22,16 @@ import { AuthEffects } from './auth.effects';
 import { SigninComponent } from './components/signin/signin.component';
 import { SignupComponent } from './components/signup/signup.component';
 import { ResetPasswordComponent } from './components/reset-password/reset-password.component';
+import { AuthService } from './services/auth.service';
 
 
 @NgModule({
   declarations: [
+    SigninComponent,
+    SignupComponent,
+    ResetPasswordComponent
+  ],
+  exports: [
     SigninComponent,
     SignupComponent,
     ResetPasswordComponent
@@ -44,6 +50,9 @@ import { ResetPasswordComponent } from './components/reset-password/reset-passwo
     AuthRoutingModule,
     StoreModule.forFeature(fromAuth.authFeatureKey, fromAuth.reducers, { metaReducers: fromAuth.metaReducers }),
     EffectsModule.forFeature([AuthEffects])
+  ],
+  providers: [
+    AuthService
   ]
 })
 export class AuthModule { }
