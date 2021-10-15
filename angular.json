@@ -61,9 +61,9 @@
               ],
               "optimization": {
                 "scripts": true,
-                 "styles": true,
-                 "fonts": false
-             },
+                "styles": true,
+                "fonts": false
+              },
               "outputHashing": "all"
             },
             "development": {
