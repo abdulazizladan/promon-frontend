@@ -15,11 +15,17 @@ import { reducers, metaReducers } from './reducers';
 import { EffectsModule } from '@ngrx/effects';
 import { InMemoryDataService } from './in-memory-data.service';
 import { AppEffects } from './app.effects';
+import { SurveyorsListComponent } from './features/surveyor/components/surveyors-list/surveyors-list.component';
+import { SurveyorSummaryComponent } from './features/surveyor/components/surveyor-summary/surveyor-summary.component';
+import { AddSurveyorComponent } from './features/surveyor/components/add-surveyor/add-surveyor.component';
 //import { reducers, metaReducers } from './store';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SurveyorsListComponent,
+    SurveyorSummaryComponent,
+    AddSurveyorComponent
   ],
   imports: [
     BrowserModule,
