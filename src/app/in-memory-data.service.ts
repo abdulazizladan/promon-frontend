@@ -114,6 +114,11 @@ export class InMemoryDataService implements InMemoryDbService{
         "active": true
     }
 ]
+let contracts = [
+  {
+
+  }
+]
     return {contractors, projects, users}
   }
 }

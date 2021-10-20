@@ -6,10 +6,12 @@
       </button>
       <span  class="mat-caption">ProMon</span>
       <span fxFlex="1 1"></span>
+      <!--
       <div id="search"  fxLayout="row" fxHide.xs>
         <input type="text" placeholder="search">
         <mat-icon color="primary">search</mat-icon>
       </div>
+      -->
       <span fxFlex="20px"></span>
       <span class="mat-caption">Abdulaziz Ladan (Admin) </span>
       <button mat-icon-button>
@@ -46,13 +48,21 @@
         <mat-icon>business</mat-icon>
         &nbsp; Contractors
       </button>
+      <button color="accent" mat-flat-button routerLink="./contractors" (click)="sidenav.toggle()">
+        <mat-icon>work</mat-icon>
+        &nbsp; Contracts
+      </button>
       <button color="accent" mat-flat-button routerLink="./users" (click)="sidenav.toggle()">
-        <mat-icon>people</mat-icon>
-        &nbsp; Users
+        <mat-icon>supervisor_account</mat-icon>
+        &nbsp; Surveyors
       </button>
       <button color="accent" mat-flat-button routerLink="./mail" (click)="sidenav.toggle()">
         <mat-icon>mail</mat-icon>
-        &nbsp; Mail
+        &nbsp; Message center
+      </button>
+      <button color="accent" mat-flat-button routerLink="./mail" (click)="sidenav.toggle()">
+        <mat-icon>notifications</mat-icon>
+        &nbsp; Notifications
       </button>
     </mat-sidenav>
     <mat-sidenav-content fxLayout="row" fxLayoutAlign="center">

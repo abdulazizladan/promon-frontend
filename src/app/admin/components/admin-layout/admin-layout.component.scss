@@ -20,7 +20,7 @@
   aspect-ratio: 5/4;
   background-color: white;
   #profile-pic{
-    width: 50%;
+    width: 25%;
     aspect-ratio: 1/1;
     border-radius: 50%;
     border: 1px solid grey;
@@ -28,7 +28,7 @@
   }
 }
 mat-sidenav{
-  width: 240px;
+  width: 200px;
   border-right: none;
   background-color: #004ba0;
   //background: #212121;

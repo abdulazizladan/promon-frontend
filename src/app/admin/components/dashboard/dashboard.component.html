@@ -2,11 +2,44 @@
 
   <span fxFlex="20px"></span>
 
+  <div fxLayout.xs="column" fxLayout.gt-xs="row" fxLayoutAlign.gt-xs="center" fxLayoutGap.xs="10px" fxLayoutGap.gt-xs="20px">
 
+    <mat-card fxFlex.gt-xs="25%" class="pill" id="card1">
+      <mat-card-header>
+        <img matCardAvatar src="../../../../assets/dummy.svg">
+        <mat-card-title>&#8358; 0.00</mat-card-title>
+        <mat-card-subtitle>Total allocation</mat-card-subtitle>
+      </mat-card-header>
+    </mat-card>
+
+    <mat-card fxFlex.gt-xs="25%" class="pill mat-elevation-z2" id="card2">
+      <mat-card-header>
+        <img matCardAvatar src="../../../../assets/dummy.svg">
+        <mat-card-title>&#8358; 0.00</mat-card-title>
+        <mat-card-subtitle>Funding request</mat-card-subtitle>
+      </mat-card-header>
+    </mat-card>
+
+    <mat-card fxFlex.gt-xs="25%" class="pill" id="card3">
+      <mat-card-header>
+        <img matCardAvatar src="../../../../assets/dummy.svg">
+        <mat-card-title>&#8358; 0.00</mat-card-title>
+        <mat-card-subtitle>Awaiting confirmation</mat-card-subtitle>
+      </mat-card-header>
+    </mat-card>
+
+    <mat-card fxFlex.gt-xs="25%" class="pill" id="card4">
+      <mat-card-header>
+        <img matCardAvatar src="../../../../assets/dummy.svg">
+        <mat-card-title>&#8358; 0.00</mat-card-title>
+        <mat-card-subtitle>Payments made</mat-card-subtitle>
+      </mat-card-header>
+    </mat-card>
+  </div>
 
   <div id="banner" fxLayout.xs="column" fxLayout.gt-xs="row" fxLayoutGap.xs="300px" fxLayoutGap.gt-xs="20px">
 
-    <mat-card fxFlex.gt-xs="70%" id="map">
+    <mat-card fxFlex.gt-xs="70%" id="map" class="mat-elevation-z5">
       <mat-toolbar color="accent" id="toolbar">
           <span>Kaduna State</span>
       </mat-toolbar>
@@ -158,46 +191,13 @@
 
   </div>
 
-  <div fxLayout.xs="column" fxLayout.gt-xs="row" fxLayoutAlign.gt-xs="center" fxLayoutGap.xs="10px" fxLayoutGap.gt-xs="20px">
 
-    <mat-card fxFlex.gt-xs="25%" class="pill" id="card1">
-      <mat-card-header>
-        <img matCardAvatar src="../../../../assets/dummy.svg">
-        <mat-card-title>&#8358; 0.00</mat-card-title>
-        <mat-card-subtitle>Total allocation</mat-card-subtitle>
-      </mat-card-header>
-    </mat-card>
-
-    <mat-card fxFlex.gt-xs="25%" class="pill" id="card2">
-      <mat-card-header>
-        <img matCardAvatar src="../../../../assets/dummy.svg">
-        <mat-card-title>&#8358; 0.00</mat-card-title>
-        <mat-card-subtitle>Funding request</mat-card-subtitle>
-      </mat-card-header>
-    </mat-card>
-
-    <mat-card fxFlex.gt-xs="25%" class="pill" id="card3">
-      <mat-card-header>
-        <img matCardAvatar src="../../../../assets/dummy.svg">
-        <mat-card-title>&#8358; 0.00</mat-card-title>
-        <mat-card-subtitle>Awaiting confirmation</mat-card-subtitle>
-      </mat-card-header>
-    </mat-card>
-
-    <mat-card fxFlex.gt-xs="25%" class="pill" id="card4">
-      <mat-card-header>
-        <img matCardAvatar src="../../../../assets/dummy.svg">
-        <mat-card-title>&#8358; 0.00</mat-card-title>
-        <mat-card-subtitle>Payments made</mat-card-subtitle>
-      </mat-card-header>
-    </mat-card>
-  </div>
 
   <div fxLayout.xs="column" fxLayout.gt-xs="row" fxLayoutAlign.gt-xs="center" fxLayoutGap.gt-xs="20px">
 
     <mat-card fxFlex.gt-xs="60%" class="cards">
       <mat-toolbar color="accent" id="toolbar">
-        <span>Recent activities</span>
+        <span>Activities stream</span>
       </mat-toolbar>
       <mat-list dense>
         <mat-list-item class="activities">
@@ -217,7 +217,7 @@
 
     <mat-card fxFlex.gt-xs="40%" class="cards">
       <mat-toolbar color="accent" id="toolbar">
-        <span>This month</span>
+        <span>Alerts</span>
       </mat-toolbar>
     </mat-card>
 
