@@ -26,7 +26,7 @@ const routes: Routes = [
       },
       {
         path: 'projects',
-        component: ProjectsListComponent
+        loadChildren: () => import('../features/projects/projects.module').then(mod => mod.ProjectsModule)
       },
       {
         path: 'contractors',

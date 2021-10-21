@@ -1,1 +1,75 @@
-<p>add-project works!</p>
+<h1 matDialogTitle>New project</h1>
+<mat-progress-bar mode="query" color="accent" *ngIf="submitted"></mat-progress-bar>
+<div style="height: 20px;"></div>
+<mat-dialog-content fxLayout="column" [formGroup]="projectForm">
+    <div fxLayout.xs="column" fxLayout.gt-xs="row" fxLayoutGap.gt-xs="20px">
+
+      <mat-form-field fxFlex.xs="100%" fxFlex.gt-xs="320px">
+        <mat-label>Title</mat-label>
+        <input matInput type="text" name="title" formControlName="title">
+      </mat-form-field>
+
+      <mat-form-field fxFlex.gt-xs="100%">
+        <mat-label>Sector</mat-label>
+        <mat-select formControlName="sector">
+          <mat-option value="a">
+            sector A
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+    <div fxLayout="row">
+      <mat-form-field fxFlex="100%">
+        <mat-label>Description</mat-label>
+        <textarea matInput rows="2" style="resize: none;" formControlName="description"></textarea>
+      </mat-form-field>
+    </div>
+    <div fxLayout.xs="column" fxLayout.gt-xs="row" fxLayoutGap.gt-xs="20px">
+
+      <mat-form-field fxFlex.gt-xs="100%">
+        <mat-label>Beneficiary</mat-label>
+        <input matInput formControlName="beneficiary">
+      </mat-form-field>
+
+      <mat-form-field fxFlex.gt-xs="120px">
+        <mat-label>Budget</mat-label>
+        <input matInput formControlName="budget">
+        <span matPrefix>&#8358;</span>
+        <span matSuffix>.00</span>
+      </mat-form-field>
+    </div>
+
+    <div fxLayout.xs="column" fxLayout.gt-xs="row" fxLayoutGap.gt-xs="20px">
+      <mat-form-field fxFlex.gt-xs="50%">
+        <mat-label>State</mat-label>
+        <mat-select formControlName="state">
+          <mat-option value="abia">
+            Abia
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <mat-form-field fxFlex.gt-xs="50%">
+        <mat-label>LGA</mat-label>
+        <mat-select formControlName="lga">
+          <mat-option value="arochukwu">
+            Arochukwu
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+    <mat-form-field>
+      <mat-label>Street address</mat-label>
+      <textarea matInput rows="2" style="resize: none;" formControlName="streetAddress"></textarea>
+    </mat-form-field>
+</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+    <button mat-flat-button matDialogClose color="warn">
+      Cancel
+    </button>
+    <button mat-flat-button [disabled]="projectForm.invalid || submitted" color="accent" (click)="submit()">
+      Submit
+    </button>
+
+</mat-dialog-actions>

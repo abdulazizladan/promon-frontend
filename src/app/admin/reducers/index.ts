@@ -21,15 +21,9 @@ import { User } from 'src/app/auth/models/User.model';
 export const adminFeatureKey = 'admin';
 
 export interface AdminState {
-  projects: Project[],
-  users: User[],
-  contractors: Contractor[]
 }
 
 export const initialAdminState: AdminState = {
-  projects: [],
-  users: [],
-  contractors: []
 }
 
 //export const reducers:   ActionReducerMap<AdminState> = {};

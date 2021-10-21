@@ -2,20 +2,23 @@ import {
   ActionReducer,
   ActionReducerMap,
   createFeatureSelector,
+  createReducer,
   createSelector,
   MetaReducer
 } from '@ngrx/store';
-import { environment } from '../../environments/environment';
+import { Project } from '../models/project.model';
+import { environment } from '../../../../environments/environment';
 
 export const projectsFeatureKey = 'projects';
 
-export interface State {
-
+export interface ProjectsState {
+  projects: Project[]
 }
 
-export const reducers: ActionReducerMap<State> = {
+export const initialProjectsState: ProjectsState = {
+  projects: []
+}
 
-};
-
-
-export const metaReducers: MetaReducer<State>[] = !environment.production ? [] : [];
+export const projectsReducers = createReducer(
+  initialProjectsState
+)
