@@ -36,8 +36,8 @@ export class SigninComponent implements OnInit {
    */
   initializeForm() {
     this.signinForm = this.fb.group({
-      email: ['', Validators.required],
-      password: ['', Validators.required]
+      username: ['admin', Validators.required],
+      password: ['admin', Validators.required]
     })
   }
 
@@ -47,9 +47,19 @@ export class SigninComponent implements OnInit {
   signin(): void {
     const user = this.signinForm.value
     this.submitted = true;
-
-    setTimeout( () => {
-      this.authService.signin(user).subscribe(
+    this.authService.signin(user)
+    .subscribe(
+      res => {
+        console.log(res)
+      },
+      err => {
+        console.log(err)
+      }
+    )
+    /**setTimeout( () => {
+      this.authService.signin(user)
+      .pipe()
+      .subscribe(
         res => {
           console.log(this.signinForm.value)
         },
@@ -59,7 +69,7 @@ export class SigninComponent implements OnInit {
           //console.log("Unable to complete action")
         }
       )
-    }, 5000)
+    }, 5000)*/
 
 
   }
