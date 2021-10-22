@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
-import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
+//import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -24,7 +24,7 @@ import { AppEffects } from './app.effects';
   imports: [
     BrowserModule,
     HttpClientModule,
-    HttpClientInMemoryWebApiModule.forRoot(InMemoryDataService, { delay: 500 }),
+    //HttpClientInMemoryWebApiModule.forRoot(InMemoryDataService, { delay: 500 }),
     AppRoutingModule,
     AuthModule,
     BrowserAnimationsModule,
