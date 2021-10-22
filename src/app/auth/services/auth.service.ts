@@ -9,17 +9,16 @@ export class AuthService {
 
   constructor( private http: HttpClient ) { }
 
-  private headers = new HttpHeaders({
-    'Content-Type': 'application/json',
-  });
-
   /**
    * Signin
    * @param user
    * @returns
    */
   signin( user: User ) : Observable<User>{
-    return this.http.post<User> ('http://127.0.0.1:3000/auth/login', user, {headers: this.headers})
+    const headers = new HttpHeaders();
+    headers.set('Content-Type', 'application/json');
+    return this.http.post<User>('http://127.0.0.1:3000/auth/login', user,{headers: headers}
+    )
   }
 
   /**
