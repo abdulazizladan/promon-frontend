@@ -14,10 +14,11 @@ export class AuthService {
    * @param user
    * @returns
    */
-  signin( user: User ) : Observable<User>{
+  signin( user: User ) : Observable<string>{
     const headers = new HttpHeaders();
     headers.set('Content-Type', 'application/json');
-    return this.http.post<User>('http://127.0.0.1:3000/auth/login', user,{headers: headers}
+    return this.http.post('http://127.0.0.1:3000/auth/login', user,
+      {headers: headers, responseType: 'text'}
     )
   }
 
