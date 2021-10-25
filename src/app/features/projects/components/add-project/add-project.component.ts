@@ -32,7 +32,7 @@ export class AddProjectComponent implements OnInit {
       description: ['', Validators.required],
       beneficiary: [''],
       budget: [0, Validators.required],
-      state: ['', Validators.required],
+      state: [''],
       lga: [''],
       streetAddress: ['']
     })
