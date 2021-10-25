@@ -1,7 +1,8 @@
 import { Injectable } from '@angular/core';
-import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { HttpClient, HttpHeaders, HttpErrorResponse, HttpResponse } from '@angular/common/http';
 import { User } from '../models/User.model';
-import { Observable } from 'rxjs';
+import { Observable, of } from 'rxjs';
+import { catchError, map, tap } from 'rxjs/operators';
 @Injectable({
   providedIn: 'root'
 })
@@ -14,17 +15,24 @@ export class AuthService {
    * @param user
    * @returns
    */
-  signin( user: User ) : Observable<User>{
+  signin( user: User ) : Observable<string>{
     const headers = new HttpHeaders(
       {
-        'Content-Type': 'application/json'
+        'Content-Type':  'application/json',
+        'Access-Control-Allow-Origin': '*',
+        'X-Powered-By': 'Express'
       }
     );
     console.log(user)
-    return this.http.post<User>(
+    return this.http.post<any>(
       'http://127.0.0.1:3000/auth/login',
       user,
-      {headers: headers}
+      {headers: headers, },
+    ).pipe(
+      catchError((err, _) => {
+        console.log(err.error.text)
+        return of("not")
+      })
     )
   }
 
