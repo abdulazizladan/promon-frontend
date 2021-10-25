@@ -16,30 +16,10 @@ export class AuthService {
    * @returns
    */
   signin( user: User ) : Observable<string>{
-<<<<<<< HEAD
-    const headers = new HttpHeaders(
-      {
-        'Content-Type':  'application/json',
-        'Access-Control-Allow-Origin': '*',
-        'X-Powered-By': 'Express'
-      }
-    );
-    console.log(user)
-    return this.http.post<any>(
-      'http://127.0.0.1:3000/auth/login',
-      user,
-      {headers: headers, },
-    ).pipe(
-      catchError((err, _) => {
-        console.log(err.error.text)
-        return of("not")
-      })
-=======
     const headers = new HttpHeaders();
     headers.set('Content-Type', 'application/json');
     return this.http.post('http://127.0.0.1:3000/auth/login', user,
       {headers: headers, responseType: 'text'}
->>>>>>> e43f972953f8ff8f0b2ead3360beb544f7360004
     )
   }
 
