@@ -46,13 +46,13 @@ export class SigninComponent implements OnInit {
    */
   signin(): void {
     const user = this.signinForm.value
-    //this.submitted = true;
-    //console.log(user)
+    this.submitted = true;
     this.authService.signin(user)
     .pipe()
     .subscribe(
       res => {
-        console.log(res)
+        localStorage.setItem('token', res)
+
       },
       err => {
         console.log(err)

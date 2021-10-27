@@ -25,7 +25,7 @@ export class ProjectsService {
   */
  findAll(): Observable<Project[]> {
    const url: string = `environment.apiUrl+'/projects`;
-   return this.http.get<Project[]>('http://localhost:8080/api/projects')
+   return this.http.get<Project[]>('http://127.0.0.1:3000/projects')
  }
 
  /**

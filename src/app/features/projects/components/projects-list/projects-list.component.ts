@@ -58,14 +58,6 @@ export class ProjectsListComponent implements OnInit {
       ).subscribe(
         () => console.log('b')
     )
-    //this.projectService.findAll().subscribe(
-    //  res => {
-    //    this.projects = res;
-    //  },
-    //  err => {
-    //    console.log(err)
-    //  }
-    //)
   }
 
 }
