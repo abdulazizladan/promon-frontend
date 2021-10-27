@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Actions, createEffect, ofType } from '@ngrx/effects';
-import { EMPTY } from 'rxjs';
+import { of } from 'rxjs';
 import { map, mergeMap, catchError } from 'rxjs/operators';
 import { ProjectsService } from './services/projects.service';
 
@@ -13,7 +13,7 @@ export class ProjectEffects {
       mergeMap(() => this.projectsService.findAll()
       .pipe(
         map(projects => ({ type: '[Projects API] Projects Load Success', payload: projects})),
-        //catchError(() => of({ type: '[Projects API] Projects Load Error' }))
+        catchError(() => of({ type: '[Projects API] Projects Load Error' }))
       ))
     )
   )
