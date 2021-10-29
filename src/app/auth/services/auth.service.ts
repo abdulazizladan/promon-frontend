@@ -45,8 +45,7 @@ export class AuthService {
    *
    */
   signout() : void{
-    //clear login credentials
-    //route to login
+    localStorage.removeItem('token')
   }
 
   /**

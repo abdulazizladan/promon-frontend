@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
 
 /**Flex layout module */
@@ -23,6 +23,7 @@ import { SigninComponent } from './components/signin/signin.component';
 import { SignupComponent } from './components/signup/signup.component';
 import { ResetPasswordComponent } from './components/reset-password/reset-password.component';
 import { AuthService } from './services/auth.service';
+import { TokenInterceptor } from './services/token.interceptor';
 
 
 @NgModule({
@@ -52,7 +53,12 @@ import { AuthService } from './services/auth.service';
     EffectsModule.forFeature([AuthEffects])
   ],
   providers: [
-    AuthService
+    AuthService,
+    {
+      provide: HTTP_INTERCEPTORS,
+      useClass: TokenInterceptor,
+      multi: true
+    }
   ]
 })
 export class AuthModule { }

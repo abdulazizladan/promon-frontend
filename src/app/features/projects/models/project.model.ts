@@ -2,10 +2,11 @@ export interface Project{
   _id: string,
   title: string,
   description: string,
-  location: string,
+  state: string,
+  lga: string,
   dateAwarded: Date,
   status: number,
-  milestones: [
+  milestones?: [
     {
       title: string,
       description: string,

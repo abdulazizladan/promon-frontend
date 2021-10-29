@@ -52,7 +52,8 @@ export class SigninComponent implements OnInit {
     .subscribe(
       res => {
         localStorage.setItem('token', res)
-
+        this.router.navigate(['/admin'])
+        //console.log(res)
       },
       err => {
         console.log(err)
