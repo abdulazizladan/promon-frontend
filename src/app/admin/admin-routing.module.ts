@@ -30,11 +30,7 @@ const routes: Routes = [
       },
       {
         path: 'contractors',
-        component: ContractorsListComponent
-      },
-      {
-        path: 'contractor/:id',
-        component: ContractorComponent
+        loadChildren: () => import('../features/contractors/contractors.module').then(mod => mod.ContractorsModule)
       },
       {
         path: 'users',
