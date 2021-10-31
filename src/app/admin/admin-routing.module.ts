@@ -33,6 +33,10 @@ const routes: Routes = [
         loadChildren: () => import('../features/contractors/contractors.module').then(mod => mod.ContractorsModule)
       },
       {
+        path: 'contracts',
+        loadChildren: () => import('../features/contracts/contracts.module').then(mod => mod.ContractsModule)
+      },
+      {
         path: 'users',
         component: UsersListComponent
       },
