@@ -43,7 +43,7 @@ export class ContractorsListComponent implements OnInit {
    * First lifecycle hook
    */
   ngOnInit(): void {
-    this.getContracts();
+    this.getContractors();
   }
 
   /**
@@ -56,7 +56,7 @@ export class ContractorsListComponent implements OnInit {
   /**
    * retrieve list of contractors
    */
-  private getContracts(): void{
+  private getContractors(): void{
     this.contractorService.findAll()
     .pipe(
       tap( contractors => {

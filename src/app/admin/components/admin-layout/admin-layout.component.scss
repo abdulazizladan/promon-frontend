@@ -18,7 +18,8 @@
 #profile-window{
   width: 100%;
   aspect-ratio: 5/4;
-  background-color: #004ba0;
+  background-color: #ffffff;
+  border-bottom: 1px solid #979797;
   #profile-pic{
     width: 25%;
     aspect-ratio: 1/1;
@@ -30,14 +31,14 @@
 mat-sidenav{
   width: 200px;
   border-right: none;
-  background-color: #004ba0;
+  background-color: #ffffff;
   //background: #212121;
   //color: white;
   padding: 0px;
   text-align: center;
   button {
       width: 100%;
-      border-bottom: 1px solid #424242;
+      border-bottom: 1px solid #979797;
       border-radius: 0px;
       padding: 1px 25px;
       text-align: left;
