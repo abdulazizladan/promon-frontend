@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
+import { ReactiveFormsModule } from '@angular/forms';
 
 import { FlexLayoutModule } from '@angular/flex-layout';
 
@@ -27,6 +28,7 @@ import { MatTableModule } from '@angular/material/table';
   imports: [
     CommonModule,
     HttpClientModule,
+    ReactiveFormsModule,
     FlexLayoutModule,
     MatToolbarModule,
     MatCardModule,
@@ -35,7 +37,11 @@ import { MatTableModule } from '@angular/material/table';
     MatDialogModule,
     MatTableModule,
     ContractsRoutingModule,
-    StoreModule.forFeature(fromContracts.contractsFeatureKey, fromContracts.reducers, { metaReducers: fromContracts.metaReducers })
+    StoreModule.forFeature(
+      fromContracts.contractsFeatureKey,
+      fromContracts.reducers,
+      { metaReducers: fromContracts.metaReducers }
+    )
   ]
 })
 export class ContractsModule { }
