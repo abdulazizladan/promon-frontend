@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormGroup, FormBuilder, Validators } from '@angular/forms';
+import { FormGroup, FormArray, FormBuilder, Validators } from '@angular/forms';
 import { ContractorsService } from '../../services/contractors.service';
 
 @Component({
@@ -10,6 +10,7 @@ import { ContractorsService } from '../../services/contractors.service';
 export class AddContractorComponent implements OnInit {
 
   public contractorForm: FormGroup = new FormGroup({});
+  phoneNumbers: any;
 
   constructor(
     private fb: FormBuilder,
@@ -25,6 +26,7 @@ export class AddContractorComponent implements OnInit {
       rcNumber: ['', Validators.required],
       website: ['', Validators.required],
       username: ['', Validators.required],
+      password: ['', Validators.required],
       user: this.fb.group({
         firstName: ['', Validators.required],
         lastName: ['', Validators.required],
@@ -37,7 +39,8 @@ export class AddContractorComponent implements OnInit {
   }
 
   createPhoneNumber(): void{
-
+    this.phoneNumbers = this.contractorForm.get('phoneNumbers') as FormArray;
+    this.phoneNumbers.push(this.fb.control({number: ['', [Validators.required]]}))
   }
 
   submit(): void {

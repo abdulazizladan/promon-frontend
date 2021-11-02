@@ -19,6 +19,7 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { MatIconModule } from '@angular/material/icon';
 import { MatTableModule } from '@angular/material/table';
 import { MatInputModule } from '@angular/material/input';
+import { MatProgressBarModule } from '@angular/material/progress-bar';
 
 
 @NgModule({
@@ -33,6 +34,7 @@ import { MatInputModule } from '@angular/material/input';
     HttpClientModule,
     FlexLayoutModule,
     MatToolbarModule,
+    MatProgressBarModule,
     MatCardModule,
     MatButtonModule,
     MatDialogModule,

@@ -1,14 +1,20 @@
-<h1 matDialogTitle>Title</h1>
-
-<mat-dialog-content [formGroup]="contractorForm" fxLayout="column" fxLayoutGap="10px">
-    <mat-form-field appearance="outline">
+<h1 matDialogTitle>Add contractor</h1>
+<mat-progress-bar mode="query" color="accent"></mat-progress-bar>
+<mat-dialog-content [formGroup]="contractorForm" fxLayout="column" fxLayoutGap="5px">
+  <div></div>
+  <mat-form-field>
       <mat-label>Contractor name</mat-label>
       <input matInput formControlName="name">
     </mat-form-field>
     <div fxLayout.xs="column" fxLayout.gt-xs="row" fxLayoutGap.gt-xs="10px">
-      <mat-form-field appearance="outline" fxFlex.gt-xs="100%">
+      <mat-form-field fxFlex.gt-xs="100%">
         <mat-label>Website</mat-label>
         <input matInput formControlName="website">
+      </mat-form-field>
+
+      <mat-form-field fxFlex.gt-xs="120px">
+        <mat-label> RC Number</mat-label>
+        <input matInput forrmControlName="rcNumber">
       </mat-form-field>
     </div>
 </mat-dialog-content>
