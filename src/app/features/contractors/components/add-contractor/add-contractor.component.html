@@ -1,1 +1,20 @@
-<p>add-contractor works!</p>
+<h1 matDialogTitle>Title</h1>
+
+<mat-dialog-content [formGroup]="contractorForm" fxLayout="column" fxLayoutGap="10px">
+    <mat-form-field appearance="outline">
+      <mat-label>Contractor name</mat-label>
+      <input matInput formControlName="name">
+    </mat-form-field>
+    <div fxLayout.xs="column" fxLayout.gt-xs="row" fxLayoutGap.gt-xs="10px">
+      <mat-form-field appearance="outline" fxFlex.gt-xs="100%">
+        <mat-label>Website</mat-label>
+        <input matInput formControlName="website">
+      </mat-form-field>
+    </div>
+</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+    <button mat-flat-button color="warn" matDialogClose>Cancel</button>
+    <button mat-flat-button color="accent" (click)="submit()" [disabled]="contractorForm.invalid">Submit</button>
+
+</mat-dialog-actions>
