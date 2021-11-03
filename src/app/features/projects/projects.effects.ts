@@ -18,6 +18,12 @@ export class ProjectEffects {
     )
   )
 
+  loadSingleProject$ = createEffect(() =>
+    this.actions$.pipe(
+
+    )
+  )
+
   constructor(private actions$: Actions,
   private projectsService: ProjectsService){
 

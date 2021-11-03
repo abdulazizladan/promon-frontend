@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { ProjectsService } from '../../services/projects.service';
 import { CreateProject } from '../../actions/project.actions';
 import { Store } from '@ngrx/store';
 import { Project } from '../../models/project.model';
@@ -18,6 +19,7 @@ export class AddProjectComponent implements OnInit {
 
   constructor(
     private fb: FormBuilder,
+    private projectsService: ProjectsService,
     private store: Store<{project: Project}>
   ) { }
 

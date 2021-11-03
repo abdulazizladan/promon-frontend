@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders, HttpErrorResponse, HttpResponse } from '@angular/common/http';
 import { User } from '../models/User.model';
 import { Observable, of } from 'rxjs';
-import { catchError, map, tap } from 'rxjs/operators';
+import { catchError, map, tap, timeout, retry } from 'rxjs/operators';
 @Injectable({
   providedIn: 'root'
 })
@@ -20,7 +20,7 @@ export class AuthService {
     headers.set('Content-Type', 'application/json');
     return this.http.post('http://127.0.0.1:3000/auth/login', user,
       {headers: headers, responseType: 'text'}
-    )
+    ).pipe(retry(5), timeout(5000))
   }
 
   /**

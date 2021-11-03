@@ -25,15 +25,13 @@ export class AddContractorComponent implements OnInit {
       name: ['', Validators.required],
       rcNumber: ['', Validators.required],
       website: ['', Validators.required],
-      username: ['', Validators.required],
-      password: ['', Validators.required],
       user: this.fb.group({
         firstName: ['', Validators.required],
         lastName: ['', Validators.required],
-        contact: this.fb.group({
-          email: ['', Validators.required],
-          phoneNumbers: this.fb.array([this.createPhoneNumber])
-        })
+        email: ['', Validators.required],
+        phoneNumbers: this.fb.array([this.createPhoneNumber]),
+        username: ['', Validators.required],
+        password: ['', Validators.required]
       })
     })
   }

@@ -20,6 +20,8 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatTableModule } from '@angular/material/table';
 import { MatInputModule } from '@angular/material/input';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
+import { MatDividerModule } from '@angular/material/divider';
+import { MatStepperModule } from '@angular/material/stepper';
 
 
 @NgModule({
@@ -35,6 +37,8 @@ import { MatProgressBarModule } from '@angular/material/progress-bar';
     FlexLayoutModule,
     MatToolbarModule,
     MatProgressBarModule,
+    MatDividerModule,
+    MatStepperModule,
     MatCardModule,
     MatButtonModule,
     MatDialogModule,

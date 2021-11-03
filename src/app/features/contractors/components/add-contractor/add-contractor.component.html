@@ -1,22 +1,79 @@
 <h1 matDialogTitle>Add contractor</h1>
-<mat-progress-bar mode="query" color="accent"></mat-progress-bar>
-<mat-dialog-content [formGroup]="contractorForm" fxLayout="column" fxLayoutGap="5px">
-  <div></div>
-  <mat-form-field>
-      <mat-label>Contractor name</mat-label>
-      <input matInput formControlName="name">
-    </mat-form-field>
-    <div fxLayout.xs="column" fxLayout.gt-xs="row" fxLayoutGap.gt-xs="10px">
-      <mat-form-field fxFlex.gt-xs="100%">
-        <mat-label>Website</mat-label>
-        <input matInput formControlName="website">
-      </mat-form-field>
+<!--<mat-progress-bar mode="query" color="accent"></mat-progress-bar>-->
+<mat-dialog-content  fxLayout="column" fxLayoutGap="5px">
+  <mat-horizontal-stepper linear [formGroup]="contractorForm">
+    <mat-step label="Company">
+      <div fxLayout="column" fxLayoutGap="5px">
 
-      <mat-form-field fxFlex.gt-xs="120px">
-        <mat-label> RC Number</mat-label>
-        <input matInput forrmControlName="rcNumber">
-      </mat-form-field>
-    </div>
+        <mat-form-field>
+          <mat-label>Contractor name</mat-label>
+          <input matInput formControlName="name">
+        </mat-form-field>
+
+        <div fxLayout.xs="column" fxLayout.gt-xs="row" fxLayoutGap.gt-xs="10px">
+          <mat-form-field fxFlex.gt-xs="100%">
+            <mat-label>Website</mat-label>
+            <input matInput formControlName="website">
+          </mat-form-field>
+
+          <mat-form-field fxFlex.gt-xs="120px">
+            <mat-label> RC Number</mat-label>
+            <input matInput forrmControlName="rcNumber">
+          </mat-form-field>
+        </div>
+
+      </div>
+
+    </mat-step>
+
+    <mat-step formGroupName="user" label="Contact person">
+      <div fxLayout="column" fxLayoutGap="5px">
+        <div fxLayout.xs="column" fxLayout.gt-xs="row" fxLayoutGap.gt-xs="10px">
+          <mat-form-field>
+            <mat-label>First name</mat-label>
+            <input matInput formControlName="firstName">
+          </mat-form-field>
+
+          <mat-form-field>
+            <mat-label>Last name</mat-label>
+            <input matInput>
+          </mat-form-field>
+        </div>
+
+        <div fxLayout.xs="column" fxLayout.gt-xs="row" fxLayoutGap.gt-xs="10px">
+          <mat-form-field fxFlex.gt-xs="50%">
+            <mat-label>Email</mat-label>
+            <input matInput formControlName="username">
+          </mat-form-field>
+
+          <mat-form-field fxFlex.gt-xs="50%">
+            <mat-label>Username</mat-label>
+            <input matInput formControlName="username">
+          </mat-form-field>
+        </div>
+
+        <mat-form-field>
+          <mat-label>Phone number</mat-label>
+          <input type="phone" matInput formControlName="password">
+          <mat-icon matSuffix>phone</mat-icon>
+        </mat-form-field>
+
+        <mat-form-field>
+          <mat-label>Password</mat-label>
+          <input type="password" matInput formControlName="password">
+          <mat-icon matSuffix>lock</mat-icon>
+        </mat-form-field>
+
+        <mat-form-field>
+          <mat-label>Confirm password</mat-label>
+          <input type="password" matInput>
+          <mat-icon matSuffix>lock</mat-icon>
+        </mat-form-field>
+      </div>
+
+    </mat-step>
+  </mat-horizontal-stepper>
+
 </mat-dialog-content>
 
 <mat-dialog-actions align="end">
