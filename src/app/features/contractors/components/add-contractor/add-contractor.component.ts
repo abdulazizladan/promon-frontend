@@ -43,7 +43,7 @@ export class AddContractorComponent implements OnInit {
 
   submit(): void {
     const contractor = this.contractorForm.value;
-    console.log(contractor)
+
   }
 
 }
