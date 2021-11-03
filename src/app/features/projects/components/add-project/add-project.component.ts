@@ -28,7 +28,7 @@ export class AddProjectComponent implements OnInit {
   initializeForm(): void{
     this.projectForm = this.fb.group({
       title: ['', Validators.required],
-      sector: [''],
+      //sector: [''],
       description: ['', Validators.required],
       beneficiary: [''],
       budget: [0, Validators.required],
