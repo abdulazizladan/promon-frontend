@@ -2,17 +2,103 @@
 
   <span fxFlex="20px"></span>
 
-  <div fxLayout.xs="column" fxLayout.gt-xs="row" fxLayoutAlign.gt-xs="center" fxLayoutGap.xs="10px" fxLayoutGap.gt-xs="20px">
+  <div fxLayout.xs="column" fxLayout.gt-xs="row" fxLayoutAlign.gt-xs="center" fxLayoutGap.xs="10px" fxLayoutGap.gt-xs="10px">
 
-    <mat-card fxFlex.gt-xs="25%" class="pill mat-elevation-z3" id="card1">
-      <mat-card-header>
+    <div fxFlex.gt-xs="16.5%" class="pill mat-elevation-z3" id="card1" fxLayoutGap="10px" fxLayout="Column">
+      <!--<mat-card-header>
         <img matCardAvatar src="../../../../assets/icons/finances.jpg">
         <mat-card-title>Total allocation</mat-card-title>
         <mat-card-subtitle align="end">&#8358; 0.00</mat-card-subtitle>
-      </mat-card-header>
-    </mat-card>
+      </mat-card-header>-->
+        <div class="mat-caption" align="center">
+          Upcoming projects
+        </div>
+        <div fxFlex="0px"></div>
+        <div fxFlexLayout="row">
+          <span fxFlex="100%"></span>
+          <span style="font-size: 24px;">0</span>
+        </div>
+        <div fxFlex="5px"></div>
+        <span class="mat-caption">40%</span>
+        <progress style="padding: 0px; height: 5px;" max="100" value="40"></progress>
+    </div>
 
-    <mat-card fxFlex.gt-xs="25%" class="pill mat-elevation-z2" id="card2">
+    <div fxFlex.gt-xs="16.5%" class="pill mat-elevation-z3" id="card1" fxLayoutGap="10px" fxLayout="Column">
+        <div class="mat-caption" align="center">
+          Ongoing projects
+        </div>
+        <div fxFlex="0px"></div>
+        <div fxFlexLayout="row">
+          <span fxFlex="100%"></span>
+          <span style="font-size: 24px;">0</span>
+        </div>
+        <div fxFlex="5px"></div>
+        <span class="mat-caption">40%</span>
+        <progress style="padding: 0px; height: 5px;" max="100" value="40"></progress>
+    </div>
+
+    <div fxFlex.gt-xs="16.5%" class="pill mat-elevation-z3" id="card1" fxLayoutGap="10px" fxLayout="Column">
+      <div class="mat-caption" align="center">
+        Verified claims
+      </div>
+      <div fxFlex="0px"></div>
+      <div fxFlexLayout="row">
+        <span fxFlex="100%"></span>
+        <span style="font-size: 24px;">0</span>
+      </div>
+      <div fxFlex="5px"></div>
+      <span class="mat-caption">40%</span>
+      <progress style="padding: 0px; height: 5px;" max="100" value="40"></progress>
+    </div>
+
+    <div fxFlex.gt-xs="16.5%" class="pill mat-elevation-z3" id="card1" fxLayoutGap="10px" fxLayout="Column">
+      <div class="mat-caption" align="center">
+        Completed projects
+      </div>
+      <div fxFlex="0px"></div>
+      <div fxFlexLayout="row">
+        <span fxFlex="100%"></span>
+        <span style="font-size: 24px;">0</span>
+      </div>
+      <div fxFlex="5px"></div>
+      <span class="mat-caption">40%</span>
+      <progress style="padding: 0px; height: 5px;" max="100" value="40"></progress>
+  </div>
+
+
+
+  <div fxFlex.gt-xs="16.5%" class="pill mat-elevation-z3" id="card1" fxLayoutGap="10px" fxLayout="Column">
+    <div class="mat-caption" align="center">
+      Abandoned projects
+    </div>
+    <div fxFlex="0px"></div>
+    <div fxFlexLayout="row">
+      <span fxFlex="100%"></span>
+      <span style="font-size: 24px;">0</span>
+    </div>
+    <div fxFlex="5px"></div>
+    <span class="mat-caption">40%</span>
+    <progress style="padding: 0px; height: 5px;" max="100" value="40"></progress>
+  </div>
+
+
+
+  <div fxFlex.gt-xs="16.5%" class="pill mat-elevation-z3" id="card1" fxLayoutGap="10px" fxLayout="Column">
+    <div class="mat-caption" align="center">
+      Total projects
+    </div>
+    <div fxFlex="0px"></div>
+    <div fxFlexLayout="row">
+      <span fxFlex="100%"></span>
+      <span style="font-size: 24px;">0</span>
+      <span fxFlex="100%"></span>
+    </div>
+    <div fxFlex="5px"></div>
+  </div>
+
+
+    <!--
+    <mat-card fxFlex.gt-xs="16.5%" class="pill mat-elevation-z2" id="card2">
       <mat-card-header>
         <img matCardAvatar src="../../../../assets/icons/2973409.png">
         <mat-card-title>Funding request</mat-card-title>
@@ -20,7 +106,7 @@
       </mat-card-header>
     </mat-card>
 
-    <mat-card fxFlex.gt-xs="25%" class="pill mat-elevation-z3" id="card3">
+    <mat-card fxFlex.gt-xs="16.5%" class="pill mat-elevation-z3" id="card3">
       <mat-card-header>
         <img matCardAvatar src="../../../../assets/icons//waiting.jpg">
         <mat-card-title>Awaiting confirmation</mat-card-title>
@@ -28,19 +114,37 @@
       </mat-card-header>
     </mat-card>
 
-    <mat-card fxFlex.gt-xs="25%" class="pill mat-elevation-z3" id="card4">
+    <mat-card fxFlex.gt-xs="16.5%" class="pill mat-elevation-z3" id="card4">
       <mat-card-header>
         <img matCardAvatar src="../../../../assets/icons//paid.png">
         <mat-card-title>Payments made</mat-card-title>
         <mat-card-subtitle align="end">&#8358; 0.00</mat-card-subtitle>
       </mat-card-header>
     </mat-card>
+
+    <mat-card fxFlex.gt-xs="16.5%" class="pill mat-elevation-z3" id="card4">
+      <mat-card-header>
+        <img matCardAvatar src="../../../../assets/icons//paid.png">
+        <mat-card-title>Payments made</mat-card-title>
+        <mat-card-subtitle align="end">&#8358; 0.00</mat-card-subtitle>
+      </mat-card-header>
+    </mat-card>
+
+    <mat-card fxFlex.gt-xs="16.5%" class="pill mat-elevation-z3" id="card4">
+      <mat-card-header>
+        <img matCardAvatar src="../../../../assets/icons//paid.png">
+        <mat-card-title>Payments made</mat-card-title>
+        <mat-card-subtitle align="end">&#8358; 0.00</mat-card-subtitle>
+      </mat-card-header>
+    </mat-card>
+    -->
+
   </div>
 
   <div id="banner" fxLayout.xs="column" fxLayout.gt-xs="row" fxLayoutGap.xs="300px" fxLayoutGap.gt-xs="20px">
 
     <mat-card fxFlex.gt-xs="70%" id="map" class="mat-elevation-z5">
-      <mat-toolbar color="primary" id="toolbar">
+      <mat-toolbar id="toolbar">
           <span>Kaduna State</span>
       </mat-toolbar>
       <div>
@@ -169,24 +273,29 @@
 
     <div fxFlex.gt-xs="30%" fxLayout="column" fxLayoutAlign="space-between">
       <mat-card class="side-card mat-elevation-z3" fxFlex="20%">
-        <span class="mat-display-2">0</span> &nbsp;
-        <span class="subheading-1">Upcoming projects</span>
+        <span class="mat-display-1" style="color: #2f5683;">&#8358; 0.00</span> &nbsp;
+        <span class="subheading-1">Funding request</span>
       </mat-card>
 
       <mat-card class="side-card mat-elevation-z3" mat-card fxFlex="20%">
-         <span class="mat-display-2">0</span> &nbsp;
-         <span class="subheading-1">Ongoing projects</span>
+         <span class="mat-display-1" style="color: #2f5683;">&#8358; 0.00</span> &nbsp;
+         <span class="subheading-1">Awaiting confirmation</span>
       </mat-card >
 
       <mat-card class="side-card mat-elevation-z3" mat-card fxFlex="20%">
-         <span class="mat-display-2">0</span> &nbsp;
-         <span class="subheading-1">Abandoned projects</span>
+         <span class="mat-display-1" style="color: #2f5683;">&#8358; 0.00</span> &nbsp;
+         <span class="subheading-1">Payments made to date</span>
       </mat-card>
 
       <mat-card class="side-card mat-elevation-z3" mat-card fxFlex="20%">
-         <span class="mat-display-2">0</span> &nbsp;
-         <span class="subheading-1">Completed projects</span>
+         <span class="mat-display-1" style="color: #2f5683;">&#8358; 0.00</span>&nbsp;
+         <span class="mat-caption">Outstanding payment</span>
       </mat-card>
+
+      <mat-card class="side-card mat-elevation-z3" mat-card fxFlex="20%">
+        <span class="mat-display-1" style="color: #2f5683;">&#8358; 0.00</span> &nbsp;
+        <span class="subheading-1">Total allocation</span>
+     </mat-card>
     </div>
 
   </div>
@@ -196,7 +305,7 @@
   <div fxLayout.xs="column" fxLayout.gt-xs="row" fxLayoutAlign.gt-xs="center" fxLayoutGap.gt-xs="20px">
 
     <mat-card fxFlex.gt-xs="60%" class="cards mat-elevation-z3">
-      <mat-toolbar color="accent" id="toolbar">
+      <mat-toolbar id="toolbar">
         <span>Activities stream</span>
       </mat-toolbar>
       <mat-list dense>
@@ -216,7 +325,7 @@
     </mat-card>
 
     <mat-card fxFlex.gt-xs="40%" class="cards mat-elevation-z3">
-      <mat-toolbar color="accent" id="toolbar">
+      <mat-toolbar id="toolbar">
         <span>Alerts</span>
       </mat-toolbar>
     </mat-card>

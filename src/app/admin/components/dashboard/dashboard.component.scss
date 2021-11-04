@@ -14,6 +14,7 @@
   .pill{
     border-radius:0px;
     aspect-ratio: 19/6;
+    padding: 5px 15px;
     cursor: pointer;
     .mat-card-subtitle{
       color: grey;
@@ -21,7 +22,7 @@
   }
   #card1{
     //background: linear-gradient(#339b50, rgb(181, 247, 175));
-    color: grey;
+    color: #2f5683;
   }
   #card2{
     //background: linear-gradient(#86acd8, #3f658f);
@@ -38,7 +39,9 @@
 #banner{
   #map{
     #toolbar{
-      background-color: #2f5683;
+      //background-color: #2f5683;
+      border-bottom: 1px solid #2f5683;
+      color: #2f5683;
       height: 40px !important;
     }
   }
@@ -73,11 +76,18 @@ svg{
   padding: 0px;
   aspect-ratio: 16/9;
   .mat-toolbar{
-    background-color: #2f5683;
+    border-bottom: 1px solid #2f5683;
+    color: #2f5683;
     height: 40px !important;
   }
 }
 
 .activities:nth-child(even){
-  background-color: cornflowerblue;
+  background-color: rgb(218, 239, 255);
+}
+
+
+progress::-webkit-progress-value{
+  color: pink;
+  background-color: #ffffff;
 }
