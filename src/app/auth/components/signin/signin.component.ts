@@ -53,10 +53,10 @@ export class SigninComponent implements OnInit {
       res => {
         localStorage.setItem('token', res)
         this.router.navigate(['/admin'])
-        //console.log(res)
       },
       err => {
-        console.log(err)
+        setTimeout( () => {this.submitted = false;}, 5000)
+
       }
     )
     /**setTimeout( () => {

@@ -12,30 +12,26 @@
     }
   }
   .pill{
-    border-radius: 50px;
+    border-radius:0px;
     aspect-ratio: 19/6;
     cursor: pointer;
     .mat-card-subtitle{
-      color: white;
+      color: grey;
     }
   }
   #card1{
-    background-color: #339b50;
     //background: linear-gradient(#339b50, rgb(181, 247, 175));
-    color: #ffffff;
+    color: grey;
   }
   #card2{
-    background-color: #3f658f;
     //background: linear-gradient(#86acd8, #3f658f);
-    color: #ffffff;
+    color: grey;
   }
   #card3{
-    background-color: #143355;
-    color: #ffffff;
+    color:grey;
   }
   #card4{
-    background-color: #eb0707;
-    color: #ffffff;
+    color: grey;
   }
 }
 
@@ -48,8 +44,8 @@
   }
 
   .side-card{
-    background-color: #2f5683;
-    color: #ffffff;
+    background-color: white;
+    color: grey;
   }
 }
 
