@@ -4,6 +4,7 @@ import { Store } from '@ngrx/store';
 import { User } from '../../models/User.model';
 import { AuthService } from '../../services/auth.service';
 import { Router } from '@angular/router';
+import { signin } from '../../auth.actions';
 
 @Component({
   selector: 'app-signin',
@@ -25,7 +26,7 @@ export class SigninComponent implements OnInit {
     private authService: AuthService,
     private fb: FormBuilder,
     private router: Router,
-    private user: Store<User> ) { }
+    private store: Store<User> ) { }
 
   ngOnInit(): void {
     this.initializeForm();
@@ -52,6 +53,7 @@ export class SigninComponent implements OnInit {
     .subscribe(
       res => {
         localStorage.setItem('token', res)
+        this.store.dispatch(signin({user}))
         this.router.navigate(['/admin'])
       },
       err => {

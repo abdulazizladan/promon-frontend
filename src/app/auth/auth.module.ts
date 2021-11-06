@@ -49,7 +49,10 @@ import { TokenInterceptor } from './services/token.interceptor';
     MatIconModule,
     MatProgressBarModule,
     AuthRoutingModule,
-    StoreModule.forFeature(fromAuth.authFeatureKey, fromAuth.reducers, { metaReducers: fromAuth.metaReducers }),
+    StoreModule.forFeature(
+      fromAuth.authFeatureKey,
+      fromAuth.authReducer
+    ),
     EffectsModule.forFeature([AuthEffects])
   ],
   providers: [

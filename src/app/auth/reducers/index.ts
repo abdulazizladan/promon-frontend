@@ -2,20 +2,32 @@ import {
   ActionReducer,
   ActionReducerMap,
   createFeatureSelector,
+  createReducer,
   createSelector,
-  MetaReducer
+  MetaReducer,
+  on
 } from '@ngrx/store';
 import { environment } from '../../../environments/environment';
+import { signin } from '../auth.actions';
+import { User } from '../models/User.model';
 
 export const authFeatureKey = 'auth';
 
-export interface State {
-
+export interface AuthState {
+  token: string
 }
 
-export const reducers: ActionReducerMap<State> = {
+export const initialAuthState: AuthState = {
+  token : ''
+}
 
-};
+//export const reducers: ActionReducerMap<AuthState> = {
+//};
 
-
-export const metaReducers: MetaReducer<State>[] = !environment.production ? [] : [];
+export const authReducer = createReducer(
+  on(signin, (state, action) => {
+    return {
+      token : action.user
+    }
+  })
+)
