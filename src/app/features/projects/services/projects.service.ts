@@ -46,6 +46,10 @@ export class ProjectsService {
 
  }
 
+ edit(id: string, project: Project): Observable<Project> {
+  return this.http.put<Project>(`http://127.0.0.1:3000/projects/${id}`, project)
+}
+
  /**
   *
   * @returns
