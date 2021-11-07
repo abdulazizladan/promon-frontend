@@ -48,7 +48,7 @@ import { MatStepperModule } from '@angular/material/stepper';
     ContractorsRoutingModule,
     StoreModule.forFeature
     (fromContractors.contractorsFeatureKey,
-      fromContractors.reducers,
+      fromContractors.contractorsReducers,
     )
   ]
 })

@@ -14,6 +14,7 @@ import { signin } from '../../auth.actions';
 export class SigninComponent implements OnInit {
 
   submitted:  boolean = false;
+  loginFailed: boolean = false;
   public signinForm: FormGroup = new FormGroup({});
 
   /**
@@ -57,7 +58,9 @@ export class SigninComponent implements OnInit {
         this.router.navigate(['/admin'])
       },
       err => {
-        setTimeout( () => {this.submitted = false;}, 5000)
+        setTimeout( () => {
+          this.submitted = false;
+        }, 5000)
 
       }
     )

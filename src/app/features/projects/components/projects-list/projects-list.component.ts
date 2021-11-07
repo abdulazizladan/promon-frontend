@@ -7,6 +7,7 @@ import { AdminState } from 'src/app/store';
 import { Store } from '@ngrx/store';
 import { loadProjects } from '../../actions/project.actions';
 import { Project } from '../../models/project.model';
+import { noop } from 'rxjs';
 
 @Component({
   selector: 'app-projects-list',
@@ -51,12 +52,12 @@ export class ProjectsListComponent implements OnInit {
     this.projectService.findAll()
     .pipe(
       tap( projects => {
-        console.log(projects)
+        //console.log(projects)
         this.projects = projects;
         this.store.dispatch(loadProjects())
       })
       ).subscribe(
-        () => console.log('b')
+        () => noop
     )
   }
 
