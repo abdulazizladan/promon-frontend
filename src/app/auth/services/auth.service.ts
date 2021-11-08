@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders, HttpErrorResponse, HttpResponse } from '@angular/common/http';
 import { User } from '../models/User.model';
+import { Router } from '@angular/router';
 import { Observable, of } from 'rxjs';
 import { catchError, map, tap, timeout, retry } from 'rxjs/operators';
 @Injectable({
@@ -8,7 +9,10 @@ import { catchError, map, tap, timeout, retry } from 'rxjs/operators';
 })
 export class AuthService {
 
-  constructor( private http: HttpClient ) { }
+  constructor(
+    private http: HttpClient,
+    private router: Router
+  ) { }
 
   /**
    * Signin
@@ -45,7 +49,8 @@ export class AuthService {
    *
    */
   signout() : void{
-    localStorage.removeItem('token')
+    localStorage.removeItem('token');
+    this.router.navigateByUrl('./');
   }
 
   /**

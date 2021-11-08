@@ -9,6 +9,8 @@ import * as fromAdmin from './reducers';
 import { EffectsModule } from '@ngrx/effects';
 import { AdminEffects } from './admin.effects';
 
+import { AuthModule } from '../auth/auth.module';
+
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { UsersListComponent } from './components/users-list/users-list.component';
 import { ProjectsListComponent } from './components/projects-list/projects-list.component';

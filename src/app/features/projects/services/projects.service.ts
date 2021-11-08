@@ -42,8 +42,9 @@ export class ProjectsService {
   *
   * @param project
   */
- create( project: Project): void{
-
+ create( project: Project): Observable<Project>{
+  const url: string = `environment.apiUrl+'/projects`;
+  return this.http.post<Project>(url, project)
  }
 
  edit(id: string, project: Project): Observable<Project> {
