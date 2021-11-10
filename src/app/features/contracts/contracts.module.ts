@@ -17,6 +17,9 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatTableModule } from '@angular/material/table';
+import { MatInputModule } from '@angular/material/input';
+import { MatSelectModule } from '@angular/material/select';
+import { MatDatepickerModule } from '@angular/material/datepicker';
 
 
 @NgModule({
@@ -33,8 +36,11 @@ import { MatTableModule } from '@angular/material/table';
     MatToolbarModule,
     MatCardModule,
     MatButtonModule,
+    MatInputModule,
+    MatSelectModule,
     MatIconModule,
     MatDialogModule,
+    MatDatepickerModule,
     MatTableModule,
     ContractsRoutingModule,
     StoreModule.forFeature(

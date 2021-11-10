@@ -1,1 +1,47 @@
-<p>add-contract works!</p>
+<h1 matDialogTitle>New contract</h1>
+
+<mat-dialog-content>
+  <div fxLayout.xs="column" fxLayout.gt-xs="row" fxLayoutGap.gt-xs="10px">
+    <mat-form-field>
+      <mat-label>
+        Project
+      </mat-label>
+      <mat-select>
+        <mat-option></mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>
+        Contractor
+      </mat-label>
+      <mat-select>
+        <mat-option></mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+
+  <div fxLayout.xs="column" fxLayout.gt-xs="row" fxLayoutGap.gt-xs="10px">
+
+    <mat-form-field>
+      <mat-label>Start date</mat-label>
+      <input matInput [matDatepicker]="dp3">
+      <mat-datepicker-toggle matSuffix [for]="dp3"></mat-datepicker-toggle>
+      <mat-datepicker #dp3 disabled="false"></mat-datepicker>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Start date</mat-label>
+      <input matInput [matDatepicker]="dp3">
+      <mat-datepicker-toggle matSuffix [for]="dp3"></mat-datepicker-toggle>
+      <mat-datepicker #dp3 disabled="false"></mat-datepicker>
+    </mat-form-field>
+
+  </div>
+
+</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+    <button mat-flat-button color="warn" matDialogClose>Cancel</button>
+    <button mat-flat-button color="accent">Action</button>
+</mat-dialog-actions>
