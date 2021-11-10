@@ -28,4 +28,9 @@ export class AddContractComponent implements OnInit {
     })
   }
 
+  submit() {
+    const contract = this.contractForm.value;
+    this.contractService.create(contract)
+  }
+
 }

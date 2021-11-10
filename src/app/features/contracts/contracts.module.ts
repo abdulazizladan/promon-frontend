@@ -45,8 +45,7 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
     ContractsRoutingModule,
     StoreModule.forFeature(
       fromContracts.contractsFeatureKey,
-      fromContracts.reducers,
-      { metaReducers: fromContracts.metaReducers }
+      fromContracts.contractReducers
     )
   ]
 })
