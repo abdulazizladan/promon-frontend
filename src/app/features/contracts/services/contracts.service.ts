@@ -36,4 +36,18 @@ export class ContractsService {
   public create(contract: Contract): Observable<Contract> {
     return  this.http.post<Contract>(`http://127.0.0.1/3000/contracts`, contract)
   }
+
+  /**
+   *
+   * @param id
+   * @param contract
+   * @returns
+   */
+  public update(id: string, contract: Contract): Observable<Contract> {
+    return this.http.put<Contract>(`http://127.0.0.1/3000/contracts/${id}`, contract)
+  }
+
+  public delete(id: string): Observable<Contract> {
+    return this.http.delete<Contract>(`http://127.0.0.1/contracts/${id}`)
+  }
 }
