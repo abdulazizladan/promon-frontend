@@ -52,7 +52,6 @@ export class ProjectsListComponent implements OnInit {
     this.projectService.findAll()
     .pipe(
       tap( projects => {
-        //console.log(projects)
         this.projects = projects;
         this.store.dispatch(loadProjects())
       })

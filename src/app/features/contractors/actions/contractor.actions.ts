@@ -14,7 +14,13 @@ export const addContractor = createAction(
     '[Contractor] Add Contractor',
     props<{contractor: Contractor}>()
 );
-export const removeContractor = createAction(
+
+export const updateContractor = createAction(
+  '[Contractor] Update Contractor',
+  props<{contractor: Contractor}>()
+)
+
+export const deleteContractor = createAction(
     '[Contractor] Remove Contractor',
-    props<{id: string}>()
+    props<{contractor: Contractor}>()
 );

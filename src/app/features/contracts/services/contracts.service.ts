@@ -16,7 +16,7 @@ export class ContractsService {
    * @returns
    */
   public getAll(): Observable<Contract> {
-    return this.http.get<Contract>(`http://127.0.0.1/3000/contracts`)
+    return this.http.get<Contract>(`http://127.0.0.1:3000/contracts`)
   }
 
   /**
@@ -25,7 +25,7 @@ export class ContractsService {
    * @returns
    */
   public findOne(id: string): Observable<Contract> {
-    return this.http.get<Contract>(`http://127.0.0.1/3000/contracts/${id}`)
+    return this.http.get<Contract>(`http://127.0.0.1:3000/contracts/${id}`)
   }
 
   /**
@@ -34,7 +34,7 @@ export class ContractsService {
    * @returns
    */
   public create(contract: Contract): Observable<Contract> {
-    return  this.http.post<Contract>(`http://127.0.0.1/3000/contracts`, contract)
+    return  this.http.post<Contract>(`http://127.0.0.1:3000/contracts`, contract)
   }
 
   /**
@@ -44,10 +44,10 @@ export class ContractsService {
    * @returns
    */
   public update(id: string, contract: Contract): Observable<Contract> {
-    return this.http.put<Contract>(`http://127.0.0.1/3000/contracts/${id}`, contract)
+    return this.http.put<Contract>(`http://127.0.0.1:3000/contracts/${id}`, contract)
   }
 
   public delete(id: string): Observable<Contract> {
-    return this.http.delete<Contract>(`http://127.0.0.1/contracts/${id}`)
+    return this.http.delete<Contract>(`http://127.0.0.1:contracts/${id}`)
   }
 }

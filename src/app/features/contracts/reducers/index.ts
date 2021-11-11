@@ -4,19 +4,26 @@ import {
   createFeatureSelector,
   createReducer,
   createSelector,
-  MetaReducer
+  MetaReducer,
+  on
 } from '@ngrx/store';
 import { environment } from '../../../../environments/environment';
+import { loadContracts } from '../actions/contracts.actions';
 import { Contract } from '../models/contract.model';
 
 export const contractsFeatureKey = 'contracts';
 
-export interface contractState {
+export interface ContractState {
   contracts: Contract[]
 }
 
-export const initialContractState: contractState = {
+export const initialContractState: ContractState = {
   contracts: []
 }
 
-export const contractReducers = createReducer({})
+export const contractReducers = createReducer(
+  initialContractState,
+  on(loadContracts, (state) =>
+    ({...state, loading: true})
+  )
+)

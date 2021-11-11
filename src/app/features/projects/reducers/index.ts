@@ -4,10 +4,12 @@ import {
   createFeatureSelector,
   createReducer,
   createSelector,
-  MetaReducer
+  MetaReducer,
+  on
 } from '@ngrx/store';
 import { Project } from '../models/project.model';
 import { environment } from '../../../../environments/environment';
+import { loadProjects } from '../actions/project.actions';
 
 export const projectsFeatureKey = 'projects';
 
@@ -20,5 +22,8 @@ export const initialProjectsState: ProjectsState = {
 }
 
 export const projectsReducers = createReducer(
-  initialProjectsState
+  initialProjectsState,
+  on(loadProjects, (state) =>
+    ({...state, loading: true})
+  )
 )

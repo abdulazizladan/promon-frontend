@@ -15,7 +15,12 @@ export const CreateProject = createAction(
     props<{project: Project}>()
 );
 
-export const removeProject = createAction(
+export const updateProject = createAction(
+  '[Project] Update Project',
+  props<{project: Project}>()
+)
+
+export const deleteProject = createAction(
     '[Project] Remove Project',
-    props<{id: string}>()
+    props<{project: Project}>()
 );
