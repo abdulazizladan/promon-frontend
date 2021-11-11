@@ -23,8 +23,9 @@ export const initialContractorsState: ContractorState = {
 }
 
 export const contractorsReducers = createReducer(
-  initialProjectsState,
+  initialContractorsState,
   on(loadContractors, (state) =>
     ({...state, loading: true})
-  )
+  ),
+  //on(loadSingleContractor, (satte))
 )

@@ -9,7 +9,7 @@ import {
 } from '@ngrx/store';
 import { Project } from '../models/project.model';
 import { environment } from '../../../../environments/environment';
-import { loadProjects } from '../actions/project.actions';
+import { loadProjects, loadSingleProject } from '../actions/project.actions';
 
 export const projectsFeatureKey = 'projects';
 
@@ -25,5 +25,6 @@ export const projectsReducers = createReducer(
   initialProjectsState,
   on(loadProjects, (state) =>
     ({...state, loading: true})
-  )
+  ),
+  on(loadSingleProject, (state) => ({...state}))
 )
