@@ -47,6 +47,11 @@ export class ContractsService {
     return this.http.put<Contract>(`http://127.0.0.1:3000/contracts/${id}`, contract)
   }
 
+  /**
+   *
+   * @param id
+   * @returns
+   */
   public delete(id: string): Observable<Contract> {
     return this.http.delete<Contract>(`http://127.0.0.1:contracts/${id}`)
   }
