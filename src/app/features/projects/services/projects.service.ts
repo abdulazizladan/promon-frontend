@@ -23,9 +23,10 @@ export class ProjectsService {
   *
   * @returns
   */
- findAll(): Observable<Project[]> {
-   const url: string = `environment.apiUrl+'/projects`;
-   return this.http.get<Project[]>('http://127.0.0.1:3000/projects')
+ getAll(): Observable<Project[]> {
+   const ext = 'projects'
+   const url: string = `${environment.apiUrl}/${ext}`;
+   return this.http.get<Project[]>(url)
  }
 
  /**
@@ -43,7 +44,8 @@ export class ProjectsService {
   * @param project
   */
  create( project: Project): Observable<Project>{
-  const url: string = `environment.apiUrl+'/projects`;
+  const ext = 'projects'
+   const url: string = `${environment.apiUrl}/${ext}`;
   return this.http.post<Project>(url, project)
  }
 

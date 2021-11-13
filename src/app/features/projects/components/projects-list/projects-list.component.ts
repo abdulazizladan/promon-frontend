@@ -52,7 +52,7 @@ export class ProjectsListComponent implements OnInit {
    *
    */
   private getProjects(): void{
-    this.projectService.findAll()
+    this.projectService.getAll()
     .pipe(
       tap( projects => {
         this.projects = projects;
