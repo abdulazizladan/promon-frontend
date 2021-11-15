@@ -11,6 +11,11 @@ export class AddContractComponent implements OnInit {
 
   contractForm: FormGroup = new FormGroup({});
 
+  /**
+   *
+   * @param contractService
+   * @param fb
+   */
   constructor(
     private contractService: ContractsService,
     private fb: FormBuilder) { }
@@ -19,7 +24,10 @@ export class AddContractComponent implements OnInit {
     this.initializeForm();
   }
 
-  private initializeForm() {
+  /**
+   * Initialize contract form
+   */
+  private initializeForm(): void {
     this.contractForm = this.fb.group({
       projectId: ['', [Validators.required]],
       contractorId: ['', [Validators.required]],
@@ -28,6 +36,9 @@ export class AddContractComponent implements OnInit {
     })
   }
 
+  /**
+   *
+   */
   submit() {
     const contract = this.contractForm.value;
     this.contractService.create(contract)

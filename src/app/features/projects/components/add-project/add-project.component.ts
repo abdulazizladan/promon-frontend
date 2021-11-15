@@ -17,6 +17,12 @@ export class AddProjectComponent implements OnInit {
   submitted: boolean = false;
   fail: boolean = false;
 
+  /**
+   *
+   * @param fb
+   * @param projectsService
+   * @param store
+   */
   constructor(
     private fb: FormBuilder,
     private projectsService: ProjectsService,
@@ -27,6 +33,9 @@ export class AddProjectComponent implements OnInit {
     this.initializeForm();
   }
 
+  /**
+   *
+   */
   initializeForm(): void{
     this.projectForm = this.fb.group({
       title: ['', Validators.required],
@@ -40,6 +49,9 @@ export class AddProjectComponent implements OnInit {
     })
   }
 
+  /**
+   *
+   */
   submit(): void{
     const formData = this.projectForm.value;
     this.submitted = true;
