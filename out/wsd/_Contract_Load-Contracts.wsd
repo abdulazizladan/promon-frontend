@@ -1,0 +1,19 @@
+@startuml [Contract] Load Contracts
+
+set namespaceSeparator ::
+skinparam class {
+    BackgroundColor<<listen>> HoneyDew
+    BackgroundColor<<action>> Wheat
+    BackgroundColor<<dispatch>> Technology
+}
+
+interface "[Contract] Load Contracts" << (A,#FF7700) action >> {
+            variable: loadContracts
+            src: contracts.actions
+            --
+            
+        }
+
+         
+
+@enduml

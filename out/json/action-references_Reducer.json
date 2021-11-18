@@ -1,0 +1,80 @@
+{
+  "rootPath": "/home/abdulaziz/Documents/WIP/Developer/ProMon/frontend/",
+  "data": [
+    {
+      "filePath": "/home/abdulaziz/Documents/WIP/Developer/ProMon/frontend/src/app/features/projects/reducers/index.ts",
+      "pos": 554,
+      "end": 710,
+      "kind": 1004,
+      "kindText": "Reducer",
+      "state": {
+        "name": "ProjectsState",
+        "properties": [
+          {
+            "name": "projects",
+            "type": "Project[]"
+          }
+        ]
+      },
+      "name": "projectsReducers"
+    },
+    {
+      "filePath": "/home/abdulaziz/Documents/WIP/Developer/ProMon/frontend/src/app/features/contractors/reducers/index.ts",
+      "pos": 636,
+      "end": 787,
+      "kind": 1004,
+      "kindText": "Reducer",
+      "state": {
+        "name": "ContractorState",
+        "properties": [
+          {
+            "name": "contractors",
+            "type": "Contractor[]"
+          }
+        ]
+      },
+      "name": "contractorsReducers"
+    },
+    {
+      "filePath": "/home/abdulaziz/Documents/WIP/Developer/ProMon/frontend/src/app/features/contracts/reducers/index.ts",
+      "pos": 583,
+      "end": 690,
+      "kind": 1004,
+      "kindText": "Reducer",
+      "state": {
+        "name": "ContractState",
+        "properties": [
+          {
+            "name": "contracts",
+            "type": "Contract[]"
+          },
+          {
+            "name": "loading",
+            "type": "boolean"
+          }
+        ]
+      },
+      "name": "contractReducers"
+    },
+    {
+      "filePath": "/home/abdulaziz/Documents/WIP/Developer/ProMon/frontend/src/app/admin/reducers/index.ts",
+      "pos": 941,
+      "end": 977,
+      "kind": 1004,
+      "kindText": "Reducer",
+      "state": {
+        "name": "AdminState",
+        "properties": []
+      },
+      "name": "adminReducer"
+    },
+    {
+      "filePath": "/home/abdulaziz/Documents/WIP/Developer/ProMon/frontend/src/app/auth/reducers/index.ts",
+      "pos": 539,
+      "end": 639,
+      "kind": 1004,
+      "kindText": "Reducer",
+      "name": "authReducer"
+    }
+  ]
+}

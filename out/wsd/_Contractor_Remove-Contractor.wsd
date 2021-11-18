@@ -1,0 +1,20 @@
+@startuml [Contractor] Remove Contractor
+
+set namespaceSeparator ::
+skinparam class {
+    BackgroundColor<<listen>> HoneyDew
+    BackgroundColor<<action>> Wheat
+    BackgroundColor<<dispatch>> Technology
+}
+
+interface "[Contractor] Remove Contractor" << (A,#FF7700) action >> {
+            variable: deleteContractor
+            src: contractor.actions
+            --
+            props<{contractor: Contractor}>
+
+        }
+
+         
+
+@enduml

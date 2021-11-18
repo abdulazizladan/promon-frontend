@@ -1,0 +1,20 @@
+@startuml [Auth] Signin
+
+set namespaceSeparator ::
+skinparam class {
+    BackgroundColor<<listen>> HoneyDew
+    BackgroundColor<<action>> Wheat
+    BackgroundColor<<dispatch>> Technology
+}
+
+interface "[Auth] Signin" << (A,#FF7700) action >> {
+            variable: signin
+            src: auth.actions
+            --
+            props<{user: User}>
+
+        }
+
+         
+
+@enduml

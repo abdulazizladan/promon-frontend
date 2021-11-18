@@ -1,0 +1,19 @@
+@startuml pxupnae
+
+set namespaceSeparator ::
+skinparam class {
+    BackgroundColor<<listen>> HoneyDew
+    BackgroundColor<<action>> Wheat
+    BackgroundColor<<dispatch>> Technology
+}
+
+interface "" << (A,#FF7700) action >> {
+            variable: signout
+            src: auth.actions
+            --
+            
+        }
+
+         
+
+@enduml

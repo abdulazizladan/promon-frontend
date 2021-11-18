@@ -1,0 +1,20 @@
+@startuml [Project] Add User
+
+set namespaceSeparator ::
+skinparam class {
+    BackgroundColor<<listen>> HoneyDew
+    BackgroundColor<<action>> Wheat
+    BackgroundColor<<dispatch>> Technology
+}
+
+interface "[Project] Add User" << (A,#FF7700) action >> {
+            variable: AddUser
+            src: user.actions
+            --
+            props<{user: User}>
+
+        }
+
+         
+
+@enduml

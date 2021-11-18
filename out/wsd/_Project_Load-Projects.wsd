@@ -1,0 +1,19 @@
+@startuml [Project] Load Projects
+
+set namespaceSeparator ::
+skinparam class {
+    BackgroundColor<<listen>> HoneyDew
+    BackgroundColor<<action>> Wheat
+    BackgroundColor<<dispatch>> Technology
+}
+
+interface "[Project] Load Projects" << (A,#FF7700) action >> {
+            variable: loadProjects
+            src: project.actions
+            --
+            
+        }
+
+         
+
+@enduml

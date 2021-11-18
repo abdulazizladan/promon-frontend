@@ -1,0 +1,20 @@
+@startuml [Supervisor] Create Supervisor
+
+set namespaceSeparator ::
+skinparam class {
+    BackgroundColor<<listen>> HoneyDew
+    BackgroundColor<<action>> Wheat
+    BackgroundColor<<dispatch>> Technology
+}
+
+interface "[Supervisor] Create Supervisor" << (A,#FF7700) action >> {
+            variable: addSupervisor
+            src: supervisor.actions
+            --
+            props<{supervisor: Supervisor}>
+
+        }
+
+         
+
+@enduml

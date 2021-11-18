@@ -1,0 +1,20 @@
+@startuml [Contractor] Load Contractor
+
+set namespaceSeparator ::
+skinparam class {
+    BackgroundColor<<listen>> HoneyDew
+    BackgroundColor<<action>> Wheat
+    BackgroundColor<<dispatch>> Technology
+}
+
+interface "[Contractor] Load Contractor" << (A,#FF7700) action >> {
+            variable: loadSingleContrctor
+            src: contractor.actions
+            --
+            props<{id: string}>
+
+        }
+
+         
+
+@enduml

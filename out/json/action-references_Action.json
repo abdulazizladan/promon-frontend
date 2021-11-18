@@ -1,0 +1,646 @@
+{
+  "rootPath": "/home/abdulaziz/Documents/WIP/Developer/ProMon/frontend/",
+  "data": [
+    {
+      "name": "[Contractor] Load Contractors",
+      "filePath": "/home/abdulaziz/Documents/WIP/Developer/ProMon/frontend/src/app/admin/actions/contractor.actions.ts",
+      "pos": 140,
+      "end": 191,
+      "kind": 1002,
+      "kindText": "Action",
+      "variable": "loadContractors"
+    },
+    {
+      "name": "[Contractor] Add Contractor",
+      "filePath": "/home/abdulaziz/Documents/WIP/Developer/ProMon/frontend/src/app/admin/actions/contractor.actions.ts",
+      "pos": 222,
+      "end": 310,
+      "kind": 1002,
+      "kindText": "Action",
+      "createActionArgs": [
+        {
+          "name": "props",
+          "typeArguments": [
+            {
+              "kind": 173,
+              "kindText": "TypeLiteral",
+              "properties": [
+                {
+                  "name": "contractor",
+                  "type": "Contractor"
+                }
+              ]
+            }
+          ],
+          "kind": 196,
+          "kindText": "CallExpression"
+        }
+      ],
+      "variable": "AddContractor"
+    },
+    {
+      "name": "[Contractor] Remove Contractor",
+      "filePath": "/home/abdulaziz/Documents/WIP/Developer/ProMon/frontend/src/app/admin/actions/contractor.actions.ts",
+      "pos": 344,
+      "end": 423,
+      "kind": 1002,
+      "kindText": "Action",
+      "createActionArgs": [
+        {
+          "name": "props",
+          "typeArguments": [
+            {
+              "kind": 173,
+              "kindText": "TypeLiteral",
+              "properties": [
+                {
+                  "name": "id",
+                  "type": "string"
+                }
+              ]
+            }
+          ],
+          "kind": 196,
+          "kindText": "CallExpression"
+        }
+      ],
+      "variable": "removeContractor"
+    },
+    {
+      "name": "[Project] Load Projects",
+      "filePath": "/home/abdulaziz/Documents/WIP/Developer/ProMon/frontend/src/app/admin/actions/project.actions.ts",
+      "pos": 143,
+      "end": 188,
+      "kind": 1002,
+      "kindText": "Action",
+      "variable": "loadProjects"
+    },
+    {
+      "name": "[Project] Add Project",
+      "filePath": "/home/abdulaziz/Documents/WIP/Developer/ProMon/frontend/src/app/admin/actions/project.actions.ts",
+      "pos": 217,
+      "end": 293,
+      "kind": 1002,
+      "kindText": "Action",
+      "createActionArgs": [
+        {
+          "name": "props",
+          "typeArguments": [
+            {
+              "kind": 173,
+              "kindText": "TypeLiteral",
+              "properties": [
+                {
+                  "name": "project",
+                  "type": "Project"
+                }
+              ]
+            }
+          ],
+          "kind": 196,
+          "kindText": "CallExpression"
+        }
+      ],
+      "variable": "AddProjects"
+    },
+    {
+      "name": "[Project] Remove Project",
+      "filePath": "/home/abdulaziz/Documents/WIP/Developer/ProMon/frontend/src/app/admin/actions/project.actions.ts",
+      "pos": 324,
+      "end": 397,
+      "kind": 1002,
+      "kindText": "Action",
+      "createActionArgs": [
+        {
+          "name": "props",
+          "typeArguments": [
+            {
+              "kind": 173,
+              "kindText": "TypeLiteral",
+              "properties": [
+                {
+                  "name": "id",
+                  "type": "string"
+                }
+              ]
+            }
+          ],
+          "kind": 196,
+          "kindText": "CallExpression"
+        }
+      ],
+      "variable": "removeProject"
+    },
+    {
+      "name": "[User] Load Users",
+      "filePath": "/home/abdulaziz/Documents/WIP/Developer/ProMon/frontend/src/app/admin/actions/user.actions.ts",
+      "pos": 123,
+      "end": 162,
+      "kind": 1002,
+      "kindText": "Action",
+      "variable": "loadUsers"
+    },
+    {
+      "name": "[Project] Add User",
+      "filePath": "/home/abdulaziz/Documents/WIP/Developer/ProMon/frontend/src/app/admin/actions/user.actions.ts",
+      "pos": 187,
+      "end": 254,
+      "kind": 1002,
+      "kindText": "Action",
+      "createActionArgs": [
+        {
+          "name": "props",
+          "typeArguments": [
+            {
+              "kind": 173,
+              "kindText": "TypeLiteral",
+              "properties": [
+                {
+                  "name": "user",
+                  "type": "User"
+                }
+              ]
+            }
+          ],
+          "kind": 196,
+          "kindText": "CallExpression"
+        }
+      ],
+      "variable": "AddUser"
+    },
+    {
+      "name": "[User] Remove User",
+      "filePath": "/home/abdulaziz/Documents/WIP/Developer/ProMon/frontend/src/app/admin/actions/user.actions.ts",
+      "pos": 282,
+      "end": 349,
+      "kind": 1002,
+      "kindText": "Action",
+      "createActionArgs": [
+        {
+          "name": "props",
+          "typeArguments": [
+            {
+              "kind": 173,
+              "kindText": "TypeLiteral",
+              "properties": [
+                {
+                  "name": "id",
+                  "type": "string"
+                }
+              ]
+            }
+          ],
+          "kind": 196,
+          "kindText": "CallExpression"
+        }
+      ],
+      "variable": "removeUser"
+    },
+    {
+      "name": "[Project] Load Projects",
+      "filePath": "/home/abdulaziz/Documents/WIP/Developer/ProMon/frontend/src/app/features/projects/actions/project.actions.ts",
+      "pos": 131,
+      "end": 176,
+      "kind": 1002,
+      "kindText": "Action",
+      "variable": "loadProjects"
+    },
+    {
+      "name": "[Project] Load Project",
+      "filePath": "/home/abdulaziz/Documents/WIP/Developer/ProMon/frontend/src/app/features/projects/actions/project.actions.ts",
+      "pos": 212,
+      "end": 279,
+      "kind": 1002,
+      "kindText": "Action",
+      "createActionArgs": [
+        {
+          "name": "props",
+          "typeArguments": [
+            {
+              "kind": 173,
+              "kindText": "TypeLiteral",
+              "properties": [
+                {
+                  "name": "id",
+                  "type": "string"
+                }
+              ]
+            }
+          ],
+          "kind": 196,
+          "kindText": "CallExpression"
+        }
+      ],
+      "variable": "loadSingleProject"
+    },
+    {
+      "name": "[Project] Add Project",
+      "filePath": "/home/abdulaziz/Documents/WIP/Developer/ProMon/frontend/src/app/features/projects/actions/project.actions.ts",
+      "pos": 311,
+      "end": 387,
+      "kind": 1002,
+      "kindText": "Action",
+      "createActionArgs": [
+        {
+          "name": "props",
+          "typeArguments": [
+            {
+              "kind": 173,
+              "kindText": "TypeLiteral",
+              "properties": [
+                {
+                  "name": "project",
+                  "type": "Project"
+                }
+              ]
+            }
+          ],
+          "kind": 196,
+          "kindText": "CallExpression"
+        }
+      ],
+      "variable": "CreateProject"
+    },
+    {
+      "name": "[Project] Update Project",
+      "filePath": "/home/abdulaziz/Documents/WIP/Developer/ProMon/frontend/src/app/features/projects/actions/project.actions.ts",
+      "pos": 419,
+      "end": 494,
+      "kind": 1002,
+      "kindText": "Action",
+      "createActionArgs": [
+        {
+          "name": "props",
+          "typeArguments": [
+            {
+              "kind": 173,
+              "kindText": "TypeLiteral",
+              "properties": [
+                {
+                  "name": "project",
+                  "type": "Project"
+                }
+              ]
+            }
+          ],
+          "kind": 196,
+          "kindText": "CallExpression"
+        }
+      ],
+      "variable": "updateProject"
+    },
+    {
+      "name": "[Project] Remove Project",
+      "filePath": "/home/abdulaziz/Documents/WIP/Developer/ProMon/frontend/src/app/features/projects/actions/project.actions.ts",
+      "pos": 525,
+      "end": 604,
+      "kind": 1002,
+      "kindText": "Action",
+      "createActionArgs": [
+        {
+          "name": "props",
+          "typeArguments": [
+            {
+              "kind": 173,
+              "kindText": "TypeLiteral",
+              "properties": [
+                {
+                  "name": "project",
+                  "type": "Project"
+                }
+              ]
+            }
+          ],
+          "kind": 196,
+          "kindText": "CallExpression"
+        }
+      ],
+      "variable": "deleteProject"
+    },
+    {
+      "name": "[Contractor] Load Contractors",
+      "filePath": "/home/abdulaziz/Documents/WIP/Developer/ProMon/frontend/src/app/features/contractors/actions/contractor.actions.ts",
+      "pos": 140,
+      "end": 191,
+      "kind": 1002,
+      "kindText": "Action",
+      "variable": "loadContractors"
+    },
+    {
+      "name": "[Contractor] Load Contractor",
+      "filePath": "/home/abdulaziz/Documents/WIP/Developer/ProMon/frontend/src/app/features/contractors/actions/contractor.actions.ts",
+      "pos": 229,
+      "end": 302,
+      "kind": 1002,
+      "kindText": "Action",
+      "createActionArgs": [
+        {
+          "name": "props",
+          "typeArguments": [
+            {
+              "kind": 173,
+              "kindText": "TypeLiteral",
+              "properties": [
+                {
+                  "name": "id",
+                  "type": "string"
+                }
+              ]
+            }
+          ],
+          "kind": 196,
+          "kindText": "CallExpression"
+        }
+      ],
+      "variable": "loadSingleContrctor"
+    },
+    {
+      "name": "[Contractor] Add Contractor",
+      "filePath": "/home/abdulaziz/Documents/WIP/Developer/ProMon/frontend/src/app/features/contractors/actions/contractor.actions.ts",
+      "pos": 334,
+      "end": 422,
+      "kind": 1002,
+      "kindText": "Action",
+      "createActionArgs": [
+        {
+          "name": "props",
+          "typeArguments": [
+            {
+              "kind": 173,
+              "kindText": "TypeLiteral",
+              "properties": [
+                {
+                  "name": "contractor",
+                  "type": "Contractor"
+                }
+              ]
+            }
+          ],
+          "kind": 196,
+          "kindText": "CallExpression"
+        }
+      ],
+      "variable": "addContractor"
+    },
+    {
+      "name": "[Contractor] Update Contractor",
+      "filePath": "/home/abdulaziz/Documents/WIP/Developer/ProMon/frontend/src/app/features/contractors/actions/contractor.actions.ts",
+      "pos": 457,
+      "end": 544,
+      "kind": 1002,
+      "kindText": "Action",
+      "createActionArgs": [
+        {
+          "name": "props",
+          "typeArguments": [
+            {
+              "kind": 173,
+              "kindText": "TypeLiteral",
+              "properties": [
+                {
+                  "name": "contractor",
+                  "type": "Contractor"
+                }
+              ]
+            }
+          ],
+          "kind": 196,
+          "kindText": "CallExpression"
+        }
+      ],
+      "variable": "updateContractor"
+    },
+    {
+      "name": "[Contractor] Remove Contractor",
+      "filePath": "/home/abdulaziz/Documents/WIP/Developer/ProMon/frontend/src/app/features/contractors/actions/contractor.actions.ts",
+      "pos": 578,
+      "end": 669,
+      "kind": 1002,
+      "kindText": "Action",
+      "createActionArgs": [
+        {
+          "name": "props",
+          "typeArguments": [
+            {
+              "kind": 173,
+              "kindText": "TypeLiteral",
+              "properties": [
+                {
+                  "name": "contractor",
+                  "type": "Contractor"
+                }
+              ]
+            }
+          ],
+          "kind": 196,
+          "kindText": "CallExpression"
+        }
+      ],
+      "variable": "deleteContractor"
+    },
+    {
+      "name": "[Contract] Load Contracts",
+      "filePath": "/home/abdulaziz/Documents/WIP/Developer/ProMon/frontend/src/app/features/contracts/actions/contracts.actions.ts",
+      "pos": 134,
+      "end": 179,
+      "kind": 1002,
+      "kindText": "Action",
+      "variable": "loadContracts"
+    },
+    {
+      "name": "[Contract] Load Single Contract",
+      "filePath": "/home/abdulaziz/Documents/WIP/Developer/ProMon/frontend/src/app/features/contracts/actions/contracts.actions.ts",
+      "pos": 215,
+      "end": 266,
+      "kind": 1002,
+      "kindText": "Action",
+      "variable": "loadSingleContract"
+    },
+    {
+      "name": "[Contract] Create Contract",
+      "filePath": "/home/abdulaziz/Documents/WIP/Developer/ProMon/frontend/src/app/features/contracts/actions/contracts.actions.ts",
+      "pos": 295,
+      "end": 374,
+      "kind": 1002,
+      "kindText": "Action",
+      "createActionArgs": [
+        {
+          "name": "props",
+          "typeArguments": [
+            {
+              "kind": 173,
+              "kindText": "TypeLiteral",
+              "properties": [
+                {
+                  "name": "contract",
+                  "type": "Contract"
+                }
+              ]
+            }
+          ],
+          "kind": 196,
+          "kindText": "CallExpression"
+        }
+      ],
+      "variable": "addContract"
+    },
+    {
+      "name": "[Contract] Update Contract",
+      "filePath": "/home/abdulaziz/Documents/WIP/Developer/ProMon/frontend/src/app/features/contracts/actions/contracts.actions.ts",
+      "pos": 406,
+      "end": 485,
+      "kind": 1002,
+      "kindText": "Action",
+      "createActionArgs": [
+        {
+          "name": "props",
+          "typeArguments": [
+            {
+              "kind": 173,
+              "kindText": "TypeLiteral",
+              "properties": [
+                {
+                  "name": "contract",
+                  "type": "Contract"
+                }
+              ]
+            }
+          ],
+          "kind": 196,
+          "kindText": "CallExpression"
+        }
+      ],
+      "variable": "updateContract"
+    },
+    {
+      "name": "[Contract] Delete Contract",
+      "filePath": "/home/abdulaziz/Documents/WIP/Developer/ProMon/frontend/src/app/features/contracts/actions/contracts.actions.ts",
+      "pos": 518,
+      "end": 597,
+      "kind": 1002,
+      "kindText": "Action",
+      "createActionArgs": [
+        {
+          "name": "props",
+          "typeArguments": [
+            {
+              "kind": 173,
+              "kindText": "TypeLiteral",
+              "properties": [
+                {
+                  "name": "contract",
+                  "type": "Contract"
+                }
+              ]
+            }
+          ],
+          "kind": 196,
+          "kindText": "CallExpression"
+        }
+      ],
+      "variable": "deleteContracr"
+    },
+    {
+      "name": "[Auth] Signin",
+      "filePath": "/home/abdulaziz/Documents/WIP/Developer/ProMon/frontend/src/app/auth/auth.actions.ts",
+      "pos": 118,
+      "end": 176,
+      "kind": 1002,
+      "kindText": "Action",
+      "createActionArgs": [
+        {
+          "name": "props",
+          "typeArguments": [
+            {
+              "kind": 173,
+              "kindText": "TypeLiteral",
+              "properties": [
+                {
+                  "name": "user",
+                  "type": "User"
+                }
+              ]
+            }
+          ],
+          "kind": 196,
+          "kindText": "CallExpression"
+        }
+      ],
+      "variable": "signin"
+    },
+    {
+      "name": "",
+      "filePath": "/home/abdulaziz/Documents/WIP/Developer/ProMon/frontend/src/app/auth/auth.actions.ts",
+      "pos": 201,
+      "end": 221,
+      "kind": 1002,
+      "kindText": "Action",
+      "variable": "signout"
+    },
+    {
+      "name": "[Supervisor] Load Supervisors",
+      "filePath": "/home/abdulaziz/Documents/WIP/Developer/ProMon/frontend/src/app/features/supervisors/actions/supervisor.actions.ts",
+      "pos": 133,
+      "end": 182,
+      "kind": 1002,
+      "kindText": "Action",
+      "variable": "loadSupervisors"
+    },
+    {
+      "name": "[Supervisor] Load Single Supervisor",
+      "filePath": "/home/abdulaziz/Documents/WIP/Developer/ProMon/frontend/src/app/features/supervisors/actions/supervisor.actions.ts",
+      "pos": 213,
+      "end": 305,
+      "kind": 1002,
+      "kindText": "Action",
+      "createActionArgs": [
+        {
+          "name": "props",
+          "typeArguments": [
+            {
+              "kind": 173,
+              "kindText": "TypeLiteral",
+              "properties": [
+                {
+                  "name": "supervisor",
+                  "type": "Supervisor"
+                }
+              ]
+            }
+          ],
+          "kind": 196,
+          "kindText": "CallExpression"
+        }
+      ],
+      "variable": "loadSingleSupervisor"
+    },
+    {
+      "name": "[Supervisor] Create Supervisor",
+      "filePath": "/home/abdulaziz/Documents/WIP/Developer/ProMon/frontend/src/app/features/supervisors/actions/supervisor.actions.ts",
+      "pos": 329,
+      "end": 416,
+      "kind": 1002,
+      "kindText": "Action",
+      "createActionArgs": [
+        {
+          "name": "props",
+          "typeArguments": [
+            {
+              "kind": 173,
+              "kindText": "TypeLiteral",
+              "properties": [
+                {
+                  "name": "supervisor",
+                  "type": "Supervisor"
+                }
+              ]
+            }
+          ],
+          "kind": 196,
+          "kindText": "CallExpression"
+        }
+      ],
+      "variable": "addSupervisor"
+    }
+  ]
+}

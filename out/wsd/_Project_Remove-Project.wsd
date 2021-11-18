@@ -1,0 +1,20 @@
+@startuml [Project] Remove Project
+
+set namespaceSeparator ::
+skinparam class {
+    BackgroundColor<<listen>> HoneyDew
+    BackgroundColor<<action>> Wheat
+    BackgroundColor<<dispatch>> Technology
+}
+
+interface "[Project] Remove Project" << (A,#FF7700) action >> {
+            variable: deleteProject
+            src: project.actions
+            --
+            props<{project: Project}>
+
+        }
+
+         
+
+@enduml

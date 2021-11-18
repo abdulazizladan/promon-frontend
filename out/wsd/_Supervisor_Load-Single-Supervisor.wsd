@@ -1,0 +1,20 @@
+@startuml [Supervisor] Load Single Supervisor
+
+set namespaceSeparator ::
+skinparam class {
+    BackgroundColor<<listen>> HoneyDew
+    BackgroundColor<<action>> Wheat
+    BackgroundColor<<dispatch>> Technology
+}
+
+interface "[Supervisor] Load Single Supervisor" << (A,#FF7700) action >> {
+            variable: loadSingleSupervisor
+            src: supervisor.actions
+            --
+            props<{supervisor: Supervisor}>
+
+        }
+
+         
+
+@enduml

@@ -1,0 +1,20 @@
+@startuml [Contract] Create Contract
+
+set namespaceSeparator ::
+skinparam class {
+    BackgroundColor<<listen>> HoneyDew
+    BackgroundColor<<action>> Wheat
+    BackgroundColor<<dispatch>> Technology
+}
+
+interface "[Contract] Create Contract" << (A,#FF7700) action >> {
+            variable: addContract
+            src: contracts.actions
+            --
+            props<{contract: Contract}>
+
+        }
+
+         
+
+@enduml
