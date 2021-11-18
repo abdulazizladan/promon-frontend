@@ -14,11 +14,13 @@ import { Contract } from '../models/contract.model';
 export const contractsFeatureKey = 'contracts';
 
 export interface ContractState {
-  contracts: Contract[]
+  contracts: Contract[],
+  loading: boolean
 }
 
 export const initialContractState: ContractState = {
-  contracts: []
+  contracts: [],
+  loading: false
 }
 
 export const contractReducers = createReducer(
