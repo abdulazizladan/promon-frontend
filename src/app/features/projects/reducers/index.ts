@@ -14,11 +14,13 @@ import { loadProjects, loadSingleProject } from '../actions/project.actions';
 export const projectsFeatureKey = 'projects';
 
 export interface ProjectsState {
-  projects: Project[]
+  projects: Project[],
+  loading: boolean
 }
 
 export const initialProjectsState: ProjectsState = {
-  projects: []
+  projects: [],
+  loading: false
 }
 
 export const projectsReducers = createReducer(

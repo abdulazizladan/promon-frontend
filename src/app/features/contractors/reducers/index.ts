@@ -15,11 +15,13 @@ import { Contractor } from '../models/contractor.model';
 export const contractorsFeatureKey = 'contractors';
 
 export interface ContractorState {
-  contractors: Contractor[]
+  contractors: Contractor[],
+  loading: boolean
 }
 
 export const initialContractorsState: ContractorState = {
-  contractors: []
+  contractors: [],
+  loading: false
 }
 
 export const contractorsReducers = createReducer(
