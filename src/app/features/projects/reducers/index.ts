@@ -18,11 +18,17 @@ export interface ProjectsState {
   loading: boolean
 }
 
+/**
+ *
+ */
 export const initialProjectsState: ProjectsState = {
   projects: [],
   loading: false
 }
 
+/**
+ *
+ */
 export const projectsReducers = createReducer(
   initialProjectsState,
   on(loadProjects, (state) =>
