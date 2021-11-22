@@ -25,10 +25,12 @@
     "@ngrx/entity": "^12.4.0",
     "@ngrx/store": "^12.4.0",
     "@ngrx/store-devtools": "^12.4.0",
+    "@types/socket.io-client": "^3.0.0",
     "angular-in-memory-web-api": "^0.11.0",
     "chart.js": "^2.9.4",
     "ng2-charts": "^2.4.3",
     "rxjs": "~6.6.0",
+    "socket.io-client": "^4.4.0",
     "tslib": "^2.2.0",
     "zone.js": "~0.11.4"
   },
