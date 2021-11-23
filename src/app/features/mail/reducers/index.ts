@@ -7,12 +7,21 @@ import {
 } from '@ngrx/store';
 import { environment } from '../../../../environments/environment';
 
+/**
+ *
+ */
 export const mailFeatureKey = 'mail';
 
+/**
+ *
+ */
 export interface State {
 
 }
 
+/**
+ *
+ */
 export const reducers: ActionReducerMap<State> = {
 
 };
