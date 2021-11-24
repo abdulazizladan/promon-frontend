@@ -15,4 +15,14 @@ const addSupervisor = createAction(
   props<{supervisor: Supervisor}>()
 )
 
+const updateSupervisor = createAction(
+  '[Supervisor] Create Supervisor',
+  props<{supervisor: Supervisor}>()
+)
+
+const removeSupervisor = createAction(
+  '[Supervisor] Create Supervisor',
+  props<{supervisor: Supervisor}>()
+)
+
 
