@@ -1,18 +1,20 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { ProjectsService } from '../../services/projects.service';
 import { CreateProject } from '../../actions/project.actions';
 import { Store } from '@ngrx/store';
 import { Project } from '../../models/project.model';
+import { State } from '../../models/states.model';
 
 @Component({
   selector: 'app-add-project',
   templateUrl: './add-project.component.html',
   styleUrls: ['./add-project.component.scss']
 })
-export class AddProjectComponent implements OnInit {
+export class AddProjectComponent implements OnInit, AfterViewInit {
 
   projectForm: FormGroup = new FormGroup({});
+  public nigeria: any;
 
   submitted: boolean = false;
   fail: boolean = false;
@@ -30,8 +32,14 @@ export class AddProjectComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
+    this.getStates();
     this.initializeForm();
   }
+
+  ngAfterViewInit() {
+    console.log(this.nigeria);
+  }
+
 
   /**
    *
@@ -60,6 +68,20 @@ export class AddProjectComponent implements OnInit {
       this.submitted = false;
     }, 5000)
     console.log(formData)
+  }
+
+  getStates(): void{
+    this.projectsService.getStates()
+    .pipe()
+    .subscribe(
+      res => {
+        this.nigeria = res;
+        console.log(res)
+      },
+      err => {
+        console.log(err)
+      }
+    )
   }
 
 }

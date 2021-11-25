@@ -8,27 +8,8 @@ import { environment } from 'src/environments/environment';
 //Project Model
 import { Project } from '../models/project.model';
 
-interface State{
-  name: string,
-  capital: string,
-  states: [
-    {
-      name: string,
-      capital: string,
-      lgas: [
-        {
-          name: string,
-          towns: [
-            {
-              name: string
-            }
-          ]
-        }
-      ]
-    }
-  ]
-}
-
+//State Model
+import { State } from '../models/states.model';
 
 @Injectable({
   providedIn: 'root'
