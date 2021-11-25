@@ -8,6 +8,27 @@ import { environment } from 'src/environments/environment';
 //Project Model
 import { Project } from '../models/project.model';
 
+interface State{
+  name: string,
+  capital: string,
+  states: [
+    {
+      name: string,
+      capital: string,
+      lgas: [
+        {
+          name: string,
+          towns: [
+            {
+              name: string
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
 
 @Injectable({
   providedIn: 'root'
@@ -49,6 +70,12 @@ export class ProjectsService {
   return this.http.post<Project>(url, project)
  }
 
+/**
+ *
+ * @param id
+ * @param project
+ * @returns
+ */
  edit(id: string, project: Project): Observable<Project> {
   return this.http.put<Project>(`http://127.0.0.1:3000/projects/${id}`, project)
 }
@@ -57,7 +84,7 @@ export class ProjectsService {
   *
   * @returns
   */
- getStates(): Observable<any> {
-   return this.http.get('./assets/nigeria.json')
+ getStates(): Observable<State[]> {
+   return this.http.get<State[]>('./assets/nigeria.json')
  }
 }
