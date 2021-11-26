@@ -43,24 +43,9 @@
       <mat-form-field fxFlex.gt-xs="50%">
         <mat-label>State</mat-label>
         <mat-select formControlName="state">
-          <mat-option  value="{{nigeria}}">
-
+          <mat-option *ngFor="let state of nigeria.states"  value="{{state.name}}">
+            {{state.name | titlecase}}
           </mat-option>
-          <!--<mat-option value="abia">
-            Abia
-          </mat-option>
-          <mat-option value="adamawa">
-            Adamawa
-          </mat-option>
-          <mat-option value="akwa ibom">
-            Akwa Ibom
-          </mat-option>
-          <mat-option value="anambra">
-            Anambra
-          </mat-option>
-          <mat-option value="bauchi">
-            Bauchi
-          </mat-option>-->
         </mat-select>
       </mat-form-field>
 

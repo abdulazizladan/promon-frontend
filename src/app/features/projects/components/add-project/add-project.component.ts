@@ -32,12 +32,14 @@ export class AddProjectComponent implements OnInit, AfterViewInit {
   ) { }
 
   ngOnInit(): void {
-    this.getStates();
+    this.getStates()
     this.initializeForm();
   }
 
+  /**
+   *
+   */
   ngAfterViewInit() {
-    console.log(this.nigeria);
   }
 
 
@@ -76,7 +78,6 @@ export class AddProjectComponent implements OnInit, AfterViewInit {
     .subscribe(
       res => {
         this.nigeria = res;
-        console.log(res)
       },
       err => {
         console.log(err)
