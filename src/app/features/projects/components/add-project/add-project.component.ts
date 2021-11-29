@@ -37,7 +37,7 @@ export class AddProjectComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   *
+   * after view lifecycle hook
    */
   ngAfterViewInit() {
   }
