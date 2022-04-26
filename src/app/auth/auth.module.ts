@@ -24,6 +24,7 @@ import { SignupComponent } from './components/signup/signup.component';
 import { ResetPasswordComponent } from './components/reset-password/reset-password.component';
 import { AuthService } from './services/auth.service';
 import { TokenInterceptor } from './services/token.interceptor';
+import { SharedModule } from '../shared/shared.module';
 
 
 @NgModule({
@@ -41,6 +42,7 @@ import { TokenInterceptor } from './services/token.interceptor';
     CommonModule,
     HttpClientModule,
     ReactiveFormsModule,
+    SharedModule,
     FlexLayoutModule,
     MatToolbarModule,
     MatCardModule,
