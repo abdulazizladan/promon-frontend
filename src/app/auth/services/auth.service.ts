@@ -41,7 +41,9 @@ export class AuthService {
    * @returns user
    */
   signup( user: User ) : Observable<User>{
-    return this.http.post<User> ('', user)
+    return this.http.post<User> ('', user).pipe(
+
+    )
   }
 
 
@@ -57,7 +59,7 @@ export class AuthService {
    *
    */
   resetPassword( oldPassword: string, newPassword: string) : Observable<string>{
-    return this.http.put<string>('', oldPassword)
+    return this.http.put<string>('', oldPassword).pipe()
   }
 
 }
