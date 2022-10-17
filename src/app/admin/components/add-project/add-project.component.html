@@ -1,0 +1,18 @@
+<h1 matDialogTitle>Add Project</h1>
+
+<mat-dialog-content fxLayout="column" fxLayoutGap="10px" [formGroup]="addProjectForm">
+    <mat-form-field appearance="outline">
+      <mat-label>Project title</mat-label>
+      <input formControlName="title" matInput name="title">
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Project description</mat-label>
+      <textarea formControlName="description" rows="4" matInput name="description"></textarea>
+    </mat-form-field>
+</mat-dialog-content>
+
+<mat-dialog-actions align="start">
+    <button mat-flat-button color="warn" matDialogClose>Close dialog</button>
+    <button mat-flat-button color="accent">Create</button>
+</mat-dialog-actions>

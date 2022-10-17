@@ -1,0 +1,63 @@
+<div id="mainLayout" fxLayout="column">
+  <mat-toolbar color="primary" class="mat-elevation-z5">
+    <mat-toolbar-row>
+      <button mat-icon-button color="accent" (click)="nav.toggle()">
+        <mat-icon>
+          menu
+        </mat-icon>
+      </button>
+      ProMon (demo)
+      <span fxFlex="100%"></span>
+      <button mat-icon-button color="accent">
+        <mat-icon>message</mat-icon>
+      </button>
+      <button mat-icon-button color="accent">
+        <mat-icon matBadge="2" matBadgeColor="warn">notifications</mat-icon>
+      </button>
+      <span fxHide class="mat-caption">Welcome, Abdulaziz Ladan</span>
+      <button mat-icon-button color="accent" [matMenuTriggerFor]="menu">
+        <mat-icon>
+          more_vert
+        </mat-icon>
+      </button>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item>
+          <mat-icon>person_outline</mat-icon>
+          Profile
+        </button>
+        <button mat-menu-item>
+          <mat-icon>exit_to_app</mat-icon>
+          Logout
+        </button>
+      </mat-menu>
+    </mat-toolbar-row>
+  </mat-toolbar>
+  <div id="navContent" fxFlex="100%">
+    <mat-sidenav-container>
+      <mat-sidenav #nav id="sidenav" opened="true" fxLayout="column">
+        <div id="profile" fxLayout="column" fxLayout="column" fxLayoutAlign="center center">
+          <div id="profilePic"></div>
+        </div>
+        <div id="name">
+          Abdulaziz Ladan
+        </div>
+        <button mat-button routerLink="./" (click)="nav.toggle()">
+          <mat-icon color="accent">dashboard</mat-icon> &nbsp; &nbsp; Dashboard
+        </button>
+        <button mat-button routerLink="projects" (click)="nav.toggle()">
+          <mat-icon color="accent">work</mat-icon> &nbsp; &nbsp; Projects
+        </button>
+        <button mat-button routerLink="contractors" (click)="nav.toggle()">
+          <mat-icon color="accent">person</mat-icon> &nbsp; &nbsp; Contractors
+        </button>
+      </mat-sidenav>
+      <mat-sidenav-content>
+        <div fxLayout="row" fxLayoutAlign="center">
+          <div fxFlex.xs="100%" fxFlex.gt-xs="800px">
+            <router-outlet></router-outlet>
+          </div>
+        </div>
+      </mat-sidenav-content>
+    </mat-sidenav-container>
+  </div>
+</div>

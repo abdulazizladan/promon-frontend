@@ -1,0 +1,19 @@
+<div fxLayout="column" fxLayoutGap="10px">
+<mat-toolbar cass="mat-elevation-z3">
+  <mat-toolbar-row>
+    Projects
+
+    <span fxFlex="100%"></span>
+    <button mat-mini-fab (click)="openAddProjectDialog()">
+      <mat-icon>add</mat-icon>
+    </button>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+<div *ngIf="!projects$" class="mat-header1 warning">
+  0 projects listed.
+</div>
+<!--<table mat-table [dataSource]="proj">
+
+</table>-->
+</div>
