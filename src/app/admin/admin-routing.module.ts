@@ -16,11 +16,11 @@ const routes: Routes = [
       },
       {
         path: 'projects',
-        component: ProjectsListComponent
+        loadChildren: () => import('../features/project-management/project-management.module').then(module => module.ProjectManagementModule)
       },
       {
         path: 'contractors',
-        component: ContractorsListComponent
+        loadChildren: () => import('../features/contractor-management/contractor-management.module').then(module => module.ContractorManagementModule)
       }
     ]
   }

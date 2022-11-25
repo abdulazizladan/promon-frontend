@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
+import { Observable } from 'rxjs';
+import { Contractor } from '../../models/contractor.model';
 import { ContractorsService } from '../../services/contractors.service';
 import { AddContractorComponent } from '../add-contractor/add-contractor.component';
 
@@ -10,13 +12,23 @@ import { AddContractorComponent } from '../add-contractor/add-contractor.compone
 })
 export class ContractorsListComponent implements OnInit {
 
-  constructor( private dialog: MatDialog, private contractorsService: ContractorsService ) { }
+  contractors$: Observable<Contractor[]> | undefined;
+  constructor(
+    private dialog: MatDialog,
+    private contractorsService: ContractorsService ) { }
 
   ngOnInit(): void {
   }
 
+  getContractors() {
+
+  }
+
   openAddContractorDialog() {
-    this.dialog.open(AddContractorComponent)
+    this.dialog.open(AddContractorComponent, {
+      width: '480px',
+      panelClass: 'panel'
+    })
   }
 
 }

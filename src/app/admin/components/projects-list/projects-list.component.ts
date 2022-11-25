@@ -4,7 +4,7 @@ import { MatDialog } from '@angular/material/dialog';
 import { MatTableDataSource } from '@angular/material/table';
 import { ProjectsService } from '../../services/projects.service';
 import { AddProjectComponent } from '../add-project/add-project.component';
-import { State } from '../../reducers/admin.reducer';
+import { State } from '../../store/reducers/admin.reducer';
 import { Observable, tap } from 'rxjs';
 import { Project } from '../../models/project.model';
 
@@ -15,7 +15,7 @@ import { Project } from '../../models/project.model';
 })
 export class ProjectsListComponent implements OnInit {
 
-  projects$: Observable<Array<Project>> | undefined;
+  projects$: Observable<Project[]> | undefined;
   proj = [];
   projects: any;
 

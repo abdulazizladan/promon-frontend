@@ -26,8 +26,9 @@ import { AddProjectComponent } from './components/add-project/add-project.compon
 import { ContractorsListComponent } from './components/contractors-list/contractors-list.component';
 import { ContractorDetailsComponent } from './components/contractor-details/contractor-details.component';
 import { AddContractorComponent } from './components/add-contractor/add-contractor.component';
-import { AdminFeatureKey, AdminReducer } from './reducers/admin.reducer';
+import { AdminFeatureKey, AdminReducer } from './store/reducers/admin.reducer';
 import { MatInputModule } from '@angular/material/input';
+import { MatSelectModule } from '@angular/material/select';
 
 
 @NgModule({
@@ -51,6 +52,7 @@ import { MatInputModule } from '@angular/material/input';
     MatToolbarModule,
     MatTableModule,
     MatInputModule,
+    MatSelectModule,
     MatIconModule,
     MatDialogModule,
     MatButtonModule,

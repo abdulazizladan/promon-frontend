@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Store } from '@ngrx/store';
-import { loadProjectsAction } from '../../actions/projects.actions';
+import { loadProjects } from '../../store/actions/projects.actions';
 
 @Component({
   selector: 'app-layout',
