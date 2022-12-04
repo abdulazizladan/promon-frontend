@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Store } from '@ngrx/store';
+import { loadContractors } from '../../store/contractors.actions';
+import { ContractorsState } from '../../store/contractors.reducer';
 
 @Component({
   selector: 'app-contractors-list',
@@ -7,9 +10,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContractorsListComponent implements OnInit {
 
-  constructor() { }
+  constructor( private store: Store<{ contractors: ContractorsState }>) { }
+
+  displayedColumns: string[] = ['RC No.', 'name'];
 
   ngOnInit(): void {
+    this.store.dispatch(loadContractors())
   }
 
 }

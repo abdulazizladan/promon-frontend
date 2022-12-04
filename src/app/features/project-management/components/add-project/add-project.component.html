@@ -1,1 +1,26 @@
-<p>add-project works!</p>
+<h1 mat-dialog-title>Add project</h1>
+
+<div mat-dialog-content fxLayout="column" fxLayoutGap="10px">
+
+  <mat-form-field appearance="outline">
+    <mat-label>Project ID</mat-label>
+    <input matInput name="id">
+  </mat-form-field>
+
+  <mat-form-field appearance="outline">
+    <mat-label>Project name</mat-label>
+    <input matInput name="name">
+  </mat-form-field>
+
+  <mat-form-field appearance="outline">
+    <mat-label>Project description</mat-label>
+    <textarea rows="4" draggable="false" matInput name="description"></textarea>
+  </mat-form-field>
+
+</div>
+
+<div mat-dialog-actions>
+  <button mat-flat-button color="accent" disabled>Add project</button>
+</div>
+
+

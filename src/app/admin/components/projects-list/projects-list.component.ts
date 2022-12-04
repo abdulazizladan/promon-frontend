@@ -31,7 +31,7 @@ export class ProjectsListComponent implements OnInit {
   }
 
   getProjects() {
-    this.projects = this.store.select((state) => state.projects);
+    //this.projects = this.store.select((state) => state.projects);
   }
 
   openAddProjectDialog() {

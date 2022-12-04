@@ -11,6 +11,8 @@ import { ContractorManagementRoutingModule } from './contractor-management-routi
 import { ContractorsListComponent } from './components/contractors-list/contractors-list.component';
 import { ContractorDetailsComponent } from './components/contractor-details/contractor-details.component';
 import { AddContractorComponent } from './components/add-contractor/add-contractor.component';
+import { StoreModule } from '@ngrx/store';
+import { ContractorsReducer, featureKey } from './store/contractors.reducer';
 
 
 @NgModule({
@@ -21,6 +23,12 @@ import { AddContractorComponent } from './components/add-contractor/add-contract
   ],
   imports: [
     CommonModule,
+    FormsModule,
+    StoreModule.forFeature(featureKey, ContractorsReducer),
+    ReactiveFormsModule,
+    HttpClientModule,
+    MatToolbarModule,
+    FlexLayoutModule,
     ContractorManagementRoutingModule
   ]
 })
