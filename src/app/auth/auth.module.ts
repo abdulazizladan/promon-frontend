@@ -14,7 +14,8 @@ import { MatProgressBarModule } from '@angular/material/progress-bar';
 
 import { AuthRoutingModule } from './auth-routing.module';
 import { LoginComponent } from './components/login/login.component';
-import { AuthFeatureKey, AuthReducer } from './reducers/auth.reducer';
+import { AuthReducer, AuthFeatureKey } from './store/auth.reducer';
+import { SharedModule } from '../shared/shared.module';
 
 
 @NgModule({
@@ -26,6 +27,7 @@ import { AuthFeatureKey, AuthReducer } from './reducers/auth.reducer';
     ReactiveFormsModule,
     HttpClientModule,
     StoreModule.forFeature(AuthFeatureKey, AuthReducer),
+    SharedModule,
     FlexLayoutModule,
     MatCardModule,
     MatInputModule,

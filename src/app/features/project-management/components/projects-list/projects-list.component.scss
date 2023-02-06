@@ -1,3 +1,18 @@
-table{
+div{
   width: 100%;
+  table{
+    width: 100%;
+    .mat-header-row {
+      background-color: #8d8d8d;
+      color: white;
+    }
+    .mat-header-cell {
+      color: white;
+    }
+
+
+    .mat-row:nth-child(odd) {
+      background-color: rgb(224, 224, 224);
+    }
+}
 }

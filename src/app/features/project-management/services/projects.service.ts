@@ -3,6 +3,7 @@ import { Project } from '../models/project.model';
 import { environment } from 'src/environments/environment';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
+import { Milestone } from '../models/milestone.modelt';
 
 @Injectable({
   providedIn: 'root'
@@ -48,5 +49,20 @@ export class ProjectsService {
   delete( id: string): Observable<Project> {
     const baseUrl: string = environment.baseUrl;
     return this.http.delete<Project>(`${baseUrl}/project/${id}`)
+  }
+
+  /**
+   *
+   * @param id
+   * @param milestone
+   * @returns
+   */
+  addMilestone( id: string, milestone: Milestone): Observable<Milestone> {
+    const baseUrl: string = environment.baseUrl;
+    return this.http.post<Milestone>(`${baseUrl}`, null)
+  }
+
+  approveMileStone( id: string ) {
+
   }
 }

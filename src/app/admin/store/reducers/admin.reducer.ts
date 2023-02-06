@@ -1,39 +1,44 @@
-import { createReducer, on } from "@ngrx/store"
-import { addProject, loadProjects } from "../actions/projects.actions";
-import { Contractor } from "../../models/contractor.model";
-import { Project } from "../../models/project.model"
+import { createReducer, on } from "@ngrx/store";
+import { Feed } from "../../models/feed.model";
 import { Stats } from "../../models/stats.model";
+import { loadStats } from "../actions/dashboard.actions";
 
-export interface State {
-  stats: Stats;
-  status: 'pending' | 'loading' | 'success' | 'failure';
+export class AdminState {
+  "user": {
+    "firstName": string;
+    "lastName": string;
+    "profilePic": string;
+  }
+  "stats": {
+    "activeProjects": number;
+    "pendingProjects": number;
+    "completedProjects": number;
+    "abandonedProjects": number;
+  };
+  "newsFeed": Feed[];
+  "status": 'pending' | 'loading' | 'success' | 'failure';
 }
 
 export const AdminFeatureKey = 'admin';
 
-export const initialState: State = {
-  //projects: [
-    //{ id: '21', title: 'furniture purchase', description: 'buy chairs and tables' },
-    //{ id: '1212', title: 'landscaping', description: 'mow lawns around premises' }
-  //],
-  //contractors: [
-    //{ id: '12', name: 'abc ltd' },
-    //{ id: '2212', name: 'abcdefgh ltd' }
-  //],
-  stats: {
-    abandonedProjects: 0,
-    activeProjects: 0,
-    completedProjects: 0,
-    pendingProjects: 0
+export const initialState: AdminState = {
+  user: {
+    firstName: "abdulaziz",
+    lastName: "ladan",
+    profilePic: "ladan.jpg"
   },
+  stats: {
+    abandonedProjects: 2,
+    activeProjects: 5,
+    completedProjects: 12,
+    pendingProjects: 3
+  },
+  newsFeed: [],
   status: 'pending'
 }
 
 
 export const AdminReducer = createReducer(
     initialState,
-    //load project
-    on(loadProjects,
-      (state) => ({...state, status: 'loading'})
-    )
+    on(loadStats, (state) => ({...state, status: 'loading'}))
 )

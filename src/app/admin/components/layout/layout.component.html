@@ -34,26 +34,32 @@
   </mat-toolbar>
   <div id="navContent" fxFlex="100%">
     <mat-sidenav-container>
-      <mat-sidenav #nav id="sidenav" opened="true" fxLayout="column">
+      <mat-sidenav #nav id="sidenav" opened="true" fxLayout="column" mode="side">
         <div id="profile" fxLayout="column" fxLayout="column" fxLayoutAlign="center center">
           <div id="profilePic"></div>
         </div>
         <div id="name">
           Abdulaziz Ladan
         </div>
-        <button mat-button routerLink="./" (click)="nav.toggle()">
+        <button mat-button routerLink="./">
           <mat-icon color="accent">dashboard</mat-icon> &nbsp; &nbsp; Dashboard
         </button>
-        <button mat-button routerLink="projects" (click)="nav.toggle()">
+        <button mat-button routerLink="projects">
           <mat-icon color="accent">work</mat-icon> &nbsp; &nbsp; Projects
         </button>
-        <button mat-button routerLink="contractors" (click)="nav.toggle()">
+        <button mat-button routerLink="contractors">
           <mat-icon color="accent">person</mat-icon> &nbsp; &nbsp; Contractors
+        </button>
+        <button mat-button routerLink="users">
+          <mat-icon color="accent">people</mat-icon> &nbsp; &nbsp; Users
+        </button>
+        <button mat-button routerLink="support">
+          <mat-icon color="accent">help</mat-icon> &nbsp; &nbsp; Support tickets
         </button>
       </mat-sidenav>
       <mat-sidenav-content>
         <div fxLayout="row" fxLayoutAlign="center">
-          <div fxFlex.xs="100%" fxFlex.gt-xs="800px">
+          <div fxFlex="100%">
             <router-outlet></router-outlet>
           </div>
         </div>

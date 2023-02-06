@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { StoreModule } from '@ngrx/store';
+import { AdminEffects } from './store/effects/admin.effects';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { NgChartsModule } from 'ng2-charts';
 
@@ -20,33 +21,22 @@ import { MatBadgeModule } from '@angular/material/badge';
 import { AdminRoutingModule } from './admin-routing.module';
 import { LayoutComponent } from './components/layout/layout.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
-import { ProjectsListComponent } from './components/projects-list/projects-list.component';
-import { ProjectDetailsComponent } from './components/project-details/project-details.component';
-import { AddProjectComponent } from './components/add-project/add-project.component';
-import { ContractorsListComponent } from './components/contractors-list/contractors-list.component';
-import { ContractorDetailsComponent } from './components/contractor-details/contractor-details.component';
-import { AddContractorComponent } from './components/add-contractor/add-contractor.component';
-import { AdminFeatureKey, AdminReducer } from './store/reducers/admin.reducer';
 import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
-
+import { AdminFeatureKey, AdminReducer } from './store/reducers/admin.reducer';
+import { EffectsModule } from '@ngrx/effects';
 
 @NgModule({
   declarations: [
     LayoutComponent,
-    DashboardComponent,
-    ProjectsListComponent,
-    ProjectDetailsComponent,
-    AddProjectComponent,
-    ContractorsListComponent,
-    ContractorDetailsComponent,
-    AddContractorComponent
+    DashboardComponent
   ],
   imports: [
     CommonModule,
     ReactiveFormsModule,
     HttpClientModule,
     StoreModule.forFeature( AdminFeatureKey, AdminReducer ),
+    //EffectsModule.forFeature([AdminEffects]),
     FlexLayoutModule,
     NgChartsModule,
     MatToolbarModule,

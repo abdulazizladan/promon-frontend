@@ -1,6 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validator, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
+import { Store } from '@ngrx/store';
 import { AuthService } from '../../services/auth.service';
+import { login } from '../../store/auth.actions';
+import { AuthState } from '../../store/auth.reducer';
 
 @Component({
   selector: 'app-login',
@@ -11,7 +15,11 @@ export class LoginComponent implements OnInit {
 
   loginForm: FormGroup  = new FormGroup({})
 
-  constructor( private fb: FormBuilder, private readonly authService: AuthService ) { }
+  constructor(
+    private authStore: Store<{ auth: AuthState }>,
+    private fb: FormBuilder,
+    private readonly authService: AuthService,
+    private router: Router ) { }
 
   ngOnInit(): void {
     this.initializeLoginForm()
@@ -25,7 +33,9 @@ export class LoginComponent implements OnInit {
   }
 
   login() {
-    //console.log(this.loginForm.value);
+    const loginData = this.loginForm.value;
+    this.authStore.dispatch(login());
+    this.router.navigate(['admin'])
   }
 
 }

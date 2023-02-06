@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Store } from '@ngrx/store';
-import { loadProjects } from '../../store/actions/projects.actions';
+import { Observable } from 'rxjs';
+import { AdminState } from '../../store/reducers/admin.reducer';
 
 @Component({
   selector: 'app-layout',
@@ -9,7 +10,11 @@ import { loadProjects } from '../../store/actions/projects.actions';
 })
 export class LayoutComponent implements OnInit {
 
-  constructor( private store: Store<{ users: any }> ) { }
+  stats$ :Observable<AdminState>;
+
+  constructor( private store: Store<{ stats: AdminState }> ) {
+    this.stats$ = this.store.select('stats').pipe()
+  }
 
   ngOnInit(): void {
     //this.store.dispatch()

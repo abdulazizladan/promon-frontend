@@ -1,7 +1,11 @@
 import { Component, OnInit } from '@angular/core';
+import { Store } from '@ngrx/store';
 import { ChartConfiguration } from 'chart.js';
 import { NgChartsConfiguration } from 'ng2-charts';
-import { of } from 'rxjs';
+import { Observable, of } from 'rxjs';
+import { Stats } from '../../models/stats.model';
+import { loadStats } from '../../store/actions/dashboard.actions';
+import { AdminState } from '../../store/reducers/admin.reducer';
 
 @Component({
   selector: 'app-dashboard',
@@ -12,9 +16,10 @@ export class DashboardComponent implements OnInit {
 
   public chartDataReady: boolean  = true;
 
-  public stats$ = of({ completed: 37, ongoing: 13, stopped: 20 })
+  public admin$: Observable<Stats>;
 
   public barChartLegend: boolean = true;
+
   public barChartPlugins: any[] = [];
 
   public config: NgChartsConfiguration = {}
@@ -62,9 +67,12 @@ export class DashboardComponent implements OnInit {
     responsive: true
   };
 
-  constructor() { }
+  constructor( private store: Store<{ admin: AdminState }>) {
+    this.admin$ = this.store.select((admin) => admin.admin.stats).pipe()
+   }
 
   ngOnInit(): void {
+    this.store.dispatch(loadStats());
   }
 
 }

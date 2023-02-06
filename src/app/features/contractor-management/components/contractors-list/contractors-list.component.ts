@@ -1,7 +1,11 @@
 import { Component, OnInit } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
 import { Store } from '@ngrx/store';
+import { filter, Observable } from 'rxjs';
+import { Contractor } from '../../models/contractor.model';
 import { loadContractors } from '../../store/contractors.actions';
 import { ContractorsState } from '../../store/contractors.reducer';
+import { AddContractorComponent } from '../add-contractor/add-contractor.component';
 
 @Component({
   selector: 'app-contractors-list',
@@ -10,12 +14,24 @@ import { ContractorsState } from '../../store/contractors.reducer';
 })
 export class ContractorsListComponent implements OnInit {
 
-  constructor( private store: Store<{ contractors: ContractorsState }>) { }
+  contractors$: Observable<ContractorsState>;
 
-  displayedColumns: string[] = ['RC No.', 'name'];
+  constructor( private store: Store<{ contractors: ContractorsState }>, private dialog: MatDialog) {
+
+    this.contractors$ = this.store.select( (contractors) => contractors.contractors ).pipe(
+
+    );
+
+  }
+
+  displayedColumns: string[] = ['id', 'name', 'projects', 'actions'];
 
   ngOnInit(): void {
-    this.store.dispatch(loadContractors())
+    this.store.dispatch(loadContractors());
+  }
+
+  openAddContractorDialog(): void {
+    this.dialog.open(AddContractorComponent, {width: '800px'})
   }
 
 }

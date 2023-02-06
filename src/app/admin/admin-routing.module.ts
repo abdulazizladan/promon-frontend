@@ -1,9 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { ContractorsListComponent } from './components/contractors-list/contractors-list.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { LayoutComponent } from './components/layout/layout.component';
-import { ProjectsListComponent } from './components/projects-list/projects-list.component';
 
 const routes: Routes = [
   {
@@ -21,6 +19,14 @@ const routes: Routes = [
       {
         path: 'contractors',
         loadChildren: () => import('../features/contractor-management/contractor-management.module').then(module => module.ContractorManagementModule)
+      },
+      {
+        path: 'users',
+        loadChildren: () => import('../features/user-management/users.module').then(module => module.UsersModule)
+      },
+      {
+        path: 'support',
+        loadChildren: () => import('../features/support/support.module').then(module => module.SupportModule)
       }
     ]
   }

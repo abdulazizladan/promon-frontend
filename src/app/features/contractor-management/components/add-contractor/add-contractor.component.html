@@ -1,1 +1,83 @@
-<p>add-contractor works!</p>
+<h1 mat-dialog-title>
+  Add Contractor
+</h1>
+<div mat-dialog-content [formGroup]="newContractorForm">
+  <mat-horizontal-stepper>
+    <mat-step-header>Basic info</mat-step-header>
+
+    <mat-step>
+
+      <div fxLayout="column" fxLayoutGap="10px">
+
+        <mat-form-field appearance="outline">
+          <mat-label>Company name</mat-label>
+          <input matInput name="name" formControlName="name">
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+          <mat-label>ID</mat-label>
+          <input matInput name="id" formControlName="id">
+        </mat-form-field>
+
+      </div>
+
+    </mat-step>
+
+    <mat-step formGroupName="contact">
+
+      <div fxLayout="column" fxLayoutGap="10px">
+
+        <div fxLayout.xs="column" fxLayout.gt-xs="row" fxLayoutGap="10px">
+
+          <mat-form-field appearance="outline" fxFlex.gt-xs="50%">
+            <mat-label>Website</mat-label>
+            <input matInput formControlName="website">
+          </mat-form-field>
+
+          <mat-form-field appearance="outline" fxFlex.gt-xs="50%">
+            <mat-label>email</mat-label>
+            <input matInput formControlName="email">
+          </mat-form-field>
+
+        </div>
+
+        <div formGroupName="address" fxLayoutGap="10px" fxLayoutAlign="center space-between" fxLayout="row wrap">
+
+          <mat-form-field appearance="outline">
+            <mat-label>Country</mat-label>
+            <mat-select formControlName="country">
+              <mat-option value=""></mat-option>
+              <mat-option value="nigeria">Nigeria</mat-option>
+            </mat-select>
+          </mat-form-field>
+
+          <mat-form-field appearance="outline">
+            <mat-label>State</mat-label>
+            <mat-select formControlName="state">
+              <mat-option value="">Select state</mat-option>
+              <mat-option value="abia">Abia</mat-option>
+            </mat-select>
+          </mat-form-field>
+
+          <mat-form-field appearance="outline">
+            <mat-label>LGA</mat-label>
+            <mat-select formControlName="lga">
+              <mat-option value="">Select LGA</mat-option>
+              <mat-option value="uma ahia">Uma Ahia</mat-option>
+            </mat-select>
+          </mat-form-field>
+
+          <mat-form-field appearance="outline" fxFlex="100%">
+            <mat-label>Street address</mat-label>
+            <textarea matInput formControlName="streetAddress"></textarea>
+          </mat-form-field>
+        </div>
+      </div>
+    </mat-step>
+  </mat-horizontal-stepper>
+</div>
+<div mat-dialog-actions>
+  <button mat-flat-button color="accent" (click)="addContractor()" matDialogClose="addContractor()">
+    Add Contractor
+  </button>
+</div>

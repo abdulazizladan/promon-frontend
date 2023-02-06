@@ -1,12 +1,15 @@
-<div fxLayout="row" fxLayoutAlign="center">
-  <div fxFlex.xs="100%" fxFle.sm="100%" fxFlex.gt-sm="800px" fxLayout="column" fxLayoutGap="20px">
+<div fxLayout="row" fxLayoutAlign="center" fxLayoutGap="40px space-around" id="parent">
+
+  <div fxFlex.xs="100%" fxFlex.sm="600px" fxFlex.md="960px" fxFlex.lg="1280px" fxFlex.xl="1920px" fxLayout="column" fxLayoutGap="20px">
     <div class="card"></div>
-    <div fxLayout.xs="column" fxLayout.gt-xs="row" fxLayoutGap="20px" *ngIf="stats$ | async as stats">
+    <div fxLayout.xs="column" fxLayout.gt-xs="row" fxLayoutGap="20px" *ngIf="admin$ | async as stats">
       <div class="pills mat-elevation-z3" fxFlex.gt-xs="25%" fxLayout="row">
         <div class="icon" id="all"></div>
         <div fxLayout="column" class="div">
-          <div>Total Projects</div>
-          <div>{{stats.completed + stats.ongoing + stats.stopped}}</div>
+          <div>Total</div>
+          <div>
+            {{ stats.abandonedProjects + stats.activeProjects + stats.completedProjects}}
+          </div>
         </div>
       </div>
       <div class="pills mat-elevation-z3" fxFlex.gt-xs="25%" fxLayout="row">
@@ -14,21 +17,27 @@
         </div>
         <div fxLayout="column" class="div">
           <div>Completed</div>
-          <div>{{stats.completed}}</div>
+          <div>
+            {{ stats.completedProjects }}
+          </div>
         </div>
       </div>
       <div class="pills mat-elevation-z3" fxFlex.gt-xs="25%" fxLayout="row">
         <div class="icon" id="ongoing"></div>
         <div fxLayout="column" class="div">
           <div>Ongoing</div>
-          <div>{{stats.ongoing}}</div>
+          <div>
+            {{ stats.activeProjects }}
+          </div>
         </div>
       </div>
       <div class="pills mat-elevation-z3" fxFlex.gt-xs="25%" fxLayout="row">
         <div class="icon" id="stopped"></div>
         <div fxLayout="column" class="div">
           <div>Stopped</div>
-          <div>{{stats.stopped}}</div>
+          <div>
+            {{ stats.abandonedProjects }}
+          </div>
         </div>
       </div>
     </div>
@@ -197,5 +206,6 @@
     >
     </canvas>
   </div>
+
 
 </div>

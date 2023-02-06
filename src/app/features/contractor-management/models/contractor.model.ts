@@ -1,5 +1,7 @@
+import { contractorDetails } from "./contractorDetails.model";
+
 export class Contractor {
-  "id": string;
+  "id": string = "jnasd";
   "name": string;
   "contact": {
     "email": string;
@@ -11,4 +13,5 @@ export class Contractor {
       "country": string
     } | null;
   } | null;
+  "details": contractorDetails | null;
 }

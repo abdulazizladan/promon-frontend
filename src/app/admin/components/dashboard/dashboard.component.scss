@@ -47,7 +47,7 @@ svg{
   }
   path:hover{
     fill: #ffa82e;
-    transform: scale (1.5);
+    transform: scale(105%);
   }
 }
 
@@ -64,4 +64,8 @@ mat-nav-list{
     background-color: #303030;
     color: white;
   }
+}
+
+#parent{
+  padding: 30px;
 }
